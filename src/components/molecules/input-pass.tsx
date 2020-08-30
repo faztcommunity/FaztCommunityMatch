@@ -1,20 +1,47 @@
-import * as React from "react";
-import PropTypes from "prop-types";
-import { render } from "react-dom";
+import React, { useRef, useState } from 'react'
 
 function InputPass() {
+  ////////////////HIDE/SHOW-PASS////////////////
+  const [passwordShown, setPasswordShown] = useState(false)
+
+  const togglePasswordVisiblity = () => {
+    setPasswordShown(passwordShown ? false : true)
+  }
+
+  ////////////////CHANGE-ICON////////////////
+  const [changeIcon, setChangeIcon] = useState(false)
+
+  const toggleChangeIcon = () => {
+    setChangeIcon(changeIcon ? false : true)
+  }
+
+  ////////////////MERGE FUNCTION IN ONCLICK////////////////
+  class Pass extends React.Component {
+    onClick(event) {
+      togglePasswordVisiblity()
+      toggleChangeIcon()
+    }
+  }
+
   return (
     <div className="input-password" id="show_hide_password">
       <input
-        type="password"
+        type={passwordShown ? 'text' : 'password'}
         name="password"
         placeholder="* Ingresa Contraseña"
         className="password"
         id="password"
       />
-      <i className="fas fa-eye" id="password_icon"></i>
+      <i
+        onClick={function (event) {
+          togglePasswordVisiblity()
+          toggleChangeIcon()
+        }}
+        className={changeIcon ? 'fas fa-eye-slash' : ' fas fa-eye'}
+        id="password"
+      ></i>
     </div>
-  );
+  )
 }
 
-export default InputPass;
+export default InputPass
