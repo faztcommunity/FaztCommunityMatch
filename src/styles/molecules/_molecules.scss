@@ -1,0 +1,62 @@
+@import "./utils/_utils.scss";
+
+// @extend inputs form
+
+%inputs {
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontSixteen;
+  color: $grayFive;
+  border: 1.5px solid $grayFive;
+  box-sizing: border-box;
+  border-radius: $radiusEight;
+  padding-left: $spacingSixteen;
+  outline: none;
+
+  &:focus {
+    border-color: $secondaryColorLight;
+    box-shadow: 0 0 8px 0 $secondaryColorLight;
+    outline-color: $secondaryColorLight;
+    transition: 0.3s;
+    color: $blackColor;
+  }
+}
+
+%buttonInput {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: $accentInfo;
+  cursor: pointer;
+  z-index: 2;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 50px;
+  color: $whiteColor;
+  font-size: $iconTwentyFour;
+}
+
+input {
+  @extend %inputs;
+}
+
+.input-password {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 390px;
+  height: 50px;
+
+  .password {
+    width: 100%;
+  }
+}
+
+i.fas {
+  @extend %buttonInput;
+}
