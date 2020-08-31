@@ -24,12 +24,12 @@ function ConfirmPass() {
   }
 
   return (
-    <div className="input-confirmpass" id="show_hide_password">
+    <div className="content-confirmpass" id="show_hide_password">
       <input
         type={passwordShown ? 'text' : 'password'}
         name="password"
         placeholder="* Confirmar Contraseña"
-        className="password"
+        className="input-compare-pass"
         id="password"
       />
       <i

@@ -24,12 +24,12 @@ function InputPass() {
   }
 
   return (
-    <div className="input-password" id="show_hide_password">
+    <div className="content-password" id="show_hide_password">
       <input
         type={passwordShown ? 'text' : 'password'}
         name="password"
         placeholder="* Ingresa Contraseña"
-        className="password"
+        className="input-password"
         id="password"
       />
       <i

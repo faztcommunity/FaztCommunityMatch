@@ -40,21 +40,21 @@
   font-size: $iconTwentyFour;
 }
 
-input {
-  z-index: 2;
-  @extend %inputs;
-}
-
-.input-password,
-.input-confirmpass {
+.content-password,
+.content-confirmpass,
+.content-email {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   width: 390px;
   height: 50px;
+  z-index: 2;
 
-  .password {
+  .input-password,
+  .input-email,
+  .input-compare-pass {
     width: 100%;
+    @extend %inputs;
   }
 }
 
@@ -70,4 +70,10 @@ i.fas {
 
 .input-confirmpass {
   margin-top: 52px;
+}
+
+////////////////////////INPUT EMAIL////////////////////////
+
+.content-email {
+  margin-top: 374px;
 }
