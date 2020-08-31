@@ -5,6 +5,7 @@ import FormBackground from '../../components/organisms/form/Oform'
 import ConfirmPass from '../../components/molecules/inputs/input-confirmpass'
 import TitleRpass from '../../components/atoms/titleRpass'
 import BtnMblue from '../../components/atoms/btnMblue'
+import BtnmReturn from '../../components/atoms/btonReturn'
 
 const Register: React.FC = () => {
   return (
@@ -15,8 +16,13 @@ const Register: React.FC = () => {
           <InputPass />
           <ConfirmPass />
         </div>
-        <div className="containerbtn-blue">
-          <BtnMblue />
+        <div className="container-btns-register">
+          <div className="containerbtn-return">
+            <BtnmReturn />
+          </div>
+          <div className="containerbtn-blue">
+            <BtnMblue />
+          </div>
         </div>
         <FormBackground />
       </form>
