@@ -7,3 +7,34 @@
   z-index: 2;
   margin-top: 42px;
 }
+
+//////////////////////ATOM BUTTON MEDIUM BLUE REGISTER//////////////////////
+
+%btnMblue {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  padding: 16px 16px;
+  border-radius: 5px;
+  background: $accentInfo;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  font-family: $fontButton;
+  font-style: normal;
+  color: $whiteColor;
+  text-decoration: none;
+}
+
+.btn-medium-blue {
+  @extend %btnMblue;
+  .btn-medium-blue:hover,
+  .btn-medium-blue:focus {
+    background: $hooverBlue;
+  }
+}
+
+.containerbtn-blue {
+  z-index: 2;
+  margin-top: 32px;
+  margin-left: 260px;
+}
