@@ -8,7 +8,7 @@ import FormBackground from '../background/backgroundform'
 
 const PageFormOne: React.FC = () => {
   return (
-    <form action="" className="content-form">
+    <div className="content-form">
       <TitleRpass />
       <div className="content-input">
         <InputPass />
@@ -23,7 +23,7 @@ const PageFormOne: React.FC = () => {
         </div>
       </div>
       <FormBackground />
-    </form>
+    </div>
   )
 }
 

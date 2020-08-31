@@ -26,7 +26,8 @@
 }
 
 .btn-medium-blue,
-.btn-medium-return {
+.btn-medium-return,
+.btn-medium-next {
   @extend %btnMblue;
   &:hover,
   &:focus {
@@ -38,10 +39,17 @@
   margin-top: 64px;
   margin-left: 162px;
   display: flex;
-  z-index: 2;
   flex-direction: row;
+  z-index: 2;
 }
 
 .btn-medium-return {
   margin-right: 20px;
+}
+
+////////////////////////////////////////
+.container-btn-next {
+  z-index: 2;
+  margin-top: 500px;
+  margin-left: 289px;
 }

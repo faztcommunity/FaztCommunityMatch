@@ -1,12 +1,11 @@
 import React from 'react'
-
-import PageFormOne from '../../components/organisms/form/pageone'
+import PageFormTwo from '../../components/organisms/form/pagetwo'
 
 const Register: React.FC = () => {
   return (
     <>
       <div>
-        <PageFormOne />
+        <PageFormTwo />
       </div>
     </>
   )
