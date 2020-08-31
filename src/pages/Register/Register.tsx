@@ -1,13 +1,21 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react'
 
-import InputPass from "../../components/molecules/input-pass";
+import InputPass from '../../components/molecules/input-pass'
+import FormBackground from '../../components/organisms/form/Oform'
+import ConfirmPass from '../../components/molecules/inputs/input-confirmpass'
 
-function Register() {
+const Register: React.FC = () => {
   return (
-    <div>
-      <InputPass />
-    </div>
-  );
+    <>
+      <form action="" className="content-form">
+        <div className="content-input">
+          <InputPass />
+          <ConfirmPass />
+        </div>
+
+        <FormBackground />
+      </form>
+    </>
+  )
 }
-export default Register;
+export default Register

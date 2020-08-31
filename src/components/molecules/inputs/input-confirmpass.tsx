@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function InputPass() {
+function ConfirmPass() {
   ////////////////HIDE/SHOW-PASS////////////////
   const [passwordShown, setPasswordShown] = useState(false)
 
@@ -24,11 +24,11 @@ function InputPass() {
   }
 
   return (
-    <div className="input-password" id="show_hide_password">
+    <div className="input-confirmpass" id="show_hide_password">
       <input
         type={passwordShown ? 'text' : 'password'}
         name="password"
-        placeholder="* Ingresa Contraseña"
+        placeholder="* Confirmar Contraseña"
         className="password"
         id="password"
       />
@@ -44,4 +44,4 @@ function InputPass() {
   )
 }
 
-export default InputPass
+export default ConfirmPass

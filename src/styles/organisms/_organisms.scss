@@ -1,0 +1,31 @@
+//Form Register Organism
+%layoutForm {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 586px;
+}
+
+%form {
+  @extend %layoutForm;
+  display: flex;
+  position: absolute;
+  border-radius: $radiusFive;
+  background: $backgroundLight;
+}
+
+.content-background,
+.form-match,
+.content-form {
+  @extend %layoutForm;
+}
+
+.content-form {
+  align-items: center;
+  margin-top: 178px;
+  margin-left: 112px;
+}
+
+.content-background {
+  @extend %form;
+}

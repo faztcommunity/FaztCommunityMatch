@@ -1,5 +1,6 @@
 // @extend inputs form
 
+////////////////////////INPUT PASS////////////////////////
 %inputs {
   font-family: $fontTitle;
   font-style: normal;
@@ -40,10 +41,12 @@
 }
 
 input {
+  z-index: 2;
   @extend %inputs;
 }
 
-.input-password {
+.input-password,
+.input-confirmpass {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -57,4 +60,14 @@ input {
 
 i.fas {
   @extend %buttonInput;
+}
+
+.content-input {
+  margin-top: 289px;
+}
+
+////////////////////////INPUT CONFIRMPASS////////////////////////
+
+.input-confirmpass {
+  margin-top: 52px;
 }
