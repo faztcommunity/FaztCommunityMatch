@@ -43,7 +43,8 @@
 .content-password,
 .content-confirmpass,
 .content-email,
-.content-lastname {
+.content-lastname,
+.content-name {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -54,7 +55,8 @@
   .input-password,
   .input-email,
   .input-compare-pass,
-  .input-lastname {
+  .input-lastname,
+  .input-name {
     width: 100%;
     @extend %inputs;
   }
@@ -74,14 +76,15 @@ i.fas {
   margin-top: 52px;
 }
 
-////////////////////////INPUT EMAIL////////////////////////
+////////////////////////INPUT EMAIL -AND- INPUT LAST NAME////////////////////////
 
-.content-email {
+.content-email,
+.content-lastname {
   margin-top: 40px;
 }
 
-////////////////////////INPUT LAST NAME////////////////////////
+////////////////////////INPUT NAME////////////////////////
 
-.content-lastname {
-  margin-top: 285px;
+.content-name {
+  margin-top: 196px;
 }

@@ -6,7 +6,7 @@ function EmailInput() {
       <input
         type="email"
         name="email"
-        placeholder="* Ingrese el Correo"
+        placeholder="* Ingresa tu Correo"
         className="input-email"
         id="password"
       />

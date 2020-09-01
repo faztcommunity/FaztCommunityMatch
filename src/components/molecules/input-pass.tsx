@@ -28,7 +28,7 @@ function InputPass() {
       <input
         type={passwordShown ? 'text' : 'password'}
         name="password"
-        placeholder="* Ingresa Contraseña"
+        placeholder="* Ingresa tu Contraseña"
         className="input-password"
         id="password"
       />

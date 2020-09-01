@@ -28,7 +28,7 @@ function ConfirmPass() {
       <input
         type={passwordShown ? 'text' : 'password'}
         name="password"
-        placeholder="* Confirmar Contraseña"
+        placeholder="* Confirmar tu Contraseña"
         className="input-compare-pass"
         id="password"
       />

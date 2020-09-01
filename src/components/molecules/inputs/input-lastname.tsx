@@ -6,7 +6,7 @@ function LastnameInput() {
       <input
         type="text"
         name="lastname"
-        placeholder="* Ingrese el Correo"
+        placeholder="* Ingresa tu Apellido"
         className="input-lastname"
       />
       <i className="fas fa-user" id="user"></i>
