@@ -3,26 +3,28 @@ import PageFormTwo from '../../components/organisms/form/pagetwo'
 import PageFormOne from '../../components/organisms/form/pageone'
 
 import TitleRpass from '../../components/atoms/titleRpass'
+import ProgressBar from '../../components/molecules/various/progress-bar'
 
 const Register: React.FC = () => {
   return (
-    <body className="principal-container">
+    <section className="principal-container">
       <div className="second-container">
         <header>
           <TitleRpass />
         </header>
+        <ProgressBar />
 
         <form className="principal-form" action="">
           <div className="content-form">
             <PageFormTwo />
           </div>
 
-          <div className="content-form">
+          <div className="content-form movpag">
             <PageFormOne />
           </div>
         </form>
       </div>
-    </body>
+    </section>
   )
 }
 export default Register

@@ -39,6 +39,7 @@ function ConfirmPass() {
         }}
         className={changeIcon ? 'fas fa-eye-slash' : ' fas fa-eye'}
         id="password"
+        title={changeIcon ? 'Ocultar Contraseña' : 'Mostrar Contraseña'}
       ></i>
     </div>
   )
