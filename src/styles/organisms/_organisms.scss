@@ -24,6 +24,8 @@
 }
 .principal-form {
   display: flex;
+  flex-direction: row-reverse;
+  width: 200%;
 }
 
 .second-container {
@@ -35,7 +37,7 @@
 .content-form {
   position: relative;
   align-items: center;
-
+  width: 50%;
   margin-left: 112px;
 }
 

@@ -15,12 +15,12 @@ const Register: React.FC = () => {
         <ProgressBar />
 
         <form className="principal-form" action="">
-          <div className="content-form">
-            <PageFormTwo />
-          </div>
-
           <div className="content-form movpag">
             <PageFormOne />
+          </div>
+
+          <div className="content-form">
+            <PageFormTwo />
           </div>
         </form>
       </div>
