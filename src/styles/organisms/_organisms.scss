@@ -1,31 +1,43 @@
 //Form Register Organism
 %layoutForm {
-  display: flex;
-  flex-direction: column;
   width: 600px;
   height: 586px;
+  margin-top: 178px;
+  margin-bottom: 170px;
+  margin-left: 112px;
 }
 
-%form {
+%formBackground {
   @extend %layoutForm;
-  display: flex;
-  position: absolute;
   border-radius: $radiusFive;
   background: $backgroundDark;
 }
 
-.content-background,
-.form-match,
-.content-form {
-  @extend %layoutForm;
+form {
+  display: flex;
 }
 
-.content-form {
+.principal-container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(
+    138deg,
+    rgba(0, 184, 113, 0.7) 22.13%,
+    rgba(55, 166, 246, 0.616) 76.31%
+  );
   align-items: center;
-  margin-top: 178px;
-  margin-left: 112px;
+  justify-items: center;
 }
 
-.content-background {
-  @extend %form;
+.second-container {
+  text-align: center;
+  @extend %layoutForm;
+  @extend %formBackground;
+}
+
+.content-form {
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 112px;
 }

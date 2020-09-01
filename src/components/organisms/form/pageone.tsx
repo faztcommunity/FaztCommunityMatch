@@ -1,15 +1,12 @@
-import React, { useRef, useState } from 'react'
-import TitleRpass from '../../atoms/titleRpass'
+import React from 'react'
 import InputPass from '../../molecules/input-pass'
 import ConfirmPass from '../../molecules/inputs/input-confirmpass'
 import BtnmReturn from '../../atoms/btonReturn'
 import BtnMblue from '../../atoms/btnMblue'
-import FormBackground from '../background/backgroundform'
 
 const PageFormOne: React.FC = () => {
   return (
-    <div className="content-form">
-      <TitleRpass />
+    <>
       <div className="content-input">
         <InputPass />
         <ConfirmPass />
@@ -22,8 +19,7 @@ const PageFormOne: React.FC = () => {
           <BtnMblue />
         </div>
       </div>
-      <FormBackground />
-    </div>
+    </>
   )
 }
 
