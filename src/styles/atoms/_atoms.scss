@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  color: $colorTitles;
+  color: $colorTitleWhite;
   line-height: 0;
 }
 
@@ -61,13 +61,16 @@
 }
 
 //////////////////////ATOM TITLE REGISTER//////////////////////
-.text-registerpass {
+.text-registerpass,
+.title-basic-dates {
   font-family: $fontTitle;
   font-style: normal;
   font-weight: bold;
   font-size: $fontTwentyFour;
   z-index: 2;
-  margin-top: 42px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  color: $colorTitleWhite;
 }
 
 ////////////////DESCRIPTION LOG IN ////////////////
