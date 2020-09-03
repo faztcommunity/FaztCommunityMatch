@@ -5,7 +5,7 @@ function NameInput() {
     <div className="content-name">
       <input
         type="text"
-        name="lastname"
+        name="firtName"
         placeholder="* Ingresa tu Nombre"
         className="input-name"
       />

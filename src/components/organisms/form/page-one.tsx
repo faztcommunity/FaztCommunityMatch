@@ -5,7 +5,7 @@ import EmailInput from '../../molecules/inputs/input-email'
 import LastnameInput from '../../molecules/inputs/input-lastname'
 import NameInput from '../../molecules/inputs/input-name'
 
-const PageFormTwo: React.FC = () => {
+function PageFormOne() {
   return (
     <>
       <NameInput />
@@ -21,4 +21,4 @@ const PageFormTwo: React.FC = () => {
   )
 }
 
-export default PageFormTwo
+export default PageFormOne

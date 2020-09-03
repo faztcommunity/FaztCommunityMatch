@@ -4,7 +4,7 @@ import ConfirmPass from '../../molecules/inputs/input-confirmpass'
 import BtnmReturn from '../../atoms/btonReturn'
 import BtnMblue from '../../atoms/btnMblue'
 
-const PageFormOne: React.FC = () => {
+function PageFormTwo() {
   return (
     <>
       <div className="content-input">
@@ -23,4 +23,4 @@ const PageFormOne: React.FC = () => {
   )
 }
 
-export default PageFormOne
+export default PageFormTwo

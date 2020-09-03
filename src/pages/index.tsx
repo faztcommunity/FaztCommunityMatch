@@ -1,8 +1,9 @@
 import React from 'react'
 import Register from './Register/Register'
 import Head from 'next/head'
+import { useForm, useStep } from 'react-hooks-helper'
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <>
       <Head>

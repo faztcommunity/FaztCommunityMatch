@@ -19,6 +19,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-hook-form": "^6.7.0",
+    "react-hooks-helper": "^1.6.0",
     "react-router-dom": "^5.2.0",
     "styled-components": "^5.1.1"
   },
