@@ -1,6 +1,20 @@
 import React, { useState } from 'react'
 
 function InputPass() {
+  ////////CHANGE STATE////////
+
+  const [password, setconfirmPass] = useState({
+    password: ''
+  })
+
+  const handleInputChange = (event) => {
+    console.log(event.target.value)
+    setconfirmPass({
+      ...password,
+      [event.target.name]: event.target.value
+    })
+  }
+
   ////////////////HIDE/SHOW-PASS////////////////
   const [passwordShown, setPasswordShown] = useState(false)
 
@@ -27,7 +41,9 @@ function InputPass() {
     <div className="content-password" id="show_hide_password">
       <input
         type={passwordShown ? 'text' : 'password'}
+        autoComplete="off"
         name="password"
+        onChange={handleInputChange}
         placeholder="* Ingresa tu Contraseña"
         className="input-password"
         id="password"

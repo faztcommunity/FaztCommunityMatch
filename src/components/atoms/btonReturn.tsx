@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BtnmReturn: React.FC = () => {
+function BtnmReturn() {
   return (
     <a className="btn-medium-return" href="#">
       Regresar

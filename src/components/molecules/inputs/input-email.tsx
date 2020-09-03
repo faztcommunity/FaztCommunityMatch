@@ -1,11 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function EmailInput() {
+  ////////CHANGE STATE////////
+
+  const [email, setconfirmPass] = useState({
+    email: ''
+  })
+
+  const handleInputChange = (event) => {
+    console.log(event.target.value)
+    setconfirmPass({
+      ...email,
+      [event.target.name]: event.target.value
+    })
+  }
+
   return (
     <div className="content-email">
       <input
         type="email"
         name="email"
+        onChange={handleInputChange}
         placeholder="* Ingresa tu Correo"
         className="input-email"
         id="password"

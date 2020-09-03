@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { type } from 'os'
 
-const BtnNext: React.FC = () => {
+function BtnNext() {
   return (
     <a className="btn-medium-next nextPag" href="#">
       Continuar
