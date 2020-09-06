@@ -1,14 +1,20 @@
 import React, { useState, useContext } from 'react'
-import { multiStepContext } from '../molecules/various/StepContext'
 
 function BtnNext() {
-  const { setStep, userPass, setUserPass } = useContext(multiStepContext)
+  const [index, setIndex] = useState('true')
+
+  const handleOnClick = () => {
+    console.log(index, localStorage.getItem('index'))
+    localStorage.setItem('index', 'false')
+    setIndex('false')
+  }
+
   return (
-    <>
-      <a className="btn-medium-next " href="" onClick={() => setStep(2)}>
+    <div className="content-btn-next">
+      <a className="btn-medium-next " href="" onClick={handleOnClick}>
         Continuar
       </a>
-    </>
+    </div>
   )
 }
 

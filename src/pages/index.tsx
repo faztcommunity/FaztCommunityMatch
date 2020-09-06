@@ -3,7 +3,6 @@ import Register from './Register/Register'
 import { Field, Form, Formik, FormikConfig, FormikValues } from 'formik'
 import Head from 'next/head'
 import { useForm, useStep } from 'react-hooks-helper'
-import StepContext from '../components/molecules/various/StepContext'
 
 const Home = () => {
   return (
@@ -13,9 +12,7 @@ const Home = () => {
       </Head>
 
       <main>
-        <StepContext>
-          <Register />
-        </StepContext>
+        <Register />
       </main>
     </>
   )
