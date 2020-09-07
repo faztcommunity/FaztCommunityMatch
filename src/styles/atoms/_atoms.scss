@@ -3,7 +3,7 @@
 /* ////////////////////////EXTEND BUTTON BLUE//////////////////////// */
 
 %titleEighteen {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif, Verdana;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -91,7 +91,7 @@
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-image: cover;
+  background-size: cover;
 }
 
 .icon-match {
@@ -136,11 +136,11 @@
 }
 
 .text-home {
-  font-family: Open Sans;
+  font-family: $fontTitle;
   font-style: normal;
   font-weight: bold;
   color: $primaryLight;
-  font-size: 40px;
+  font-size: $fontFourty;
 }
 
 .content-title-home {
