@@ -1,5 +1,4 @@
-import withImages from 'next-images'
-
-export default withImages({
+const withImages = require('next-images')
+module.exports = withImages({
   esModule: true
 })
