@@ -4,6 +4,8 @@ import TitleRpass from '../../atoms/titleRpass'
 import ProgressBar from '../../molecules/various/progress-bar'
 import PageFormOne from './page-one'
 import Stepper from '@material-ui/core/Stepper'
+import BackgroundPage from '../../atoms/background-svg'
+import IconMatch from '../../atoms/background-svg'
 
 function Form() {
   const [index, setIndex] = useState('true')
@@ -28,17 +30,20 @@ function Form() {
   })
   return (
     <section className="principal-container">
-      <div className="second-container">
-        <header>
-          <TitleRpass />
-        </header>
-        <ProgressBar />
+      <IconMatch />
+      <div className="background-two">
+        <div className="second-container">
+          <header>
+            <TitleRpass />
+          </header>
+          <ProgressBar />
 
-        <form className="principal-form" action="">
-          <div className="content-form movpag">
-            {index == 'true' ? <PageFormOne /> : <PageFormTwo />}
-          </div>
-        </form>
+          <form className="principal-form" action="">
+            <div className="content-form movpag">
+              {index == 'true' ? <PageFormOne /> : <PageFormTwo />}
+            </div>
+          </form>
+        </div>
       </div>
     </section>
   )
