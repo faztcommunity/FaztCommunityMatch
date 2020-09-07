@@ -99,9 +99,43 @@
 }
 
 .icon-match {
-  display: flex;
-  position: absolute;
-  flex-direction: row-reverse;
+  z-index: 1;
+}
+
+.icon-match {
   left: 1586px;
   top: 594px;
+}
+
+.balls-icon,
+.icon-match {
+  display: flex;
+  position: absolute;
+}
+
+.background-effect {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: transparent;
+
+  border-radius: 50%;
+  left: 1644px;
+  top: 633px;
+  animation: size_circle 0.7s linear infinite;
+  box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6),
+    -5px -5px 10px rgba(255, 255, 255, 0.5);
+}
+
+@keyframes size_circle {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 68, 115, 0.3),
+      0 0 0 1em rgba(255, 121, 155, 0.3), 0 0 0 3em rgba(255, 175, 195, 0.03),
+      0 0 0 5em rgba(255, 228, 235, 0.01);
+  }
+  100% {
+    box-shadow: 0 0 0 4em rgba(255, 68, 115, 0.3),
+      0 0 0 6em rgba(255, 121, 155, 0.3), 0 0 0 8em rgba(255, 175, 195, 0.03),
+      0 0 0 10em rgba(255, 228, 235, 0.01);
+  }
 }
