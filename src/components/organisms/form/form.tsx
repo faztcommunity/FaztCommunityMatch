@@ -8,6 +8,7 @@ import BackgroundPage from '../../atoms/background-svg'
 import IconMatch from '../../atoms/background-svg'
 import BallsSvg from '../../atoms/balls-svg'
 import BackgroundEffect from '../../atoms/background-effect'
+import TitleHome from '../../atoms/TitleHome'
 
 function Form() {
   const [index, setIndex] = useState('true')
@@ -32,6 +33,7 @@ function Form() {
   })
   return (
     <section className="principal-container">
+      <TitleHome />
       <IconMatch />
       <BackgroundEffect />
       <BallsSvg />

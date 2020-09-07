@@ -118,7 +118,6 @@
   width: 120px;
   height: 120px;
   background: transparent;
-
   border-radius: 50%;
   left: 1644px;
   top: 633px;
@@ -138,4 +137,21 @@
       0 0 0 6em rgba(255, 121, 155, 0.3), 0 0 0 8em rgba(255, 175, 195, 0.03),
       0 0 0 10em rgba(255, 228, 235, 0.01);
   }
+}
+
+.text-home {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  color: $primaryLight;
+  font-size: 40px;
+}
+
+.content-title-home {
+  text-align: center;
+  display: flex;
+  position: absolute;
+  height: 160px;
+  width: 686px;
+  left: 320px;
 }
