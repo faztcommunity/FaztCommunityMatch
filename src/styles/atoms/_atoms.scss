@@ -76,17 +76,13 @@
 /* ////////////////DESCRIPTION LOG IN //////////////// */
 .have-account {
   @extend %titleEighteen;
+  margin-top: 24px;
+  margin-bottom: 0;
 
   .log-in {
     color: $accentInfo;
     text-decoration: none;
   }
-}
-
-.content-description {
-  margin-top: 24px;
-  margin-bottom: 0;
-  z-index: 2;
 }
 
 .background-two {

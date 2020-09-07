@@ -16,7 +16,7 @@ function NameInput() {
   }
 
   return (
-    <div className="content-name">
+    <div aria-label="name" className="content-name">
       <input
         type="text"
         name="firtName"
@@ -24,7 +24,7 @@ function NameInput() {
         placeholder="* Ingresa tu Nombre"
         className="input-name"
       />
-      <i className="fas fa-user" id="name"></i>
+      <i aria-hidden="true" className="fas fa-user" id="name"></i>
     </div>
   )
 }

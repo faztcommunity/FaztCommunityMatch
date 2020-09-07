@@ -16,7 +16,7 @@ function LastnameInput() {
   }
 
   return (
-    <div className="content-lastname">
+    <div aria-label="input last name" className="content-lastname">
       <input
         type="text"
         name="lastname"
@@ -24,7 +24,7 @@ function LastnameInput() {
         placeholder="* Ingresa tu Apellido"
         className="input-lastname"
       />
-      <i className="fas fa-user" id="user"></i>
+      <i aria-hidden="true" className="fas fa-user" id="user"></i>
     </div>
   )
 }

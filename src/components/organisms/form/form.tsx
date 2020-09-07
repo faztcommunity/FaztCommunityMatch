@@ -43,7 +43,7 @@ function Form() {
           <ProgressBar />
 
           <form className="principal-form" action="">
-            <div className="content-form movpag">
+            <div aria-label="registration form" className="content-form movpag">
               {index == 'true' ? <PageFormOne /> : <PageFormTwo />}
             </div>
           </form>

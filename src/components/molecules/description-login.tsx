@@ -1,13 +1,15 @@
 import React from 'react'
 
-const DescriptionLogin: React.FC = () => {
+function DescriptionLogin() {
   return (
-    <h3 className="have-account">
-      ¿Ya tienes una cuenta?
-      <a href="#">
-        <span className="log-in"> Inicia sesión</span>
-      </a>
-    </h3>
+    <>
+      <p className="have-account">
+        ¿Ya tienes una cuenta?
+        <a href="#">
+          <span className="log-in"> Inicia sesión</span>
+        </a>
+      </p>
+    </>
   )
 }
 

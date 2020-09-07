@@ -7,14 +7,14 @@ function ProgressBar() {
         <div className="step-one">
           <span className="number-step">1</span>
         </div>
-        <div className="check fas fa-check"></div>
+        <div aria-hidden="true" className="check fas fa-check"></div>
       </div>
 
       <div className="contentstep-two">
         <div className="step-two">
           <span className="number-step">2</span>
         </div>
-        <div className="check fas fa-check"></div>
+        <div aria-hidden="true" className="check fas fa-check"></div>
       </div>
     </div>
   )

@@ -7,12 +7,12 @@ import NameInput from '../../molecules/inputs/input-name'
 function PageFormOne() {
   return (
     <>
-      <NameInput />
-      <LastnameInput />
-      <EmailInput />
-      <p className="content-description">
-        <DescriptionLogin />
-      </p>
+      <NameInput aria-label="write your first name" />
+      <LastnameInput aria-label="write your last name" />
+      <EmailInput aria-label="write your email" />
+
+      <DescriptionLogin />
+
       <div className="container-btn-next">
         <BtnNext />
       </div>

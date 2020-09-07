@@ -16,7 +16,7 @@ function EmailInput() {
   }
 
   return (
-    <div className="content-email">
+    <div aria-label="input email" className="content-email">
       <input
         type="email"
         name="email"
@@ -25,7 +25,7 @@ function EmailInput() {
         className="input-email"
         id="password"
       />
-      <i className="fas fa-envelope" id="password"></i>
+      <i aria-hidden="true" className="fas fa-envelope" id="password"></i>
     </div>
   )
 }
