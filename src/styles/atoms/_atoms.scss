@@ -1,6 +1,6 @@
-//------------------EXTENDS------------------//
+/* //------------------EXTENDS------------------// */
 
-////////////////////////EXTEND BUTTON BLUE////////////////////////
+/* ////////////////////////EXTEND BUTTON BLUE//////////////////////// */
 
 %titleEighteen {
   font-family: 'Roboto';
@@ -11,7 +11,7 @@
   line-height: 0;
 }
 
-////////////////////////EXTEND BUTTON BLUE////////////////////////
+/* ////////////////////////EXTEND BUTTON BLUE//////////////////////// */
 %btnMblue {
   text-align: center;
   vertical-align: middle;
@@ -37,9 +37,9 @@
   }
 }
 
-//------------------------------------------------------------------//
+/* //------------------------------------------------------------------// */
 
-//////////////////////ATOM BUTTON MEDIUM BLUE REGISTER//////////////////////
+/* //////////////////////ATOM BUTTON MEDIUM BLUE REGISTER////////////////////// */
 
 .container-btns-register {
   margin-top: 130px;
@@ -53,14 +53,14 @@
   margin-right: 20px;
 }
 
-////////////////////////////////////////
+/* //////////////////////////////////////// */
 .content-btn-next {
   z-index: 2;
   margin-top: 56px;
   margin-left: 280px;
 }
 
-//////////////////////ATOM TITLE REGISTER//////////////////////
+/* //////////////////////ATOM TITLE REGISTER////////////////////// */
 .text-registerpass,
 .title-basic-dates {
   font-family: $fontTitle;
@@ -73,7 +73,7 @@
   color: $colorTitleWhite;
 }
 
-////////////////DESCRIPTION LOG IN ////////////////
+/* ////////////////DESCRIPTION LOG IN //////////////// */
 .have-account {
   @extend %titleEighteen;
 
