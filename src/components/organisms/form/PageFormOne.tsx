@@ -1,3 +1,4 @@
+import React from 'react'
 import BtnNext from '../../atoms/BtnNext'
 import DescriptionLogin from '../../molecules/description-login'
 import EmailInput from '../../molecules/inputs/EmailInput'

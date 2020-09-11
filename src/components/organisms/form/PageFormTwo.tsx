@@ -2,7 +2,8 @@ import React from 'react'
 import InputPass from '../../molecules/input-pass'
 import ConfirmPass from '../../molecules/inputs/ConfirmPass'
 import BtnmReturn from '../../atoms/BtnmReturn'
-import BtnMblue from '../../atoms/btnMblue'
+import BtnRegister from '../../atoms/BtnRegister'
+import ModalRegister from './ModalRegister'
 
 function PageFormTwo() {
   return (
@@ -16,7 +17,7 @@ function PageFormTwo() {
           <BtnmReturn />
         </div>
         <div className="containerbtn-blue">
-          <BtnMblue />
+          <BtnRegister />
         </div>
       </div>
     </>

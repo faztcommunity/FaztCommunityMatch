@@ -32,7 +32,6 @@
   justify-content: center;
   background-color: $accentInfo;
   cursor: pointer;
-  z-index: 2;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   width: 50px;
@@ -50,7 +49,6 @@
   flex-wrap: wrap;
   width: 390px;
   height: 50px;
-  z-index: 2;
 
   .input-password,
   .input-email,
