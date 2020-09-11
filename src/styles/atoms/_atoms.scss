@@ -16,7 +16,7 @@
   text-align: center;
   vertical-align: middle;
   padding: 16px 16px;
-  border-radius: 5px;
+  border-radius: $radiusFive;
   background: $accentInfo;
   font-weight: bold;
   font-size: $fontEighteen;
@@ -148,4 +148,10 @@
 
 .icon-info {
   font-size: 128px;
+}
+
+.accept-terms {
+  @extend %btnMblue;
+  margin-top: 24px;
+  border: none;
 }
