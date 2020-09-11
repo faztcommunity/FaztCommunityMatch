@@ -1,8 +1,10 @@
 import React from 'react'
+import InfoModal from '../../atoms/InfoModal'
 
 function ModalParagraph() {
   return (
     <div className="content-modal-paragraph">
+      <InfoModal />
       <h2 className="title-attention">¡ATENCIÓN!</h2>
       <h3 className="paragraph-attention">
         Al continuar con el registro, usted acepta los términos y condiciones

@@ -122,11 +122,13 @@ i.fas {
   height: 100%;
   text-align: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title-attention {
   @extend %h2;
-  margin-top: 175px;
+  margin-top: 8px;
 }
 
 .paragraph-attention {
