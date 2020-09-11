@@ -1,5 +1,6 @@
 import React from 'react'
 import ModalRegister from '../organisms/form/ModalRegister'
+import ModalParagraph from '../molecules/Modal/ModalParagraph'
 
 const BtnRegister: React.FC = () => {
   const openModal = () => {
@@ -11,7 +12,9 @@ const BtnRegister: React.FC = () => {
       <a onClick={openModal} className="btn-medium-blue">
         Registrarse
       </a>
-      <ModalRegister />
+      <ModalRegister>
+        <ModalParagraph />
+      </ModalRegister>
     </>
   )
 }
