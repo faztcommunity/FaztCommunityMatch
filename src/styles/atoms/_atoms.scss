@@ -12,6 +12,43 @@
 }
 
 /* ////////////////////////EXTEND BUTTON BLUE//////////////////////// */
+
+%btnGhostCancel {
+  text-align: center;
+  vertical-align: middle;
+  padding: 16px 16px;
+  border-radius: $radiusFive;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  font-family: $fontButton;
+  font-style: normal;
+  text-decoration: none;
+  border: 4px solid $primaryBase;
+  box-shadow: 0px 4px 8px $shadownBtnRed;
+  cursor: pointer;
+  color: $primaryBase;
+
+  &:hover {
+    color: $whiteColor;
+    background: $primaryBase;
+  }
+}
+
+%btnWord {
+  font-weight: bold;
+  font-size: $fontEighteen;
+  font-family: $fontButton;
+  font-style: normal;
+  color: $accentInfo;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 %btnMblue {
   text-align: center;
   vertical-align: middle;
@@ -20,22 +57,23 @@
   background: $accentInfo;
   font-weight: bold;
   font-size: $fontEighteen;
+  border: none;
   font-family: $fontButton;
   font-style: normal;
   color: $whiteColor;
   text-decoration: none;
   box-shadow: 0px 4px 8px $shadownBtnBlue;
   cursor: pointer;
+
+  &:hover {
+    background: $hooverBlue;
+  }
 }
 
 .btn-medium-blue,
 .btn-medium-return,
 .btn-medium-next {
   @extend %btnMblue;
-  &:hover,
-  &:focus {
-    background: $hooverBlue;
-  }
 }
 
 /* //------------------------------------------------------------------// */
@@ -153,5 +191,15 @@
 .accept-terms {
   @extend %btnMblue;
   margin-top: 24px;
-  border: none;
+}
+
+.btn-cancel {
+  @extend %btnGhostCancel;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.title-conditions {
+  @extend %btnWord;
+  margin-top: 32px;
 }
