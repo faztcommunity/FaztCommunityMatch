@@ -1,10 +1,13 @@
 import React from 'react'
 import ModalRegister from '../organisms/form/ModalRegister'
 import ModalParagraph from '../molecules/Modal/ModalParagraph'
+import { useRef } from 'react'
 
-const BtnRegister: React.FC = () => {
+function BtnRegister() {
+  const modalRef = useRef<any>(null)
+
   const openModal = () => {
-    console.log('Open Modal')
+    modalRef.current.openModal()
   }
 
   return (
@@ -12,7 +15,7 @@ const BtnRegister: React.FC = () => {
       <a onClick={openModal} className="btn-medium-blue">
         Registrarse
       </a>
-      <ModalRegister>
+      <ModalRegister ref={modalRef}>
         <ModalParagraph />
       </ModalRegister>
     </>
