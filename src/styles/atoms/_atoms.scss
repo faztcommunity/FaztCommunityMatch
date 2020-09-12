@@ -188,7 +188,8 @@
   font-size: 128px;
 }
 
-.accept-terms {
+.accept-terms,
+.btn-done {
   @extend %btnMblue;
   margin-top: 24px;
 }

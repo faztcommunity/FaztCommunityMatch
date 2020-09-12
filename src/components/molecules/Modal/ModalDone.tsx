@@ -1,19 +1,20 @@
 import React from 'react'
+import BtnDone from '../../atoms/BtnDone'
 import CheckModal from '../../atoms/CheckModal'
 
-function ModalParagraph() {
+function ModalDone() {
   return (
     <div className="content-modal">
       <CheckModal />
       <h2 className="title-attention">¡Enhorabuena!</h2>
-      <h3 className="paragraph-attention">
-        Al continuar con el registro, usted acepta los términos y condiciones
-      </h3>
+      <p className="paragraph-register">El usuario:</p>
+      <p className="paragraph-register">Juanito</p>
+      <p className="paragraph-register">Ha sido registrado con éxito.</p>
       <div className="content-buttons">
-        <BtonAcceptTerms />
+        <BtnDone />
       </div>
     </div>
   )
 }
 
-export default ModalParagraph
+export default ModalDone

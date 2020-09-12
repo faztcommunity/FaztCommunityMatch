@@ -136,6 +136,11 @@ i.fas {
   margin-top: 32px;
 }
 
+.paragraph-register {
+  @extend %h3;
+  margin-top: 16px;
+}
+
 .content-buttons {
   display: flex;
   width: 100%;

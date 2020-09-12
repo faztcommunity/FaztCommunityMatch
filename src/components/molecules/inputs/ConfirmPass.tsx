@@ -46,7 +46,7 @@ function ConfirmPass() {
         onChange={handleInputChange}
         placeholder="* Confirmar tu Contraseña"
         className="input-compare-pass"
-        id="password"
+        id="confirm-password"
       />
       <i
         onClick={function (event) {
