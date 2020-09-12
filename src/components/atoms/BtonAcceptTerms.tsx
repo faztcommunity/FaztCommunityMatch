@@ -3,7 +3,7 @@ import React from 'react'
 function BtonAcceptTerms() {
   return (
     <>
-      <button className="accept-terms">Si, Continuar</button>
+      <a className="accept-terms">Si, Continuar</a>
     </>
   )
 }

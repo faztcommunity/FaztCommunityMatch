@@ -5,7 +5,7 @@ import InfoModal from '../../atoms/InfoModal'
 
 function ModalParagraph() {
   return (
-    <div className="content-modal-paragraph">
+    <div className="content-modal">
       <InfoModal />
       <h2 className="title-attention">¡ATENCIÓN!</h2>
       <h3 className="paragraph-attention">
