@@ -3,7 +3,6 @@ import InputPass from '../../molecules/input-pass'
 import ConfirmPass from '../../molecules/inputs/ConfirmPass'
 import BtnmReturn from '../../atoms/BtnmReturn'
 import BtnRegister from '../../atoms/BtnRegister'
-import ModalRegister from './ModalRegister'
 
 function PageFormTwo() {
   return (

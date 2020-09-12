@@ -1,7 +1,7 @@
 import React from 'react'
-import { useRef } from 'react'
+/* import { useRef } from 'react'
 import ModalDone from '../molecules/Modal/ModalDone'
-import ModalRegisterDone from '../organisms/form/ModalRegisterDone'
+import ModalRegisterDone from '../organisms/form/ModalRegisterDone' */
 
 function BtonAcceptTerms() {
   /* const modalDoneRef = useRef<any>(null)

@@ -7,7 +7,6 @@ import IconMatch from '../../atoms/IconMatch'
 import BallsSvg from '../../atoms/balls-svg'
 import BackgroundEffect from '../../atoms/background-effect'
 import TitleHome from '../../atoms/TitleHome'
-import ModalRegister from './ModalRegister'
 
 function Form() {
   const [index, setIndex] = useState('true')

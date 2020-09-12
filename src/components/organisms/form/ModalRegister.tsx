@@ -3,7 +3,7 @@ import React, { forwardRef, useImperativeHandle } from 'react'
 import { useState } from 'react'
 import ReactDOM from 'react-dom'
 
-const ModalRegister = React.forwardRef<HTMLButtonElement, ButtonProps>(
+const ModalRegister = forwardRef<HTMLButtonElement, ButtonProps>(
   (props, ref) => {
     const [display, setDisplay] = useState(true)
 
