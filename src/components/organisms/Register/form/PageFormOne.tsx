@@ -1,9 +1,9 @@
 import React from 'react'
-import BtnNext from '../../atoms/BtnNext'
-import DescriptionLogin from '../../molecules/description-login'
-import EmailInput from '../../molecules/inputs/EmailInput'
-import LastnameInput from '../../molecules/inputs/LastnameInput'
-import NameInput from '../../molecules/inputs/NameInput'
+import BtnNext from '../../../atoms/Register/BtnNext'
+import DescriptionLogin from '../../../molecules/Register/description-login'
+import EmailInput from '../../../molecules/Register/inputs/EmailInput'
+import LastnameInput from '../../../molecules/Register/inputs/LastnameInput'
+import NameInput from '../../../molecules/Register/inputs/NameInput'
 
 function PageFormOne() {
   return (

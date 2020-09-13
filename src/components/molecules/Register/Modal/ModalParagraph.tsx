@@ -1,7 +1,7 @@
 import React from 'react'
-import BtonAcceptTerms from '../../atoms/BtonAcceptTerms'
-import BtonCancel from '../../atoms/BtonCancel'
-import InfoModal from '../../atoms/InfoModal'
+import BtonAcceptTerms from '../../../atoms/Register/BtonAcceptTerms'
+import BtonCancel from '../../../atoms/Register/BtonCancel'
+import InfoModal from '../../../atoms/Register/InfoModal'
 
 function ModalParagraph() {
   return (

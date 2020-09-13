@@ -1,6 +1,6 @@
 import React from 'react'
-import ModalRegister from '../organisms/form/ModalRegister'
-import ModalParagraph from '../molecules/Modal/ModalParagraph'
+import ModalRegister from '../../organisms/Register/form/ModalRegister'
+import ModalParagraph from '../../molecules/Register/Modal/ModalParagraph'
 import { useRef } from 'react'
 
 function BtnRegister() {

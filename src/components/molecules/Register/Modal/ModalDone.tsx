@@ -1,6 +1,6 @@
 import React from 'react'
-import BtnDone from '../../atoms/BtnDone'
-import CheckModal from '../../atoms/CheckModal'
+import BtnDone from '../../../atoms/Register/BtnDone'
+import CheckModal from '../../../atoms/Register/CheckModal'
 
 function ModalDone() {
   return (

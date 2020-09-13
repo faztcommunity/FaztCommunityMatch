@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import PageFormTwo from './PageFormTwo'
-import TitleRpass from '../../atoms/titleRpass'
-import ProgressBar from '../../molecules/various/progress-bar'
+import TitleRpass from '../../../atoms/Register/titleRpass'
+import ProgressBar from '../../../molecules/Register/various/progress-bar'
 import PageFormOne from './PageFormOne'
-import IconMatch from '../../atoms/IconMatch'
-import BallsSvg from '../../atoms/balls-svg'
-import BackgroundEffect from '../../atoms/background-effect'
-import TitleHome from '../../atoms/TitleHome'
+import IconMatch from '../../../atoms/Register/IconMatch'
+import BallsSvg from '../../../atoms/Register/balls-svg'
+import BackgroundEffect from '../../../atoms/Register/background-effect'
+import TitleHome from '../../../atoms/Register/TitleHome'
 
 function Form() {
   const [index, setIndex] = useState('true')

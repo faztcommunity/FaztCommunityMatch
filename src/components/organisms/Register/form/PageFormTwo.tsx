@@ -1,8 +1,8 @@
 import React from 'react'
-import InputPass from '../../molecules/input-pass'
-import ConfirmPass from '../../molecules/inputs/ConfirmPass'
-import BtnmReturn from '../../atoms/BtnmReturn'
-import BtnRegister from '../../atoms/BtnRegister'
+import InputPass from '../../../molecules/Register/input-pass'
+import ConfirmPass from '../../../molecules/Register/inputs/ConfirmPass'
+import BtnmReturn from '../../../atoms/Register/BtnmReturn'
+import BtnRegister from '../../../atoms/Register/BtnRegister'
 
 function PageFormTwo() {
   return (
