@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import PlansCards from '../../components/organisms/plans/Plans'
 
 function Plans() {
   return (
@@ -8,7 +9,7 @@ function Plans() {
         <title>Planes</title>
       </Head>
 
-      <h1>Aca van los planes</h1>
+      <PlansCards />
     </>
   )
 }
