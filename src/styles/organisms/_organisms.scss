@@ -169,3 +169,14 @@
   @extend %modal;
   z-index: 100;
 }
+
+/* --------------------------------------------
+   * Page Plans
+-------------------------------------------- */
+
+.content-card-free {
+  display: flex;
+  width: 380px;
+  height: 602px;
+  justify-content: center;
+}

@@ -158,3 +158,29 @@ i.fas {
   background: #7fdc8d;
   border-radius: 8px;
 }
+
+.card-free-description {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 272.87px;
+  height: 602px;
+  text-align: center;
+  justify-content: center;
+}
+
+.description-free {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 14px;
+  font-weight: bold;
+  font-family: $fontBody;
+  font-style: normal;
+  font-size: $fontEighteen;
+}
+
+.under-line {
+  border: 1px solid $grayFive;
+  width: 272px;
+  margin-top: 14px;
+}
