@@ -269,3 +269,21 @@
 .tittle-free {
   color: $whiteColor;
 }
+
+.content-price-free {
+  display: flex;
+  position: absolute;
+  width: 316px;
+  justify-items: end;
+  top: 512px;
+}
+
+.price-free {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  color: $whiteColor;
+}
