@@ -289,7 +289,8 @@
   color: $whiteColor;
 }
 
-.content-price-free {
+.content-price-free,
+.content-price-premium {
   display: flex;
   position: absolute;
   width: 100px;
@@ -298,7 +299,8 @@
   margin-right: 216px;
 }
 
-.price-free {
+.price-free,
+.price-premium {
   margin-block-start: 0;
   margin-block-end: 0;
   font-family: $fontTitle;
