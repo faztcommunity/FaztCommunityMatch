@@ -270,7 +270,8 @@
   justify-content: flex-end;
 }
 
-.content-title-free {
+.content-title-free,
+.content-title-premium {
   display: flex;
   position: absolute;
   margin-top: 24px;
@@ -278,11 +279,13 @@
   width: 316px;
 }
 
-.title-card-free {
+.title-card-free,
+.title-card-premium {
   @extend %titleBig;
 }
 
-.tittle-free {
+.title-free,
+.title-premium {
   color: $whiteColor;
 }
 

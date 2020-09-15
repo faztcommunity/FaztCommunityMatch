@@ -3,6 +3,7 @@ import BtonFree from '../../atoms/plans/BtonFree'
 import BtonPremium from '../../atoms/plans/BtonPremium'
 import PriceFree from '../../atoms/plans/PriceFree'
 import TitleCardFree from '../../atoms/plans/TitleCardFree'
+import TitleCardPremium from '../../atoms/plans/TitleCardPremium'
 import CardFree from '../../molecules/plans/CardFree'
 import CardFreeDescription from '../../molecules/plans/CardFreeDescription'
 import CardPremium from '../../molecules/plans/CardPremium'
@@ -19,6 +20,7 @@ function PlansCards() {
         <PriceFree />
       </div>
       <div className="content-card-premium">
+        <TitleCardPremium />
         <CardPremium />
         <CardPremiumDescription />
         <BtonPremium />
