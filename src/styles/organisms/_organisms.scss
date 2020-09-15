@@ -174,9 +174,14 @@
    * Page Plans
 -------------------------------------------- */
 
-.content-card-free {
+.content-card-free,
+.content-card-premium {
   display: flex;
   width: 380px;
   height: 602px;
   justify-content: center;
+}
+
+.content-plans {
+  display: flex;
 }

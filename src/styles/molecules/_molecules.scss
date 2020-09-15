@@ -152,11 +152,19 @@ i.fas {
    * Page Plans
 -------------------------------------------- */
 
-.card-free {
+.card-free,
+.card-Premium {
   width: 380px;
   height: 602px;
-  background: #7fdc8d;
   border-radius: 8px;
+}
+
+.card-free {
+  background: $lightGreen;
+}
+
+.card-Premium {
+  background: $lighOrange;
 }
 
 .card-free-description {
