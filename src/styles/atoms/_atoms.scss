@@ -246,7 +246,23 @@
   }
 }
 
-.content-btn-free {
+.btn-premium {
+  @extend %btonGhostGeneral;
+  background: $darkOrange;
+  border: 4px solid $whiteColor;
+  color: $whiteColor;
+  width: 149px;
+  justify-content: center;
+
+  &:hover {
+    background: $lighOrange;
+    color: $blackColor;
+    border: 4px solid $blackColor;
+  }
+}
+
+.content-btn-free,
+.content-btn-premium {
   display: flex;
   position: absolute;
   top: 525px;

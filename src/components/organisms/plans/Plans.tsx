@@ -1,5 +1,6 @@
 import React from 'react'
 import BtonFree from '../../atoms/plans/BtonFree'
+import BtonPremium from '../../atoms/plans/BtonPremium'
 import PriceFree from '../../atoms/plans/PriceFree'
 import TitleCardFree from '../../atoms/plans/TitleCardFree'
 import CardFree from '../../molecules/plans/CardFree'
@@ -20,6 +21,7 @@ function PlansCards() {
       <div className="content-card-premium">
         <CardPremium />
         <CardPremiumDescription />
+        <BtonPremium />
       </div>
     </div>
   )
