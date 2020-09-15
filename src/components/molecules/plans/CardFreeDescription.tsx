@@ -1,4 +1,6 @@
 import React from 'react'
+import BtonFree from '../../atoms/plans/BtonFree'
+import PriceFree from '../../atoms/plans/PriceFree'
 
 function CardFreeDescription() {
   return (
@@ -18,6 +20,9 @@ function CardFreeDescription() {
       <p className="description-free">
         Maximo 1 retroceso en la vista de usuarios o proyectos
       </p>
+
+      <BtonFree />
+      <PriceFree />
     </div>
   )
 }

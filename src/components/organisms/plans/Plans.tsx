@@ -12,22 +12,20 @@ import CardPremiumDescription from '../../molecules/plans/CardPremiumDescription
 
 function PlansCards() {
   return (
-    <div className="content-plans">
-      <div className="content-card-free">
-        <TitleCardFree />
-        <CardFreeDescription />
-        <CardFree />
-        <BtonFree />
-        <PriceFree />
+    <body className="background-plans">
+      <div className="content-plans">
+        <div className="content-card-free">
+          <TitleCardFree />
+          <CardFreeDescription />
+          <CardFree />
+        </div>
+        <div className="content-card-premium">
+          <TitleCardPremium />
+          <CardPremium />
+          <CardPremiumDescription />
+        </div>
       </div>
-      <div className="content-card-premium">
-        <TitleCardPremium />
-        <CardPremium />
-        <CardPremiumDescription />
-        <BtonPremium />
-        <PricePremium />
-      </div>
-    </div>
+    </body>
   )
 }
 

@@ -1,4 +1,6 @@
 import React from 'react'
+import BtonPremium from '../../atoms/plans/BtonPremium'
+import PricePremium from '../../atoms/plans/PricePremium'
 
 function CardPremiumDescription() {
   return (
@@ -18,6 +20,8 @@ function CardPremiumDescription() {
       <p className="description-premium">
         Retrocesos ilimitados para ver usuarios y proyectos
       </p>
+      <BtonPremium />
+      <PricePremium />
     </div>
   )
 }
