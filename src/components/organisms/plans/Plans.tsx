@@ -5,6 +5,7 @@ import TitleCardFree from '../../atoms/plans/TitleCardFree'
 import CardFree from '../../molecules/plans/CardFree'
 import CardFreeDescription from '../../molecules/plans/CardFreeDescription'
 import CardPremium from '../../molecules/plans/CardPremium'
+import CardPremiumDescription from '../../molecules/plans/CardPremiumDescription'
 
 function PlansCards() {
   return (
@@ -18,6 +19,7 @@ function PlansCards() {
       </div>
       <div className="content-card-premium">
         <CardPremium />
+        <CardPremiumDescription />
       </div>
     </div>
   )
