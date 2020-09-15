@@ -11,6 +11,15 @@
   line-height: 0;
 }
 
+%titleBig {
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 /* ////////////////////////EXTEND BUTTON BLUE//////////////////////// */
 
 %btnGhostCancel {
@@ -243,4 +252,20 @@
   top: 525px;
   width: 316px;
   justify-content: flex-end;
+}
+
+.content-title-free {
+  display: flex;
+  position: absolute;
+  margin-top: 24px;
+  justify-content: flex-start;
+  width: 316px;
+}
+
+.title-card-free {
+  @extend %titleBig;
+}
+
+.tittle-free {
+  color: $whiteColor;
 }
