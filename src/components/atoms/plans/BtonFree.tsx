@@ -1,11 +1,12 @@
 import React from 'react'
+import Link from 'next/link'
 
 function BtonFree() {
   return (
     <div className="content-btn-free">
-      <a href="#" className="btn-free">
-        Gratis
-      </a>
+      <Link href="/perfil">
+        <a className="btn-free">Gratis</a>
+      </Link>
     </div>
   )
 }
