@@ -4,7 +4,9 @@ import PrincipalNav from '../../molecules/profile/PrincipalNav'
 function Profile() {
   return (
     <>
-      <PrincipalNav />
+      <nav>
+        <PrincipalNav />
+      </nav>
     </>
   )
 }

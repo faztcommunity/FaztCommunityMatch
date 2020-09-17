@@ -330,16 +330,32 @@
    * Page Profile
 -------------------------------------------- */
 
-.btn-premium-pay {
+.content-nav {
   display: flex;
   position: absolute;
-  left: 1659px;
+  left: 1458px;
+  top: 40px;
+}
+
+.btn-premium-pay {
   @extend %btonGeneral;
   background: $accentActiveLight;
   color: $whiteColor;
-  top: 40px;
 
   &:hover {
     background: $accentActiveHover;
+  }
+}
+
+.btn-create-project {
+  @extend %btonGhostGeneral;
+  margin-right: 32px;
+  background: $backgroundLight;
+  border: 4px solid $accentSuccesDark;
+  color: $accentSuccesDark;
+
+  &:hover {
+    color: $whiteColor;
+    background-color: $accentSuccesDark;
   }
 }
