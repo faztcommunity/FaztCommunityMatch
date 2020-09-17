@@ -71,6 +71,20 @@
   }
 }
 
+%btonGeneral {
+  text-align: center;
+  vertical-align: middle;
+  padding: 16px 16px;
+  border-radius: $radiusFive;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  border: none;
+  font-family: $fontButton;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 %btnMblue {
   text-align: center;
   vertical-align: middle;
@@ -310,4 +324,22 @@
   font-weight: bold;
   font-size: 64px;
   color: $whiteColor;
+}
+
+/* --------------------------------------------
+   * Page Profile
+-------------------------------------------- */
+
+.btn-premium-pay {
+  display: flex;
+  position: absolute;
+  left: 1659px;
+  @extend %btonGeneral;
+  background: $accentActiveLight;
+  color: $whiteColor;
+  top: 40px;
+
+  &:hover {
+    background: $accentActiveHover;
+  }
 }
