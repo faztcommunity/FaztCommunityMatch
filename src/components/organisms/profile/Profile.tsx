@@ -1,4 +1,5 @@
 import React from 'react'
+import BackgroundNav from '../../molecules/profile/BackgroundNav'
 import BtonsMenu from '../../molecules/profile/BtonsMenu'
 import PrincipalNav from '../../molecules/profile/PrincipalNav'
 
@@ -8,6 +9,7 @@ function Profile() {
       <nav>
         <BtonsMenu />
         <PrincipalNav />
+        <BackgroundNav />
       </nav>
     </>
   )

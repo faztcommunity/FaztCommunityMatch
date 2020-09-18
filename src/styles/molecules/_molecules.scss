@@ -250,3 +250,11 @@ i.fas {
 .background-hover:hover .project {
   color: $whiteColor;
 }
+
+.background-nav {
+  display: flex;
+  height: 104px;
+  width: 100vw;
+  background-color: $backgroundLight;
+  justify-content: center;
+}
