@@ -194,3 +194,59 @@ i.fas {
   width: 316px;
   margin-top: 14px;
 }
+
+/* --------------------------------------------
+   * Page Profile
+-------------------------------------------- */
+
+.content-btns-menu {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 312px;
+  top: 40px;
+}
+
+.content-project,
+.content-test {
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  align-items: center;
+}
+
+.test,
+.project {
+  text-decoration: none;
+  font-family: $fontButton;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  color: $backgroundDark;
+}
+
+.background-hover {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 123px;
+  height: 70px;
+  background: #4468e7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  bottom: -12px;
+  cursor: pointer;
+  background: transparent;
+
+  &:hover {
+    background: #4468e7;
+  }
+}
+
+.background-hover:hover .test {
+  color: $whiteColor;
+}
+
+.background-hover:hover .project {
+  color: $whiteColor;
+}
