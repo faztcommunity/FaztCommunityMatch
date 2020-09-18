@@ -216,13 +216,22 @@ i.fas {
 }
 
 .test,
-.project {
+.project,
+.text-match {
   text-decoration: none;
   font-family: $fontButton;
   font-style: normal;
   font-weight: bold;
   font-size: $fontEighteen;
+}
+
+.test,
+.project {
   color: $backgroundDark;
+}
+
+.text-match {
+  color: $whiteColor;
 }
 
 .background-hover {
@@ -257,4 +266,25 @@ i.fas {
   width: 100vw;
   background-color: $backgroundLight;
   justify-content: center;
+}
+
+.content-btn-match {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  top: 12px;
+}
+
+.content-nav-match {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.content-nav-match:hover .text-match {
+  text-shadow: 0px 1px 13px $whiteColor;
 }

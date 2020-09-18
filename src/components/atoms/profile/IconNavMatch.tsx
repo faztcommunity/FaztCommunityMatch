@@ -4,6 +4,7 @@ function IconNavMatch() {
   return (
     <>
       <svg
+        className="icon-nav-match"
         width="160"
         height="105"
         viewBox="0 0 160 105"
