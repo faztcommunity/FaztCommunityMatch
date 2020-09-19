@@ -366,14 +366,16 @@ i.fas {
   background-color: $grayThree;
 }
 
-.background-profile-two {
-  height: 420px;
-  top: 375px;
-}
+.content-section-user {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
 
-.background-profile-one {
-  height: 587px;
-  top: 769px;
+  width: 600px;
+  height: 1026px;
+  top: 224px;
+  left: 64px;
+  margin-bottom: 110px;
 }
 
 .background-profile-one,
@@ -381,8 +383,70 @@ i.fas {
   display: flex;
   position: absolute;
   width: 600px;
-  left: 64px;
   border-radius: 10px;
   box-shadow: 0px 6px 8px rgba(120, 120, 120, 0.15);
   background: $backgroundLight;
+}
+
+.background-profile-two {
+  height: 420px;
+  top: 143px;
+}
+
+.background-profile-one {
+  height: 484px;
+  top: 540px;
+}
+
+.circle-user {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  left: 157px;
+  top: 0;
+  width: 286px;
+  height: 286px;
+  box-shadow: 0px 8px 10px rgba(120, 120, 120, 0.15);
+  border-radius: 100%;
+  background: $backgroundLight;
+  z-index: 1;
+}
+
+.contentbtn-edit-image {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 220px;
+}
+
+.contentbtn-edit-image:hover .icon-edit-image {
+  width: 35px;
+  height: 30px;
+}
+
+.contentbtn-edit-image:hover .btn-edit-image {
+  fill: $darkHover;
+}
+
+.btn-edit-image {
+  cursor: pointer;
+  fill: $backgroundDark;
+}
+
+.icon-edit-image {
+  width: 33px;
+  height: 28px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.text-image-user {
+  position: absolute;
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontTwentyFour;
+  color: $grayThree;
 }
