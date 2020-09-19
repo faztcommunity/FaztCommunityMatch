@@ -365,3 +365,24 @@ i.fas {
   border-radius: 100%;
   background-color: $grayThree;
 }
+
+.background-profile-two {
+  height: 420px;
+  top: 375px;
+}
+
+.background-profile-one {
+  height: 587px;
+  top: 769px;
+}
+
+.background-profile-one,
+.background-profile-two {
+  display: flex;
+  position: absolute;
+  width: 600px;
+  left: 64px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 8px rgba(120, 120, 120, 0.15);
+  background: $backgroundLight;
+}

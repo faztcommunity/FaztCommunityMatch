@@ -5,7 +5,7 @@ import BtnProfile from '../../molecules/profile/BtnProfile'
 import BtonsMenu from '../../molecules/profile/BtonsMenu'
 import PrincipalNav from '../../molecules/profile/PrincipalNav'
 
-function Profile() {
+function NavProfile() {
   return (
     <>
       <nav>
@@ -18,4 +18,4 @@ function Profile() {
   )
 }
 
-export default Profile
+export default NavProfile

@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Profile from '../../components/organisms/profile/Profile'
+import NavProfile from '../../components/organisms/profile/NavProfile'
+import SectionUserInfo from '../../components/organisms/profile/SectionUserInfo'
 
 function Plans() {
   return (
@@ -10,8 +11,11 @@ function Plans() {
       </Head>
 
       <header>
-        <Profile />
+        <NavProfile />
       </header>
+      <body>
+        <SectionUserInfo />
+      </body>
     </>
   )
 }
