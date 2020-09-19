@@ -13,9 +13,9 @@ function Plans() {
       <header>
         <NavProfile />
       </header>
-      <body>
+      <section>
         <SectionUserInfo />
-      </body>
+      </section>
     </>
   )
 }

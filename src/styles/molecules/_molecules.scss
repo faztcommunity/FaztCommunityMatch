@@ -370,7 +370,6 @@ i.fas {
   display: flex;
   position: absolute;
   flex-direction: column;
-
   width: 600px;
   height: 1026px;
   top: 224px;
@@ -449,4 +448,5 @@ i.fas {
   font-weight: bold;
   font-size: $fontTwentyFour;
   color: $grayThree;
+  cursor: default;
 }

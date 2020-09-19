@@ -374,3 +374,23 @@
   display: none;
   cursor: default;
 }
+
+.content-title-user {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  top: 310px;
+  z-index: 1;
+}
+
+.title-name-user {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: $backgroundDark;
+  cursor: default;
+}
