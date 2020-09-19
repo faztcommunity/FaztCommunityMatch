@@ -270,10 +270,37 @@ i.fas {
 
 .background-hover:hover .test {
   color: $whiteColor;
+  display: flex;
 }
 
 .background-hover:hover .project {
   color: $whiteColor;
+  display: flex;
+}
+
+.content-btn-profile:hover .line-hover {
+  background: $accentInfo;
+  display: flex;
+}
+
+.content-btn-match:hover .line-hover {
+  background: $accentInfo;
+  display: flex;
+}
+
+.content-test:hover .line-hover {
+  background: $accentInfo;
+  display: flex;
+}
+
+.content-project:hover .line-hover {
+  background: $accentInfo;
+  display: flex;
+}
+
+.content-nav-match:hover .line-hover {
+  background: $accentInfo;
+  display: flex;
 }
 
 .background-hover-profile {

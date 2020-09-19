@@ -6,14 +6,16 @@ import IconTest from '../../atoms/profile/IconTest'
 function BtonsMenu() {
   return (
     <div className="content-btns-menu">
-      <Link href="/tests">
-        <div className="content-test">
+      <div className="content-test">
+        <Link href="/tests">
           <div className="background-hover">
             <IconTest />
             <a className="test">Realizar Test</a>
           </div>
-        </div>
-      </Link>
+        </Link>
+        <span className="line-hover"></span>
+      </div>
+
       <div className="content-project">
         <Link href="/proyecto">
           <div className="background-hover">
@@ -21,6 +23,7 @@ function BtonsMenu() {
             <a className="project">Proyecto</a>
           </div>
         </Link>
+        <span className="line-hover"></span>
       </div>
     </div>
   )

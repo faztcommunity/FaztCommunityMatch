@@ -1,17 +1,21 @@
 import React from 'react'
 import IconNavMatch from '../../atoms/profile/IconNavMatch'
-import BtonMatch from './BtonMatch'
 import Link from 'next/link'
+import IconMatchSmall from '../../atoms/profile/IconMatchSmall'
 
 function BackgroundNav() {
   return (
     <div className="background-nav">
-      <Link href="/Match">
-        <div className="content-nav-match">
-          <BtonMatch />
-          <IconNavMatch />
-        </div>
-      </Link>
+      <div className="content-nav-match">
+        <Link href="/Match">
+          <div className="content-btn-match">
+            <IconMatchSmall />
+            <a className="text-match">Hacer Match</a>
+          </div>
+        </Link>
+        <IconNavMatch />
+        <span className="line-hover"></span>
+      </div>
     </div>
   )
 }

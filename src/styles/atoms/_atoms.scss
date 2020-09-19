@@ -364,3 +364,13 @@
   display: flex;
   position: relative;
 }
+
+.line-hover {
+  position: fixed;
+  right: 0;
+  top: 102px;
+  width: 100vw;
+  height: 7px;
+  display: none;
+  cursor: default;
+}
