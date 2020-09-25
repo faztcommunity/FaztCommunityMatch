@@ -546,3 +546,35 @@ i.fas {
 .content-menu-match:hover .line-hover-match {
   background: $primaryLight;
 }
+
+.content-description-user {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  height: 264px;
+  width: 534px;
+  top: 591px;
+  margin: 0 32px;
+}
+
+.text-description-user {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 8px;
+}
+
+.box-description-user {
+  display: flex;
+  height: 223px;
+  border-radius: 5px;
+  border: 0;
+  font-family: $fontBody;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $fontEighteen;
+  padding: 24px 24px;
+}
