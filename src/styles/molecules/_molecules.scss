@@ -450,3 +450,99 @@ i.fas {
   color: $grayThree;
   cursor: default;
 }
+
+.content-menu-user {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  top: 520px;
+}
+
+.content-menu-me,
+.content-menu-test,
+.content-menu-abilities {
+  display: flex;
+  margin-right: 48px;
+  cursor: pointer;
+}
+
+.title-menu-user,
+.title-menu-match {
+  text-decoration: none;
+  font-family: $fontBody;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontTwentyFour;
+  color: $backgroundDark;
+}
+
+.content-menu-me {
+  width: 96.7px;
+  height: 43px;
+}
+
+.content-menu-test {
+  width: 47.23px;
+  height: 43px;
+}
+
+.content-menu-abilities {
+  width: 127.66px;
+  height: 43px;
+}
+
+.content-menu-match {
+  width: 67.95px;
+  height: 43px;
+  cursor: pointer;
+}
+
+.line-hover-me {
+  width: 96.7px;
+}
+
+.line-hover-test {
+  width: 47.23px;
+}
+
+.line-hover-abilities {
+  width: 127.66px;
+}
+
+.line-hover-match {
+  width: 67.95px;
+}
+
+.line-hover-match,
+.line-hover-abilities,
+.line-hover-test,
+.line-hover-me {
+  display: flex;
+  position: absolute;
+  height: 9px;
+  bottom: 0;
+  background: transparent;
+}
+
+.content-menu-me:hover .line-hover-me {
+  background: $primaryLight;
+}
+.content-menu-me:active .line-hover-me {
+  background: $primaryLight;
+}
+
+.content-menu-test:hover .line-hover-test {
+  background: $primaryLight;
+}
+
+.content-menu-abilities:hover .line-hover-abilities {
+  background: $primaryLight;
+}
+
+.content-menu-match:hover .line-hover-match {
+  background: $primaryLight;
+}
