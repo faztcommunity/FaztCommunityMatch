@@ -548,15 +548,25 @@ i.fas {
 }
 
 .content-description-user {
+  height: 264px;
+  top: 591px;
+}
+
+.content-social-user {
+  height: 130px;
+  top: 863px;
+}
+
+.content-social-user,
+.content-description-user {
   display: flex;
   position: absolute;
   flex-direction: column;
-  height: 264px;
-  width: 534px;
-  top: 591px;
   margin: 0 32px;
+  width: 534px;
 }
 
+.text-description-user,
 .text-description-user {
   font-family: Open Sans;
   font-style: normal;
@@ -577,4 +587,42 @@ i.fas {
   font-weight: normal;
   font-size: $fontEighteen;
   padding: 24px 24px;
+  box-shadow: 0px 1px 2px rgba(120, 120, 120, 0.15);
+}
+
+.box-social-user {
+  display: flex;
+  background: $whiteColor;
+  height: 107px;
+  width: 534px;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgba(120, 120, 120, 0.15);
+}
+
+.conten-add-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  margin-left: 16px;
+}
+
+.icon-add-social {
+  position: absolute;
+  fill: $backgroundDark;
+  height: 32px;
+  width: 32px;
+}
+
+.conten-add-user:hover .icon-add-social {
+  height: 36px;
+  width: 36px;
+  fill: $darkHover;
+}
+
+.icon-circle-social,
+.icon-add-social {
+  cursor: pointer;
 }
