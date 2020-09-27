@@ -528,6 +528,50 @@ i.fas {
   background: transparent;
 }
 
+.line-hover-abilities-on {
+  display: flex;
+  position: absolute;
+  height: 9px;
+  bottom: 0;
+  background: $primaryLight;
+  width: 127.66px;
+  bottom: 74px;
+  left: 265px;
+}
+
+.line-hover-match-on {
+  display: flex;
+  position: absolute;
+  height: 9px;
+  bottom: 0;
+  background: $primaryLight;
+  width: 67.95px;
+  bottom: 74px;
+  left: 441px;
+}
+
+.line-hover-test-on {
+  display: flex;
+  position: absolute;
+  height: 9px;
+  bottom: 0;
+  background: $primaryLight;
+  width: 47.23px;
+  bottom: 74px;
+  left: 170px;
+}
+
+.line-hover-me-on {
+  display: flex;
+  position: absolute;
+  height: 9px;
+  bottom: 0;
+  background: $primaryLight;
+  width: 96.7px;
+  bottom: 401px;
+  left: 25px;
+}
+
 .content-menu-me:hover .line-hover-me {
   background: $primaryLight;
 }
@@ -557,17 +601,17 @@ i.fas {
   top: 863px;
 }
 
-.content-social-user,
-.content-description-user {
+.content-info-me {
   display: flex;
   position: absolute;
+  top: 50px;
   flex-direction: column;
   margin: 0 32px;
   width: 534px;
 }
 
 .text-description-user,
-.text-description-user {
+.text-social-user {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
@@ -575,11 +619,12 @@ i.fas {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-bottom: 8px;
+  margin-top: 16px;
 }
 
 .box-description-user {
   display: flex;
-  height: 223px;
+  height: 175px;
   border-radius: 5px;
   border: 0;
   font-family: $fontBody;
@@ -588,6 +633,7 @@ i.fas {
   font-weight: normal;
   font-size: $fontEighteen;
   padding: 24px 24px;
+  width: 486px;
   box-shadow: 0px 1px 2px rgba(120, 120, 120, 0.15);
 }
 
