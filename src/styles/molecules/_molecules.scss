@@ -763,3 +763,17 @@ i.fas {
 .content-hover-circle:hover .hover-circle {
   background: #289038;
 }
+
+.icon-info-change {
+  display: flex;
+  position: fixed;
+  top: 800px;
+  left: 1812px;
+  z-index: 1001;
+  cursor: pointer;
+
+  &:hover {
+    width: 25px;
+    height: 26px;
+  }
+}
