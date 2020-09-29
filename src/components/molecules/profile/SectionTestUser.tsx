@@ -4,7 +4,8 @@ function SectionTestUser() {
   return (
     <>
       <span className="line-hover-test-on"></span>
-      <h2>hacer test</h2>
+      <h2 className="title-section-test">Resultado Test</h2>
+      <section className="section-test"></section>
     </>
   )
 }
