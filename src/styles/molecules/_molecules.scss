@@ -556,7 +556,7 @@ i.fas {
   bottom: 0;
   background: $primaryLight;
   width: 67.95px;
-  bottom: 74px;
+  bottom: 443px;
   left: 441px;
 }
 
@@ -711,13 +711,15 @@ i.fas {
 
 .title-section-test,
 .text-description-user,
-.text-social-user {
+.text-social-user,
+.title-section-match {
   @extend %titleSection;
   margin-top: 16px;
   margin-bottom: 8px;
 }
 
-.section-test {
+.section-test,
+.section-match {
   display: flex;
   justify-content: center;
   align-items: center;

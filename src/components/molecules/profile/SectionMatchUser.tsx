@@ -4,7 +4,8 @@ function SectionMatchUser() {
   return (
     <>
       <span className="line-hover-match-on"></span>
-      <h2>hacer Match!</h2>
+      <h2 className="title-section-match">Match Proyectos:</h2>
+      <section className="section-match"></section>
     </>
   )
 }
