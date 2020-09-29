@@ -8,7 +8,7 @@ import PrincipalNav from '../../molecules/profile/PrincipalNav'
 function NavProfile() {
   return (
     <>
-      <nav>
+      <nav className="content-menu-nav">
         <BtonsMenu />
         <BtnProfile />
         <PrincipalNav />

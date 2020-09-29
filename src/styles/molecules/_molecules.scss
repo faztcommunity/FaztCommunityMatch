@@ -333,6 +333,7 @@ i.fas {
   width: 100vw;
   background-color: $backgroundLight;
   justify-content: center;
+  box-shadow: 0px 8px 10px rgba(120, 120, 120, 0.15);
 }
 
 .content-btn-match {
@@ -707,6 +708,7 @@ i.fas {
   font-weight: bold;
   font-size: 56px;
   color: $grayThree;
+  cursor: default;
 }
 
 .title-section-test,

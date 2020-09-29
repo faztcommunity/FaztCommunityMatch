@@ -210,3 +210,9 @@
   background-size: cover;
   position: absolute;
 }
+
+.content-menu-nav {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
