@@ -3,6 +3,7 @@ import Head from 'next/head'
 import NavProfile from '../../components/organisms/profile/NavProfile'
 import SectionUserInfo from '../../components/organisms/profile/SectionUserInfo'
 import RecordUser from '../../components/molecules/profile/RecordUser'
+import BtonChange from '../../components/molecules/profile/BtonChange'
 
 function Plans() {
   return (
@@ -20,6 +21,7 @@ function Plans() {
       <section>
         <RecordUser />
       </section>
+      <BtonChange />
     </>
   )
 }
