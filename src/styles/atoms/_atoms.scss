@@ -424,3 +424,13 @@
   @extend %titleSectionInfo;
   margin-bottom: 24px;
 }
+
+.section-abilities {
+  display: flex;
+  flex-direction: column;
+  background: $boxInfo;
+  width: 534px;
+  height: 420px;
+  border-radius: 5px;
+  margin-top: 16px;
+}
