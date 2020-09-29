@@ -1,5 +1,5 @@
 import React from 'react'
-import BtonCreateProject from '../../atoms/profile/Bton CreateProject'
+import BtonCreateProject from '../../atoms/profile/BtonCreateProject'
 import BtonPremiumPay from '../../atoms/profile/BtonPremiumPay'
 
 function PrincipalNav() {

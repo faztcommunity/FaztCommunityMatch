@@ -394,3 +394,15 @@
   color: $backgroundDark;
   cursor: default;
 }
+
+.btn-create-test {
+  display: flex;
+  position: absolute;
+  @extend %btonGeneral;
+  background: $accentSuccesLight;
+  color: $whiteColor;
+
+  &:hover {
+    background: $accentSuccesDark;
+  }
+}
