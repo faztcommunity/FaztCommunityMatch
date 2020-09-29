@@ -432,10 +432,14 @@
   }
 }
 
-.title-description-test {
+.title-description-test,
+.title-description-match {
   display: flex;
   position: relative;
   @extend %titleSectionInfo;
+}
+
+.title-description-test {
   margin-bottom: 24px;
 }
 
