@@ -216,3 +216,13 @@
   top: 0;
   z-index: 1000;
 }
+
+/* page test */
+
+.content-choose-test {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 266px;
+  width: 100vw;
+}

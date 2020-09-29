@@ -1,5 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
+import NavProfile from '../../components/organisms/profile/NavProfile'
+import ChooseTest from '../../components/organisms/tests/ChooseTest'
 
 function Tests() {
   return (
@@ -7,6 +9,8 @@ function Tests() {
       <Head>
         <title>Tests</title>
       </Head>
+      <NavProfile />
+      <ChooseTest />
     </>
   )
 }
