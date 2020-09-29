@@ -719,6 +719,9 @@ i.fas {
 
 .section-test {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: $boxInfo;
   width: 534px;
   height: 385px;

@@ -1,14 +1,18 @@
 import React from 'react'
 import BtonCreateTest from '../../atoms/profile/BtonCreateTest'
+import TitleCreateTest from '../../atoms/profile/TitleCreateTest'
 
 function SectionTestUser() {
   return (
     <>
       <span className="line-hover-test-on"></span>
       <h2 className="title-section-test">Resultado Test</h2>
-      <section className="section-test">
-        <BtonCreateTest />
-      </section>
+      <div className="content-section-test">
+        <section className="section-test">
+          <TitleCreateTest />
+          <BtonCreateTest />
+        </section>
+      </div>
     </>
   )
 }
