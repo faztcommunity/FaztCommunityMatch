@@ -1,11 +1,15 @@
 import React from 'react'
 import BackgroundSectionAbilities from '../../atoms/profile/BackgroundSectionAbilities'
+import BtonAddAbilities from '../../atoms/profile/BtonAddAbilities'
 
 function SectionAbilitiesUser() {
   return (
     <>
       <span className="line-hover-abilities-on"></span>
-      <BackgroundSectionAbilities />
+      <div className="content-abilities">
+        <BackgroundSectionAbilities />
+        <BtonAddAbilities />
+      </div>
     </>
   )
 }

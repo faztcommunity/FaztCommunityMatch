@@ -96,6 +96,20 @@
   cursor: pointer;
 }
 
+%btonFullSolid {
+  text-align: center;
+  vertical-align: middle;
+  padding: 16px 140px;
+  border-radius: $radiusFive;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  border: none;
+  font-family: $fontButton;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 %btnMblue {
   text-align: center;
   vertical-align: middle;
@@ -433,4 +447,21 @@
   height: 420px;
   border-radius: 5px;
   margin-top: 16px;
+}
+
+.btn-add-abilities {
+  display: flex;
+  position: absolute;
+  @extend %btonFullSolid;
+  background: $accentInfo;
+  color: $whiteColor;
+  margin-top: 32px;
+
+  &:hover {
+    background: $hooverBlue;
+  }
+}
+
+.more-btn {
+  margin-right: 16px;
 }
