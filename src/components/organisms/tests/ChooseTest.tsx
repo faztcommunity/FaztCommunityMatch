@@ -1,12 +1,16 @@
 import React from 'react'
 import TitleChooseTest from '../../atoms/tests/TitleChooseTest'
+import CardTestProject from '../../molecules/tests/CardTestProject'
 import CardTestUser from '../../molecules/tests/CardTestUser'
 
 function ChooseTest() {
   return (
     <div className="content-choose-test">
       <TitleChooseTest />
-      <CardTestUser />
+      <div className="content-cards-test">
+        <CardTestUser />
+        <CardTestProject />
+      </div>
     </div>
   )
 }

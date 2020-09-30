@@ -248,7 +248,8 @@
   width: 100vw;
 }
 
-.section-test-user {
+.section-test-user,
+.section-test-project {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -265,12 +266,22 @@
   }
 }
 
-.subtitle-test-user {
+.section-test-user {
+  margin-right: 12px;
+}
+
+.section-test-project {
+  margin-left: 12px;
+}
+
+.subtitle-test-user,
+.subtitle-test-project {
   @extend %subtitleThree;
   margin-bottom: 4px;
 }
 
-.line-test-user {
+.line-test-user,
+.line-test-project {
   border: 2px solid $backgroundDark;
   border-radius: 10px;
 }
@@ -280,16 +291,24 @@
   flex-direction: column;
 }
 
-.image-test-user {
+.image-test-user,
+.image-test-project {
   width: 100%;
   border-radius: 5px;
   margin-top: 16px;
+  height: 215px;
 }
 
-.description-test-user {
+.description-test-user,
+.description-test-project {
   display: flex;
   align-items: center;
   text-align: center;
   @extend %bodyMedium;
   margin-top: 16px;
+}
+
+.content-cards-test {
+  display: flex;
+  flex-direction: row;
 }
