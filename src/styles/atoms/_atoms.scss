@@ -483,3 +483,17 @@
   margin-bottom: 32px;
   cursor: default;
 }
+
+.btn-next-test {
+  display: flex;
+  position: relative;
+  @extend %btonGeneral;
+  background: $accentInfo;
+  color: $whiteColor;
+  margin-top: 24px;
+  left: 420px;
+
+  &:hover {
+    background: $hooverBlue;
+  }
+}
