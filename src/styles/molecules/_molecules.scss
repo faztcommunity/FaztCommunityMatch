@@ -780,113 +780,24 @@ i.fas {
 
 /* page test user */
 
-.content-value {
-  display: flex;
-  position: absolute;
-  right: 24px;
-  justify-content: center;
-  align-items: center;
-  width: 85px;
-  height: 50px;
-  background: #4468e7;
-  border-radius: 37px;
-  margin-left: 40px;
-}
-
-.value {
-  position: relative;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  color: #fafafa;
-  cursor: default;
-}
-
-.content-range-slider {
-  display: flex;
-  position: absolute;
-  width: 1257px;
-  left: 24px;
-  flex-direction: row;
-  align-items: center;
-}
-
-.content-range-slider .slider::-webkit-slider-thumb:active {
-  box-shadow: 0 0 0 10px rgba(255, 41, 95, 0.4);
-}
-
-.slider {
-  position: relative;
-  width: 100%;
-  -webkit-appearance: none;
-  height: 20px;
-  border-radius: 50px;
-  outline: none;
-}
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 57px;
-  height: 57px;
-  border-radius: 50%;
-  background: #c4c4c4;
-  border: 4px solid #ff295f;
-  cursor: pointer;
-  position: relative;
-  z-index: 2;
-}
-
-.content-input-value,
-.content-input-value-two {
-  display: flex;
-  width: 1488px;
-  height: 226px;
-  margin-top: 16px;
-  justify-content: center;
-  position: relative;
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(29, 29, 29, 0.15);
-  background: $backgroundLight;
-}
-.global-test-user {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  align-items: center;
-}
-
-.content-dark {
-  display: flex;
-  position: absolute;
-  align-items: center;
-  top: 108px;
-  height: 90px;
-  width: 1440px;
-  background: $gray-six;
-  border-radius: 5px;
-}
-
-.question {
-  display: flex;
-  position: relative;
-  right: 600px;
+.title-test-user {
   font-family: $fontTitle;
   font-style: normal;
   font-weight: bold;
-  font-size: $fontTwentyFour;
-  line-height: 35px;
-  height: 30px;
+  font-size: 48px;
+  line-height: 65px;
+  color: $backgroundDark;
+  margin-top: 67px;
+  margin-bottom: 26px;
 }
 
-.progress-bar,
-.progress-bar-two,
-.progress-bar-three,
-.progress-bar-four,
-.progress-bar-five {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 20px;
-  border-radius: 50px;
+.desciption-test-user {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: $backgroundDark;
+  width: 1488px;
+  margin-bottom: 150px;
 }

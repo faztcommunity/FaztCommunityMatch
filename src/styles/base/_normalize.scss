@@ -5,6 +5,11 @@ body {
   background-color: $backgroundGlobal;
 }
 
+* {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
