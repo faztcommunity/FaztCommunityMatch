@@ -849,13 +849,11 @@ i.fas {
   box-shadow: 0px 4px 6px rgba(29, 29, 29, 0.15);
   background: $backgroundLight;
 }
-
 .global-test-user {
   display: flex;
   flex-direction: column;
   width: 100vw;
   align-items: center;
-  height: 100vh;
 }
 
 .content-dark {
@@ -879,4 +877,16 @@ i.fas {
   font-size: $fontTwentyFour;
   line-height: 35px;
   height: 30px;
+}
+
+.progress-bar,
+.progress-bar-two,
+.progress-bar-three,
+.progress-bar-four,
+.progress-bar-five {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  border-radius: 50px;
 }
