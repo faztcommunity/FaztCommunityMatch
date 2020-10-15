@@ -384,11 +384,17 @@
   box-shadow: 0px 4px 6px rgba(29, 29, 29, 0.15);
   background: $backgroundLight;
 }
-.global-test-user {
+.global-test-user,
+.global-test-user-modal {
   display: flex;
   flex-direction: column;
   width: 100vw;
   align-items: center;
+}
+
+.global-test-user-modal {
+  height: 100vh;
+  justify-content: center;
 }
 
 .content-dark {
@@ -450,4 +456,21 @@
   justify-content: space-between;
   margin-bottom: 32px;
   margin-top: 24px;
+}
+
+.modal-information {
+  width: 550px;
+  height: 436px;
+  background: #fafafa;
+  box-shadow: 0px 6px 8px rgba(120, 120, 120, 0.15);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.content-modal-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
 }

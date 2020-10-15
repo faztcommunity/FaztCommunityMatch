@@ -487,7 +487,8 @@
 .btn-next-test,
 .btn-next-question,
 .btn-previus-question,
-.btn-next-question-two {
+.btn-next-question-two,
+.btn-next-match {
   display: flex;
   position: relative;
   @extend %btonGeneral;
@@ -496,13 +497,22 @@
   outline: none;
 }
 
-.btn-next-test {
-  left: 420px;
+.btn-next-test,
+.btn-next-match {
   background: $accentInfo;
 
   &:hover {
     background: $hooverBlue;
   }
+}
+
+.btn-next-match {
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-next-test {
+  left: 420px;
 }
 
 .btn-next-question {

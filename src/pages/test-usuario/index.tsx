@@ -21,6 +21,7 @@ import QuestionUserSeventeen from '../../components/organisms/test-user/Question
 import QuestionUserEighteen from '../../components/organisms/test-user/QuestionUserEighteen'
 import QuestionUserNineteen from '../../components/organisms/test-user/QuestionUserNineteen'
 import QuestionUserTwenty from '../../components/organisms/test-user/QuestionUserTwenty'
+import TestCompleted from '../../components/organisms/test-user/TestCompleted'
 
 function TestUser() {
   const [page, setPage] = useState(0)
@@ -103,10 +104,11 @@ if(page === 1){
   }
 
   if (page === 4){
-    <section className="global-test-user">
-
+    return(
+    <section className="global-test-user-modal">
+   <TestCompleted />
     </section>
-
+)
   }
 }
 export default TestUser
