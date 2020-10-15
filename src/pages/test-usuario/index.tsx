@@ -11,6 +11,11 @@ import QuestionUserSeven from '../../components/organisms/test-user/QuestionUser
 import QuestionUserEight from '../../components/organisms/test-user/QuestionUserEight'
 import QuestionUserNine from '../../components/organisms/test-user/QuestionUserNine'
 import QuestionUserTen from '../../components/organisms/test-user/QuestionUserTen'
+import QuestionUserEleven from '../../components/organisms/test-user/QuestionUserEleven'
+import QuestionUserTwelve from '../../components/organisms/test-user/QuestionUserTwelve'
+import QuestionUserThirteen from '../../components/organisms/test-user/QuestionUserThirteen'
+import QuestionUserFourteen from '../../components/organisms/test-user/QuestionUserFourteen'
+import QuestionUserFiveteen from '../../components/organisms/test-user/QuestionUserFiveteen'
 
 function TestUser() {
   const [page, setPage] = useState(0)
@@ -55,5 +60,23 @@ if(page === 1){
       </div>
 
   )}
+
+  if(page === 2){
+    return(
+      <div>
+      <section className="global-test-user">
+        <QuestionUserEleven />
+        <QuestionUserTwelve />
+        <QuestionUserThirteen />
+        <QuestionUserFourteen />
+        <QuestionUserFiveteen />
+        <div className="content-btns">
+        <button onClick={() => setPage(page - 1)} className="btn-previus-question">Anterior</button>
+        <button onClick={() => setPage(page + 1)} className="btn-next-question-two">Continuar</button>
+        </div>
+</section>
+      </div>
+    )
+  }
 }
 export default TestUser

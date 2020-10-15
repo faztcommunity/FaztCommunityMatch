@@ -405,7 +405,6 @@
 .question {
   display: flex;
   position: relative;
-  right: 600px;
   font-family: $fontTitle;
   font-style: normal;
   font-weight: bold;
@@ -413,6 +412,8 @@
   line-height: 35px;
   margin-top: 24px;
   color: $backgroundDark;
+  width: 1441px;
+  height: 64px;
 }
 
 .progress-bar,
@@ -424,7 +425,17 @@
 .progress-bar-seven,
 .progress-bar-eight,
 .progress-bar-nine,
-.progress-bar-ten {
+.progress-bar-ten,
+.progress-bar-eleven,
+.progress-bar-twelve,
+.progress-bar-thirteen,
+.progress-bar-fourteen,
+.progress-bar-fiveteen,
+.progress-bar-sixteen,
+.progress-bar-seventeen,
+.progress-bar-eighteen,
+.progress-bar-nineteen,
+.progress-bar-twenty {
   position: absolute;
   bottom: 0;
   left: 0;
