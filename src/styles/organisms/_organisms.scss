@@ -299,7 +299,7 @@
   height: 215px;
 }
 
-.description-test-user,
+.description-test-user-card,
 .description-test-project {
   display: flex;
   align-items: center;
@@ -385,14 +385,17 @@
   background: $backgroundLight;
 }
 .global-test-user,
-.global-test-user-modal {
+.global-test-project,
+.global-test-user-modal,
+.global-test-project-modal {
   display: flex;
   flex-direction: column;
   width: 100vw;
   align-items: center;
 }
 
-.global-test-user-modal {
+.global-test-user-modal,
+.global-test-project-modal {
   height: 100vh;
   justify-content: center;
 }
@@ -441,7 +444,27 @@
 .progress-bar-seventeen,
 .progress-bar-eighteen,
 .progress-bar-nineteen,
-.progress-bar-twenty {
+.progress-bar-twenty,
+.progress-bar-project,
+.progress-bar-two-project,
+.progress-bar-three-project,
+.progress-bar-four-project,
+.progress-bar-five-project,
+.progress-bar-six-project,
+.progress-bar-seven-project,
+.progress-bar-eight-project,
+.progress-bar-nine-project,
+.progress-bar-ten-project,
+.progress-bar-eleven-project,
+.progress-bar-twelve-project,
+.progress-bar-thirteen-project,
+.progress-bar-fourteen-project,
+.progress-bar-fiveteen-project,
+.progress-bar-sixteen-project,
+.progress-bar-seventeen-project,
+.progress-bar-eighteen-project,
+.progress-bar-nineteen-project,
+.progress-bar-twenty-project {
   position: absolute;
   bottom: 0;
   left: 0;

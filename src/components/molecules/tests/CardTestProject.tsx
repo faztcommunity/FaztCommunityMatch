@@ -1,8 +1,10 @@
 import React from 'react'
 import ImageTestProject from '../../../assets/images/test-project.jpg'
+import Link from 'next/link'
 
 function CardTestProject() {
   return (
+    <Link href="/test-proyecto">
     <section className="section-test-project">
       <div className="content-line-text">
         <h2 className="subtitle-test-project">Test para Proyectos</h2>
@@ -17,6 +19,7 @@ function CardTestProject() {
         resultado con respecto a las metas de tu proyecto.
       </p>
     </section>
+    </Link>
   )
 }
 

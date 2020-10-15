@@ -13,7 +13,7 @@ function CardTestUser() {
 
         <img className="image-test-user" src={ImageTestUser} alt="" />
 
-        <p className="description-test-user">
+        <p className="description-test-user-card">
           Haz el test para usuarios, así podrás empezar a tener match con
           distintos proyectos, contesta con honestidad para asegurar un mejor
           resultado con respecto a tus gustos.
