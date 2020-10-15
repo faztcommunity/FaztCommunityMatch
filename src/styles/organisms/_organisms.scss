@@ -431,3 +431,12 @@
   height: 20px;
   border-radius: 50px;
 }
+
+.content-btns {
+  display: flex;
+  position: relative;
+  width: 1488px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}

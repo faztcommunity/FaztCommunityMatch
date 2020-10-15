@@ -484,16 +484,45 @@
   cursor: default;
 }
 
-.btn-next-test {
+.btn-next-test,
+.btn-next-question,
+.btn-previus-question,
+.btn-next-question-two {
   display: flex;
   position: relative;
   @extend %btonGeneral;
-  background: $accentInfo;
   color: $whiteColor;
   margin-top: 24px;
+}
+
+.btn-next-test {
   left: 420px;
+  background: $accentInfo;
 
   &:hover {
     background: $hooverBlue;
+  }
+}
+
+.btn-next-question {
+  left: 689px;
+  margin-bottom: 32px;
+  background: $accentInfo;
+
+  &:hover {
+    background: $hooverBlue;
+  }
+}
+
+.btn-next-question-two {
+  background: $accentInfo;
+  margin-left: 16px;
+}
+
+.btn-previus-question {
+  background: $primaryLight;
+
+  &:hover {
+    background: $HoverPrimaryLight;
   }
 }

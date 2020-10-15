@@ -15,7 +15,7 @@ function QuestionUserTen() {
 `}</style>
 
 <div className="content-input-value">
-    <h2 className="question">5. Quinta Pregunta</h2>
+    <h2 className="question">10. Decima Pregunta</h2>
   <div className="content-dark">
       <div className="content-range-slider">
         <input
