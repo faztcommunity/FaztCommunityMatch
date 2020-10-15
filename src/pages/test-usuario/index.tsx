@@ -16,6 +16,11 @@ import QuestionUserTwelve from '../../components/organisms/test-user/QuestionUse
 import QuestionUserThirteen from '../../components/organisms/test-user/QuestionUserThirteen'
 import QuestionUserFourteen from '../../components/organisms/test-user/QuestionUserFourteen'
 import QuestionUserFiveteen from '../../components/organisms/test-user/QuestionUserFiveteen'
+import QuestionUserSixteen from '../../components/organisms/test-user/QuestionUserSixteen'
+import QuestionUserSeventeen from '../../components/organisms/test-user/QuestionUserSeventeen'
+import QuestionUserEighteen from '../../components/organisms/test-user/QuestionUserEighteen'
+import QuestionUserNineteen from '../../components/organisms/test-user/QuestionUserNineteen'
+import QuestionUserTwenty from '../../components/organisms/test-user/QuestionUserTwenty'
 
 function TestUser() {
   const [page, setPage] = useState(0)
@@ -76,7 +81,32 @@ if(page === 1){
         </div>
 </section>
       </div>
+    )}
+
+
+  if (page === 3){
+    return(
+      <div>
+      <section className="global-test-user">
+        <QuestionUserSixteen />
+        <QuestionUserSeventeen />
+        <QuestionUserEighteen />
+        <QuestionUserNineteen />
+        <QuestionUserTwenty />
+        <div className="content-btns">
+        <button onClick={() => setPage(page - 1)} className="btn-previus-question">Anterior</button>
+        <button onClick={() => setPage(page + 1)} className="btn-next-question-two">Finalizar</button>
+        </div>
+        </section>
+      </div>
     )
+  }
+
+  if (page === 4){
+    <section className="global-test-user">
+
+    </section>
+
   }
 }
 export default TestUser
