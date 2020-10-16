@@ -4,6 +4,7 @@ import NavProfile from '../../components/organisms/profile/NavProfile'
 import SectionUserInfo from '../../components/organisms/profile/SectionUserInfo'
 import RecordUser from '../../components/molecules/profile/RecordUser'
 import BtonChange from '../../components/molecules/profile/BtonChange'
+import CardMatchProject from '../../components/organisms/match/CardMatchProject'
 
 function Plans() {
   return (
@@ -15,6 +16,9 @@ function Plans() {
       <header>
         <NavProfile />
       </header>
+      <main className="content-global-match-project">
+      <CardMatchProject />
+      </main>
     </>
   )
 }
