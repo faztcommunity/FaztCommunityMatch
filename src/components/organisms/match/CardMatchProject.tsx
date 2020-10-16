@@ -6,7 +6,9 @@ function CardMatchProject() {
   return (
     <section className="card-match-project">
       <ContentImageProjec />
+      <div>
       <ContentNameProject />
+      </div>
     </section>
   )
 }

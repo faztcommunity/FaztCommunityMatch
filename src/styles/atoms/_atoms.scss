@@ -540,11 +540,18 @@
 
 /* ///////////////////////Page Match//////////////////////// */
 
+.content-title-image-project {
+  width: 420px;
+}
+
+.content-title-name-project {
+  width: 502px;
+}
+
 .content-title-image-project,
 .content-title-name-project {
   display: flex;
   align-items: center;
-  width: 420px;
   height: 60px;
   background: $backgroundDark;
   border-radius: 10px;

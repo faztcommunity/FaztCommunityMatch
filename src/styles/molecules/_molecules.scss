@@ -808,8 +808,18 @@ i.fas {
 }
 
 .card-image-project {
-  width: 420px;
   height: 561px;
+  width: 420px;
+}
+
+.card-name-project {
+  width: 502px;
+  height: 74px;
+  margin-bottom: 16px;
+}
+
+.card-image-project,
+.card-name-project {
   background: $lightGreenTwo;
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
   border-radius: 10px;
