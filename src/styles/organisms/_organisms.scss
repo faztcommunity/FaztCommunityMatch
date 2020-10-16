@@ -507,7 +507,9 @@
 }
 
 .card-match-project {
+  display: flex;
   position: relative;
+  align-items: center;
   top: 300px;
   width: 1608px;
   height: 780px;

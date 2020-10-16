@@ -780,6 +780,11 @@ i.fas {
 
 /* page test user */
 
+.content-card-image-project {
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
 .title-test-user {
   font-family: $fontTitle;
   font-style: normal;
@@ -800,4 +805,12 @@ i.fas {
   color: $backgroundDark;
   width: 1488px;
   margin-bottom: 100px;
+}
+
+.card-image-project {
+  width: 420px;
+  height: 561px;
+  background: $lightGreenTwo;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
 }
