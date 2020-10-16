@@ -540,7 +540,8 @@
 
 /* ///////////////////////Page Match//////////////////////// */
 
-.content-title-image-project {
+.content-title-image-project,
+.content-title-name-project {
   display: flex;
   align-items: center;
   width: 420px;
@@ -550,7 +551,8 @@
   margin-bottom: 8px;
 }
 
-.title-image-project {
+.title-image-project,
+.title-name-project {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
