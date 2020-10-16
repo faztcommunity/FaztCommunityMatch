@@ -820,6 +820,11 @@ i.fas {
   height: 228px;
 }
 
+.card-type-project {
+  height: 92px;
+  width: 502px;
+}
+
 .card-name-project,
 .card-description-project {
   width: 502px;
@@ -828,7 +833,8 @@ i.fas {
 
 .card-image-project,
 .card-name-project,
-.card-description-project {
+.card-description-project,
+.card-type-project {
   background: $lightGreenTwo;
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
   border-radius: 10px;
