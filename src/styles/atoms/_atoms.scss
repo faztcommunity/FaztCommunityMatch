@@ -544,12 +544,14 @@
   width: 420px;
 }
 
-.content-title-name-project {
+.content-title-name-project,
+.content-title-description-project {
   width: 502px;
 }
 
 .content-title-image-project,
-.content-title-name-project {
+.content-title-name-project,
+.content-title-description-project {
   display: flex;
   align-items: center;
   height: 60px;
@@ -559,7 +561,8 @@
 }
 
 .title-image-project,
-.title-name-project {
+.title-name-project,
+.title-description-project {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
