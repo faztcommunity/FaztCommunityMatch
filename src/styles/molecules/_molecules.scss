@@ -813,13 +813,22 @@ i.fas {
 }
 
 .card-name-project {
-  width: 502px;
   height: 74px;
+}
+
+.card-description-project {
+  height: 228px;
+}
+
+.card-name-project,
+.card-description-project {
+  width: 502px;
   margin-bottom: 16px;
 }
 
 .card-image-project,
-.card-name-project {
+.card-name-project,
+.card-description-project {
   background: $lightGreenTwo;
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
   border-radius: 10px;
