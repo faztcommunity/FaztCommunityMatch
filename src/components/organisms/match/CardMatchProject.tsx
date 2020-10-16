@@ -2,6 +2,7 @@ import React from 'react'
 import ContentDescriptionProject from '../../molecules/match/ContentDescriptionProject'
 import ContentImageProjec from '../../molecules/match/ContentImageProject'
 import ContentNameProject from '../../molecules/match/ContentNameProject'
+import ContentTypeProject from '../../molecules/match/ContentTypeProject'
 
 function CardMatchProject() {
   return (
@@ -10,6 +11,7 @@ function CardMatchProject() {
       <div>
       <ContentNameProject />
       <ContentDescriptionProject />
+      <ContentTypeProject />
       </div>
     </section>
   )
