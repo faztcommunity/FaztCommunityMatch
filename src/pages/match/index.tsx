@@ -1,10 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 import NavProfile from '../../components/organisms/profile/NavProfile'
-import SectionUserInfo from '../../components/organisms/profile/SectionUserInfo'
-import RecordUser from '../../components/molecules/profile/RecordUser'
-import BtonChange from '../../components/molecules/profile/BtonChange'
 import CardMatchProject from '../../components/organisms/match/CardMatchProject'
+import ContentsBtnsMatch from '../../components/molecules/match/ContentsBtnsMatch'
 
 function Plans() {
   return (
@@ -17,7 +15,10 @@ function Plans() {
         <NavProfile />
       </header>
       <main className="content-global-match-project">
+        <section className="section-card-project">
+      <ContentsBtnsMatch />
       <CardMatchProject />
+      </section>
       </main>
     </>
   )

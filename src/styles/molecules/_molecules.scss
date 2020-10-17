@@ -996,3 +996,15 @@ i.fas {
   stroke-dashoffset: calc(150 - (150 * 70) / 100);
   stroke: #289038;
 }
+
+.content-btns-match {
+  background: #d6feeb;
+  box-shadow: 0px -1px 14px rgba(255, 41, 95, 0.5);
+  width: 836px;
+  height: 156px;
+  z-index: -1;
+  position: relative;
+  top: 21px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
