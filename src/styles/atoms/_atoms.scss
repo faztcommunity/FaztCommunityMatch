@@ -576,3 +576,29 @@
   color: $backgroundLight;
   margin-left: 24px;
 }
+
+.icon-previus,
+.icon-btn-match {
+  margin-right: 64px;
+}
+
+.icon-dont-like,
+.icon-give-star,
+.icon-give-heart {
+  margin-right: 24px;
+}
+
+.icon-next,
+.icon-give-heart,
+.icon-give-star,
+.icon-dont-like,
+.icon-btn-match,
+.icon-previus {
+  cursor: pointer;
+}
+
+.content-btns-match {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+}
