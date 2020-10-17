@@ -893,3 +893,100 @@ i.fas {
   width: 470px;
   height: 90px;
 }
+
+.avatar-circle {
+  display: flex;
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  background: #faf9f9;
+  border: 4px solid #289038;
+  border-radius: 50%;
+  left: 1410px;
+  bottom: 597px;
+}
+
+.line-circle {
+  position: relative;
+  left: 78px;
+}
+
+.mini-circle-transparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 82.5px;
+  bottom: 92px;
+  background: transparent;
+  height: 64px;
+  width: 64px;
+  background: #faf9f9;
+  border-radius: 50%;
+}
+
+.content-circle-affinity {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+  width: 54px;
+  background: $backgroundDark;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.percent-affinity-project {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fafafa;
+}
+
+.box .percent-affinity-project {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.circle-dashed {
+  border: 2px dashed #ff295f;
+}
+
+.circle-dashed-affinity {
+  position: absolute;
+}
+
+.box .content-circle-progress {
+  position: relative;
+  height: 52px;
+  width: 52px;
+}
+
+.progress-bar-circle {
+  position: relative;
+  fill: none;
+  stroke-width: 3;
+  stroke: #000;
+  transform: translate(-4px, -2.6px);
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+  stroke-linecap: round;
+}
+
+.progress-bar-circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #dff6e3;
+}
+
+.progress-bar-circle:nth-child(2) {
+  stroke-dashoffset: calc(150 - (150 * 70) / 100);
+  stroke: #289038;
+}
