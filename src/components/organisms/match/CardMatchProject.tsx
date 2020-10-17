@@ -3,6 +3,7 @@ import ContentDescriptionProject from '../../molecules/match/ContentDescriptionP
 import ContentImageProjec from '../../molecules/match/ContentImageProject'
 import ContentNameProject from '../../molecules/match/ContentNameProject'
 import ContentOwnerProject from '../../molecules/match/ContentOwnerProject'
+import ContentRequirementProject from '../../molecules/match/ContentRequirementProject'
 import ContentTypeProject from '../../molecules/match/ContentTypeProject'
 
 function CardMatchProject() {
@@ -14,7 +15,10 @@ function CardMatchProject() {
       <ContentDescriptionProject />
       <ContentTypeProject />
       </div>
+      <div>
       <ContentOwnerProject />
+      <ContentRequirementProject />
+      </div>
     </section>
   )
 }

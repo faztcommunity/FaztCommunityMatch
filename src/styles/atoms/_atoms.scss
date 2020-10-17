@@ -546,14 +546,16 @@
 
 .content-title-name-project,
 .content-title-description-project,
-.content-title-type-project {
+.content-title-type-project,
+.content-title-requirement-project {
   width: 502px;
 }
 
 .content-title-image-project,
 .content-title-name-project,
 .content-title-description-project,
-.content-title-type-project {
+.content-title-type-project,
+.content-title-requirement-project {
   display: flex;
   align-items: center;
   height: 60px;
@@ -565,7 +567,8 @@
 .title-image-project,
 .title-name-project,
 .title-description-project,
-.title-type-project {
+.title-type-project,
+.title-requirement-project {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
