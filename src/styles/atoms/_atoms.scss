@@ -577,15 +577,22 @@
   margin-left: 24px;
 }
 
-.icon-previus,
-.icon-btn-match {
+.content-btn-hover-previus,
+.content-btn-hover-match {
+  display: flex;
   margin-right: 64px;
+  z-index: 2;
 }
 
-.icon-dont-like,
-.icon-give-star,
-.icon-give-heart {
+.content-btn-hover-dont-like,
+.content-btn-hover-star,
+.content-btn-hover-heart {
+  display: flex;
   margin-right: 24px;
+}
+
+.content-btn-hover-next {
+  display: flex;
 }
 
 .icon-next,
@@ -597,8 +604,25 @@
   cursor: pointer;
 }
 
-.content-btns-match {
-  display: flex;
+.hover-btns-match {
   position: absolute;
-  z-index: 2;
+  z-index: -1;
+  background: transparent;
+  filter: blur(5.40241px);
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+}
+
+.hover-btns-match {
+  fill: transparent;
+}
+
+.content-btn-hover-previus:hover .hover-btns-match,
+.content-btn-hover-dont-like:hover .hover-btns-match,
+.content-btn-hover-star:hover .hover-btns-match,
+.content-btn-hover-heart:hover .hover-btns-match,
+.content-btn-hover-match:hover .hover-btns-match,
+.content-btn-hover-next:hover .hover-btns-match {
+  background: #ff295f;
 }

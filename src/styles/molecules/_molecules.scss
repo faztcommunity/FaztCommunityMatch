@@ -1018,3 +1018,10 @@ i.fas {
   height: 156px;
   z-index: -1;
 }
+
+.content-btns-match {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 2;
+}

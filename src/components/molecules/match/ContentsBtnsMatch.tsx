@@ -10,12 +10,37 @@ function ContentsBtnsMatch() {
   return (
     <div className="content-card-match">
         <div className="content-btns-match">
+
+        <div className="content-btn-hover-previus">
         <IconPrevius />
-        <IconDontLike />
-        <IconGiveStar />
-        <IconGiveHeart />
-        <IconBtnMatch />
-        <IconNext />
+        <span className="hover-btns-match"></span>
+        </div>
+
+        <div className="content-btn-hover-dont-like">
+          <IconDontLike />
+          <span className="hover-btns-match"></span>
+        </div>
+
+        <div className="content-btn-hover-star">
+          <IconGiveStar />
+          <span className="hover-btns-match"></span>
+        </div>
+
+        <div className="content-btn-hover-heart">
+          <IconGiveHeart />
+          <span className="hover-btns-match"></span>
+        </div>
+
+        <div className="content-btn-hover-match">
+          <IconBtnMatch />
+          <span className="hover-btns-match"></span>
+        </div>
+
+        <div className="content-btn-hover-next">
+          <IconNext />
+          <span className="hover-btns-match"></span>
+        </div>
+
         </div>
         <div className="background-btns-match"></div>
     </div>
