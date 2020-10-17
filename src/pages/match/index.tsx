@@ -4,11 +4,13 @@ import NavProfile from '../../components/organisms/profile/NavProfile'
 import CardMatchProject from '../../components/organisms/match/CardMatchProject'
 import ContentsBtnsMatch from '../../components/molecules/match/ContentsBtnsMatch'
 
+
+
 function Plans() {
   return (
     <>
       <Head>
-        <title>Haz Match!</title>
+        <title>¡Haz Match!</title>
       </Head>
 
       <header>
