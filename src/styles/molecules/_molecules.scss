@@ -807,6 +807,8 @@ i.fas {
   margin-bottom: 100px;
 }
 
+/* ////////////////////Page Match//////////////////// */
+
 .card-image-project {
   height: 561px;
   width: 420px;
@@ -826,7 +828,8 @@ i.fas {
 }
 
 .card-name-project,
-.card-description-project {
+.card-description-project,
+.card-owner-project {
   width: 502px;
   margin-bottom: 16px;
 }
@@ -834,8 +837,59 @@ i.fas {
 .card-image-project,
 .card-name-project,
 .card-description-project,
-.card-type-project {
+.card-type-project,
+.card-owner-project {
   background: $lightGreenTwo;
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
   border-radius: 10px;
+}
+
+.card-owner-project {
+  height: 176px;
+}
+
+.style-title-owner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primaryLight;
+  width: 80px;
+  font-family: $fontButton;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  color: $backgroundLight;
+  height: 35px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: default;
+}
+
+.name-owner {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 4px;
+  left: 80px;
+  font-family: $fontButton;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  color: $backgroundDark;
+}
+
+.line-title-name-owner {
+  border: 1px solid $backgroundDark;
+  width: 292px;
+  margin-bottom: 12px;
+}
+
+.owner-description {
+  position: relative;
+  left: 16px;
+  background: $backgroundLight;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  width: 470px;
+  height: 90px;
 }
