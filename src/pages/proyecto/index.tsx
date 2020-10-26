@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import NavProfile from '../../components/organisms/profile/NavProfile'
 
 function Project() {
   return (
@@ -7,6 +8,9 @@ function Project() {
       <Head>
         <title>Proyecto</title>
       </Head>
+      <header>
+        <NavProfile />
+      </header>
     </>
   )
 }
