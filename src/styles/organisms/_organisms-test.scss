@@ -1,0 +1,260 @@
+/* --------------------------------------------
+   * Organisms Test
+-------------------------------------------- */
+
+.content-choose-test {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  top: 266px;
+  width: 100vw;
+}
+
+.section-test-user,
+.section-test-project {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 350px;
+  width: 430px;
+  background: $backgroundLight;
+  box-shadow: 0px 6px 8px rgba(120, 120, 120, 0.15);
+  border-radius: 10px;
+  padding: 16px 16px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 0px 16px #289038;
+  }
+}
+
+.section-test-user {
+  margin-right: 12px;
+}
+
+.section-test-project {
+  margin-left: 12px;
+}
+
+.subtitle-test-user,
+.subtitle-test-project {
+  @extend %subtitleThree;
+  margin-bottom: 4px;
+}
+
+.line-test-user,
+.line-test-project {
+  border: 2px solid $backgroundDark;
+  border-radius: 10px;
+}
+
+.content-line-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-test-user,
+.image-test-project {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 16px;
+  height: 215px;
+}
+
+.description-test-user-card,
+.description-test-project {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  @extend %bodyMedium;
+  margin-top: 16px;
+}
+
+.content-cards-test {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-value {
+  display: flex;
+  position: absolute;
+  right: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 50px;
+  background: #4468e7;
+  border-radius: 37px;
+  margin-left: 40px;
+}
+
+.value {
+  position: relative;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fafafa;
+  cursor: default;
+}
+
+.content-range-slider {
+  display: flex;
+  position: absolute;
+  width: 1257px;
+  left: 24px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content-range-slider .slider::-webkit-slider-thumb:active {
+  box-shadow: 0 0 0 10px rgba(255, 41, 95, 0.4);
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  -webkit-appearance: none;
+  height: 20px;
+  border-radius: 50px;
+  outline: none;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background: #c4c4c4;
+  border: 4px solid #ff295f;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.content-input-value,
+.content-input-value-two {
+  display: flex;
+  width: 1488px;
+  height: 226px;
+  margin-top: 16px;
+  justify-content: center;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(29, 29, 29, 0.15);
+  background: $backgroundLight;
+}
+.global-test-user,
+.global-test-project,
+.global-test-user-modal,
+.global-test-project-modal {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+.global-test-user-modal,
+.global-test-project-modal {
+  height: 100vh;
+  justify-content: center;
+}
+
+.content-dark {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 108px;
+  height: 90px;
+  width: 1440px;
+  background: $gray-six;
+  border-radius: 5px;
+}
+
+.question {
+  display: flex;
+  position: relative;
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontTwentyFour;
+  line-height: 35px;
+  margin-top: 24px;
+  color: $backgroundDark;
+  width: 1441px;
+  height: 64px;
+}
+
+.progress-bar,
+.progress-bar-two,
+.progress-bar-three,
+.progress-bar-four,
+.progress-bar-five,
+.progress-bar-six,
+.progress-bar-seven,
+.progress-bar-eight,
+.progress-bar-nine,
+.progress-bar-ten,
+.progress-bar-eleven,
+.progress-bar-twelve,
+.progress-bar-thirteen,
+.progress-bar-fourteen,
+.progress-bar-fiveteen,
+.progress-bar-sixteen,
+.progress-bar-seventeen,
+.progress-bar-eighteen,
+.progress-bar-nineteen,
+.progress-bar-twenty,
+.progress-bar-project,
+.progress-bar-two-project,
+.progress-bar-three-project,
+.progress-bar-four-project,
+.progress-bar-five-project,
+.progress-bar-six-project,
+.progress-bar-seven-project,
+.progress-bar-eight-project,
+.progress-bar-nine-project,
+.progress-bar-ten-project,
+.progress-bar-eleven-project,
+.progress-bar-twelve-project,
+.progress-bar-thirteen-project,
+.progress-bar-fourteen-project,
+.progress-bar-fiveteen-project,
+.progress-bar-sixteen-project,
+.progress-bar-seventeen-project,
+.progress-bar-eighteen-project,
+.progress-bar-nineteen-project,
+.progress-bar-twenty-project {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.content-btns {
+  display: flex;
+  position: relative;
+  width: 1488px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+
+.modal-information {
+  width: 550px;
+  height: 436px;
+  background: #fafafa;
+  box-shadow: 0px 6px 8px rgba(120, 120, 120, 0.15);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.content-modal-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}

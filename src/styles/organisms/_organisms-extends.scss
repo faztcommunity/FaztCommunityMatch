@@ -1,0 +1,59 @@
+/* --------------------------------------------
+   * Organisms Extends
+-------------------------------------------- */
+
+%modal {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  width: 30%;
+  padding: 24px;
+  overflow: auto;
+  background-color: $backgroundLight;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  border-radius: $radiusEight;
+}
+
+%modalBackdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+%subtitleThree {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: $backgroundDark;
+}
+
+%bodyMedium {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: $backgroundDark;
+}
+
+%layoutForm {
+  width: 600px;
+  height: 586px;
+  margin-top: 178px;
+  margin-bottom: 170px;
+  margin-left: 360px;
+}
+
+%formBackground {
+  @extend %layoutForm;
+  border-radius: $radiusFive;
+  background: $backgroundDark;
+}

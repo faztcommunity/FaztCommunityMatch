@@ -1,0 +1,138 @@
+/* --------------------------------------------
+   * Organisms Register
+-------------------------------------------- */
+
+.principal-container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(
+    138deg,
+    rgba(0, 184, 113, 0.7) 22.13%,
+    rgba(55, 166, 246, 0.616) 76.31%
+  );
+}
+.principal-form {
+  display: flex;
+}
+
+.second-container {
+  text-align: center;
+  @extend %layoutForm;
+  @extend %formBackground;
+}
+
+.content-form {
+  position: relative;
+  align-items: center;
+
+  margin-left: 112px;
+}
+
+/* //////////////////Progress Bar////////////////// */
+.progress-bar-register {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.contentstep-one,
+.contentstep-two {
+  position: relative;
+  color: $colorTitleWhite;
+}
+
+.contentstep-one {
+  margin-right: 42px;
+}
+
+.contentstep-two {
+  margin-left: 42px;
+}
+
+.step-one,
+.step-two {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border: 2px solid $colorTitleWhite;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 40px;
+}
+
+.step-one:before,
+.step-one:after {
+  position: absolute;
+  content: '';
+  width: 62px;
+  height: 5px;
+  border-radius: 10px;
+  bottom: 16px;
+  right: -75px;
+  background: $colorTitleWhite;
+}
+
+.step-one:after {
+  background: #04ab5b;
+  animation: mov_Linea 0.3s linear forwards;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+@keyframes mov_Linea {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.check {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 18%;
+  transform: translate(-50%);
+  font-size: 32px;
+}
+
+.number-step {
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  line-height: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.modal-content {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal-backdrop {
+  @extend %modalBackdrop;
+  z-index: 4;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-done-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  @extend %modalBackdrop;
+}
+
+.modal-box {
+  @extend %modal;
+  z-index: 4;
+}
+
+.modal-box-done {
+  @extend %modal;
+  z-index: 100;
+}
