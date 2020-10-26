@@ -3,4 +3,32 @@
 -------------------------------------------- */
 .background-mini-balls {
   position: relative;
+  z-index: -1;
+  width: 443px;
+  height: 120px;
+  margin-top: 67px;
+}
+
+.btn-full-create-project {
+  margin-top: 201px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: $radiusFive;
+  color: $whiteColor;
+  height: 52px;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  font-family: $fontButton;
+  font-style: normal;
+  background: $accentInfo;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  width: 443px;
+  outline: none;
+  position: absolute;
+
+  &:hover {
+    background: $hooverBlue;
+  }
 }
