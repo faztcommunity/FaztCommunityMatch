@@ -22,6 +22,7 @@
 
 .btn-create-project {
   @extend %btonGhostGeneral;
+  outline: none;
   margin-right: 32px;
   background: $backgroundLight;
   border: 4px solid $accentSuccesDark;
