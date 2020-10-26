@@ -1,0 +1,120 @@
+/* --------------------------------------------
+   * Page Profile
+-------------------------------------------- */
+
+.content-nav {
+  display: flex;
+  position: absolute;
+  margin-left: 1474px;
+  top: 40px;
+}
+
+.btn-premium-pay {
+  @extend %btonGeneral;
+  outline: none;
+  background: $accentActiveLight;
+  color: $whiteColor;
+
+  &:hover {
+    background: $accentActiveHover;
+  }
+}
+
+.btn-create-project {
+  @extend %btonGhostGeneral;
+  margin-right: 32px;
+  background: $backgroundLight;
+  border: 4px solid $accentSuccesDark;
+  color: $accentSuccesDark;
+
+  &:hover {
+    color: $whiteColor;
+    background-color: $accentSuccesDark;
+  }
+}
+
+.icon-nav-match {
+  display: flex;
+  position: relative;
+}
+
+.line-hover {
+  position: fixed;
+  right: 0;
+  top: 102px;
+  width: 100vw;
+  height: 7px;
+  display: none;
+  cursor: default;
+}
+
+.content-title-user {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  top: 310px;
+  z-index: 1;
+}
+
+.title-name-user {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: $backgroundDark;
+  cursor: default;
+}
+
+.btn-create-test {
+  display: flex;
+  position: relative;
+  @extend %btonGeneral;
+  background: $accentSuccesLight;
+  color: $whiteColor;
+  outline: none;
+
+  &:hover {
+    background: $accentSuccesDark;
+  }
+}
+
+.title-description-test,
+.title-description-match {
+  display: flex;
+  position: relative;
+  @extend %titleSectionInfo;
+}
+
+.title-description-test {
+  margin-bottom: 24px;
+}
+
+.section-abilities {
+  display: flex;
+  flex-direction: column;
+  background: $boxInfo;
+  width: 534px;
+  height: 420px;
+  border-radius: 5px;
+  margin-top: 16px;
+}
+
+.btn-add-abilities {
+  display: flex;
+  position: absolute;
+  @extend %btonFullSolid;
+  background: $accentInfo;
+  color: $whiteColor;
+  margin-top: 32px;
+
+  &:hover {
+    background: $hooverBlue;
+  }
+}
+
+.more-btn {
+  margin-right: 16px;
+}

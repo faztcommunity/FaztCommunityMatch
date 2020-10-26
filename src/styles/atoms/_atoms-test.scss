@@ -1,0 +1,69 @@
+/* --------------------------------------------
+   * Page Test
+-------------------------------------------- */
+
+.title-choose-test {
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontThirtyTwo;
+  color: $backgroundDark;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 32px;
+  cursor: default;
+}
+
+.btn-next-test,
+.btn-next-question,
+.btn-previus-question,
+.btn-next-question-two,
+.btn-next-match {
+  display: flex;
+  position: relative;
+  @extend %btonGeneral;
+  color: $whiteColor;
+  margin-top: 24px;
+  outline: none;
+}
+
+.btn-next-test,
+.btn-next-match {
+  background: $accentInfo;
+
+  &:hover {
+    background: $hooverBlue;
+  }
+}
+
+.btn-next-match {
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-next-test {
+  left: 420px;
+}
+
+.btn-next-question {
+  left: 689px;
+  margin-bottom: 32px;
+  background: $accentInfo;
+
+  &:hover {
+    background: $hooverBlue;
+  }
+}
+
+.btn-next-question-two {
+  background: $accentInfo;
+  margin-left: 16px;
+}
+
+.btn-previus-question {
+  background: $primaryLight;
+
+  &:hover {
+    background: $HoverPrimaryLight;
+  }
+}

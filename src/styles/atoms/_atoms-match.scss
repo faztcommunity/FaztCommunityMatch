@@ -1,0 +1,90 @@
+/* --------------------------------------------
+   * Page Match
+-------------------------------------------- */
+
+.content-title-image-project {
+  width: 420px;
+}
+
+.content-title-name-project,
+.content-title-description-project,
+.content-title-type-project,
+.content-title-requirement-project {
+  width: 502px;
+}
+
+.content-title-image-project,
+.content-title-name-project,
+.content-title-description-project,
+.content-title-type-project,
+.content-title-requirement-project {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background: $backgroundDark;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.title-image-project,
+.title-name-project,
+.title-description-project,
+.title-type-project,
+.title-requirement-project {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: $backgroundLight;
+  margin-left: 24px;
+}
+
+.content-btn-hover-previus,
+.content-btn-hover-match {
+  display: flex;
+  margin-right: 64px;
+  z-index: 2;
+}
+
+.content-btn-hover-dont-like,
+.content-btn-hover-star,
+.content-btn-hover-heart {
+  display: flex;
+  margin-right: 24px;
+}
+
+.content-btn-hover-next {
+  display: flex;
+}
+
+.icon-next,
+.icon-give-heart,
+.icon-give-star,
+.icon-dont-like,
+.icon-btn-match,
+.icon-previus {
+  cursor: pointer;
+}
+
+.hover-btns-match {
+  position: absolute;
+  z-index: -1;
+  background: transparent;
+  filter: blur(5.40241px);
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+}
+
+.hover-btns-match {
+  fill: transparent;
+}
+
+.content-btn-hover-previus:hover .hover-btns-match,
+.content-btn-hover-dont-like:hover .hover-btns-match,
+.content-btn-hover-star:hover .hover-btns-match,
+.content-btn-hover-heart:hover .hover-btns-match,
+.content-btn-hover-match:hover .hover-btns-match,
+.content-btn-hover-next:hover .hover-btns-match {
+  background: #ff295f;
+}
