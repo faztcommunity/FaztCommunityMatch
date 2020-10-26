@@ -41,6 +41,17 @@
   color: $accentInfo;
 }
 
+%titleMedium {
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontThirtyTwo;
+  color: $backgroundDark;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  cursor: default;
+}
+
 /* ////////////////////////INPUT PASS//////////////////////// */
 %inputs {
   font-family: $fontTitle;
