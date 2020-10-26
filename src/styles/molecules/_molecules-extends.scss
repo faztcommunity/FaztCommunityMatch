@@ -1,0 +1,95 @@
+/* --------------------------------------------
+   * Molecules Extends
+-------------------------------------------- */
+
+%h2 {
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontFourty;
+  line-height: 46px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+%h3 {
+  font-family: $fontBody;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $fontTwentyFour;
+  line-height: 35px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+%titleSection {
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontTwentyFour;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: $backgroundDark;
+}
+
+%buttonTitle {
+  font-family: $fontBody;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  line-height: 20px;
+  color: $accentInfo;
+}
+
+/* ////////////////////////INPUT PASS//////////////////////// */
+%inputs {
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontSixteen;
+  color: $grayFive;
+  border: 1.5px solid $grayFive;
+  box-sizing: border-box;
+  border-radius: $radiusEight;
+  padding-left: $spacingSixteen;
+  outline: none;
+
+  &:focus {
+    border-color: $secondaryColorLight;
+    box-shadow: 0 0 8px 0 $secondaryColorLight;
+    outline-color: $secondaryColorLight;
+    transition: 0.3s;
+    color: $blackColor;
+  }
+}
+
+%buttonInput {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: $accentInfo;
+  cursor: pointer;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 50px;
+  color: $whiteColor;
+  font-size: $iconTwentyFour;
+}
+
+%backgroundHover {
+  width: 100%;
+  height: 70px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  bottom: -12px;
+  cursor: pointer;
+  background: transparent;
+
+  &:hover {
+    background: #4468e7;
+  }
+}

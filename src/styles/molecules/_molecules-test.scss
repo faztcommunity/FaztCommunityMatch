@@ -1,0 +1,30 @@
+/* --------------------------------------------
+   * Page Test
+-------------------------------------------- */
+
+.content-card-image-project {
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+.title-test-user {
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: $backgroundDark;
+  margin-top: 67px;
+  margin-bottom: 26px;
+}
+
+.description-test-user {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: $backgroundDark;
+  width: 1488px;
+  margin-bottom: 100px;
+}

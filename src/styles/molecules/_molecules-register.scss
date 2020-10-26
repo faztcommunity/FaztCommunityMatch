@@ -1,0 +1,83 @@
+/* --------------------------------------------
+   * Molecules Register
+-------------------------------------------- */
+
+.content-password,
+.content-confirmpass,
+.content-email,
+.content-lastname,
+.content-name {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 390px;
+  height: 50px;
+
+  .input-password,
+  .input-email,
+  .input-compare-pass,
+  .input-lastname,
+  .input-name {
+    width: 100%;
+    @extend %inputs;
+  }
+}
+
+i.fas {
+  @extend %buttonInput;
+}
+
+.content-input {
+  margin-top: 98px;
+}
+
+/* ////////////////////////INPUT CONFIRMPASS//////////////////////// */
+
+.content-confirmpass {
+  margin-top: 52px;
+}
+
+/* ////////////////////////INPUT EMAIL -AND- INPUT LAST NAME//////////////////////// */
+
+.content-email,
+.content-lastname {
+  margin-top: 40px;
+}
+
+/* ////////////////////////INPUT NAME//////////////////////// */
+
+.content-name {
+  margin-top: 64px;
+}
+
+.content-modal {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-attention {
+  @extend %h2;
+  margin-top: 8px;
+}
+
+.paragraph-attention {
+  @extend %h3;
+  margin-top: 32px;
+}
+
+.paragraph-register {
+  @extend %h3;
+  margin-top: 16px;
+}
+
+.content-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
