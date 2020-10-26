@@ -7,7 +7,7 @@ function BackgroundNav() {
   return (
     <div className="background-nav">
       <div className="content-nav-match">
-        <Link href="/Match">
+        <Link href="/match">
           <div className="content-btn-match">
             <IconMatchSmall />
             <a className="text-match">Hacer Match</a>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProgressBar() {
   return (
-    <div className="progress-bar">
+    <div className="progress-bar-register">
       <div className="contentstep-one">
         <div className="step-one">
           <span className="number-step">1</span>
