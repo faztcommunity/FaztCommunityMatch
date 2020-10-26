@@ -364,6 +364,7 @@
 
 .btn-premium-pay {
   @extend %btonGeneral;
+  outline: none;
   background: $accentActiveLight;
   color: $whiteColor;
 
