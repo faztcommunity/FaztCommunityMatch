@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import NavProfile from '../../components/organisms/profile/NavProfile'
+import SectionCreateProject from '../../components/organisms/project/SectionCreateProject'
 
 function Project() {
   return (
@@ -11,6 +12,9 @@ function Project() {
       <header>
         <NavProfile />
       </header>
+      <main className="main-section-create-project">
+      <SectionCreateProject/>
+      </main>
     </>
   )
 }

@@ -1,0 +1,64 @@
+/* --------------------------------------------
+   * Molecules Projects
+-------------------------------------------- */
+
+.content-images {
+  display: flex;
+  flex-direction: column;
+  width: 286px;
+  height: 362px;
+}
+
+.image-one,
+.image-two,
+.image-three {
+  width: 204px;
+  height: 158px;
+}
+
+.content-image-one,
+.content-image-three {
+  justify-content: flex-end;
+}
+
+.content-image-one,
+.content-image-three,
+.content-image-two {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.content-image-one {
+  top: 0;
+  z-index: 1;
+}
+
+.content-image-three {
+  z-index: 3;
+  bottom: 112px;
+}
+
+.content-image-two {
+  justify-content: flex-start;
+  z-index: 2;
+  bottom: 56px;
+}
+
+.image-one,
+.image-two,
+.image-three {
+  border-radius: 5px;
+}
+
+.image-one {
+  box-shadow: 0px 0px 35px 2px rgba(0, 0, 0, 0.15);
+}
+
+.image-two {
+  box-shadow: 0px 0px 35px 4px rgba(0, 0, 0, 0.15);
+}
+
+.image-three {
+  box-shadow: 0px 8px 35px 6px rgba(0, 0, 0, 0.15);
+}
