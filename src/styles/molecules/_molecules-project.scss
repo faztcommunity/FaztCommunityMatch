@@ -81,3 +81,24 @@
 .text-create-project {
   width: 436px;
 }
+
+.txt-info-create-project {
+  cursor: default;
+  font-family: $fontButton;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  color: $backgroundLight;
+}
+
+.content-black-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 498px;
+  height: 60px;
+  background: $contentBlack;
+  border-radius: 7px;
+  padding: 0 16px 0 16px;
+}
