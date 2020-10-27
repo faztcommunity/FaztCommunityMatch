@@ -32,3 +32,17 @@
   display: flex;
   flex-direction: row;
 }
+
+.content-images-mini {
+  display: flex;
+  flex-direction: row;
+  width: 480px;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.section-add-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -8,6 +8,7 @@ import AddImageMini from '../../molecules/create-project/AddImageMini'
 function ColumnProjectOne() {
   return (
 <article>
+  <div className="section-add-images">
   <ContentInfo />
   <div className="container-add-image">
   <div className="content-add-image-one">
@@ -20,9 +21,14 @@ function ColumnProjectOne() {
   <img src={AddImage} alt="Agregar imagen principal"/>
   </div>
   </div>
-  <div>
+
+<div className="content-images-mini">
   <AddImageMini />
-  </div>
+  <AddImageMini />
+  <AddImageMini />
+  <AddImageMini />
+</div>
+</div>
 </article>
   )
 }
