@@ -1,0 +1,18 @@
+import React from 'react'
+
+
+function MiniBtnAfter() {
+  return (
+    <>
+
+        <button className="mini-after">
+        <svg width="13" height="26" viewBox="0 0 13 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.41357 23.6235L9.39961 16.6373C11.3522 14.6847 11.3522 11.5189 9.39957 9.56631L2.41358 2.58032" stroke="#FAFAFA" stroke-width="4" stroke-linecap="round"/>
+</svg>
+        </button>
+
+    </>
+  )
+}
+
+export default MiniBtnAfter

@@ -4,6 +4,8 @@ import ContentInfo from '../../molecules/create-project/ContentInfo'
 import AddImage from '../../../assets/images/Add-image.jpg'
 import AddMoreImages from '../../molecules/create-project/AddMoreImages'
 import AddImageMini from '../../molecules/create-project/AddImageMini'
+import MiniBtnPrevius from '../../atoms/create-project/MiniBtnPrevius'
+import MiniBtnAfter from '../../atoms/create-project/MiniBtnAfter'
 
 function ColumnProjectOne() {
   return (
@@ -23,10 +25,12 @@ function ColumnProjectOne() {
   </div>
 
 <div className="content-images-mini">
+ <MiniBtnPrevius />
   <AddImageMini />
   <AddImageMini />
   <AddImageMini />
   <AddImageMini />
+  <MiniBtnAfter />
 </div>
 </div>
 </article>

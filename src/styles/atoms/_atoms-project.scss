@@ -64,3 +64,30 @@
 .add-img-btn:hover .content-add-btn {
   background: $accentSuccesDark;
 }
+
+.mini-after,
+.mini-previus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: $secondaryColorLight;
+  position: absolute;
+  cursor: pointer;
+  border-width: 0;
+  z-index: 2;
+
+  &:hover {
+    background: $secondaryDark;
+  }
+}
+
+.mini-after {
+  right: 0;
+}
+
+.mini-previus {
+  left: 0;
+}
