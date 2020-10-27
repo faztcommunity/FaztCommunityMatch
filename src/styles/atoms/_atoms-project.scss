@@ -32,3 +32,21 @@
     background: $hooverBlue;
   }
 }
+
+.help-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: $secondaryColorLight;
+}
+
+.help-word {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontSixteen;
+  color: $backgroundLight;
+}
