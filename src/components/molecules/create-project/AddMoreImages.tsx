@@ -2,15 +2,15 @@ import React from 'react'
 import AddButtonGreen from '../../atoms/create-project/AddButtonGreen'
 
 
-function AddImagePrincipal() {
+function AddMoreImages() {
   return (
     <>
         <button className="add-img-btn">
         <span><AddButtonGreen /></span>
-        Subir imagen principal
+        Agregar más imagenes
         </button>
     </>
   )
 }
 
-export default AddImagePrincipal
+export default AddMoreImages

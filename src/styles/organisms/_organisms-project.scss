@@ -13,7 +13,8 @@
   flex-direction: column;
 }
 
-.content-add-image-principal {
+.content-add-image-one,
+.content-add-image-two {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,4 +22,13 @@
   margin-top: 16px;
   width: 243px;
   height: 213px;
+}
+
+.content-add-image-one {
+  margin-right: 44px;
+}
+
+.container-add-image {
+  display: flex;
+  flex-direction: row;
 }
