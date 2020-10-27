@@ -7,6 +7,7 @@ function AddImagePrincipal() {
     <>
         <button className="add-img-btn">
         <span><AddButtonGreen /></span>
+        Subir imagen Principal
         </button>
     </>
   )

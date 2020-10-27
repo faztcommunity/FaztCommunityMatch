@@ -59,4 +59,8 @@
   width: 24px;
   border-radius: 50%;
   background: $accentSuccesLight;
+  margin-right: 8px;
+}
+.add-img-btn:hover .content-add-btn {
+  background: $accentSuccesDark;
 }

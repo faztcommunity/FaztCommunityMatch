@@ -102,3 +102,24 @@
   border-radius: 7px;
   padding: 0 16px 0 16px;
 }
+
+.add-img-btn {
+  display: flex;
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: $backgroundLight;
+  align-items: center;
+  padding: 16px 16px;
+  background: $backgroundDarkTwo;
+  outline: none;
+  border-radius: 7px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.add-img-btn:hover {
+  background: $backgroundDark;
+}
