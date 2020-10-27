@@ -50,3 +50,13 @@
   font-size: $fontSixteen;
   color: $backgroundLight;
 }
+
+.content-add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: $accentSuccesLight;
+}
