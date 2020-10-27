@@ -123,3 +123,22 @@
 .add-img-btn:hover {
   background: $backgroundDark;
 }
+
+.content-image-mini {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 114px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.square-dashed {
+  position: absolute;
+  stroke: #fafafa;
+}
+
+.content-image-mini:hover .square-dashed {
+  stroke: $accentSuccesLight;
+}
