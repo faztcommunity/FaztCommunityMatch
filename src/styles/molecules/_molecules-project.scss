@@ -171,6 +171,7 @@
   font-size: $fontThirtyTwo;
   text-align: center;
   vertical-align: auto;
+  padding: 0 8px;
 }
 
 .input-description-project {
@@ -180,6 +181,7 @@
   border-radius: 5px;
   font-size: $fontSixteen;
   height: 102px;
+  padding: 8px 8px;
 }
 
 .input-title-project,
@@ -191,7 +193,6 @@
   font-weight: bold;
   color: $backgroundDark;
   background-color: transparent;
-  padding: 8px 8px;
 
   &::-webkit-input-placeholder {
     color: #d7d6d6;
