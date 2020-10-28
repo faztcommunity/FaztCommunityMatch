@@ -92,11 +92,19 @@
 }
 
 .content-black-info {
+  width: 498px;
+}
+
+.content-black-info-two {
+  width: 736px;
+}
+
+.content-black-info,
+.content-black-info-two {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 498px;
   height: 60px;
   background: $contentBlack;
   border-radius: 7px;

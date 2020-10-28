@@ -34,6 +34,7 @@ function ColumnProjectOne() {
   <AddImageMini />
   <MiniBtnAfter />
 </div>
+
 </div>
 
 <ContentTypeOfProject />

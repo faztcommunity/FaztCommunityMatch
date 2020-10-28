@@ -35,16 +35,19 @@
 
 .content-images-mini {
   display: flex;
+  position: relative;
   flex-direction: row;
   width: 480px;
   justify-content: space-between;
   align-items: center;
   margin-top: 8px;
   margin-bottom: 24px;
+  z-index: 1px;
 }
 
 .section-add-images {
   display: flex;
+  width: 530px;
   flex-direction: column;
   align-items: center;
 }
@@ -161,4 +164,9 @@
   &:hover {
     fill: $primaryBase;
   }
+}
+
+.article-column-project-two {
+  margin-left: 54px;
+  margin-right: 54px;
 }
