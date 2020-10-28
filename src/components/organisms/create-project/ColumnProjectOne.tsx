@@ -7,6 +7,7 @@ import AddImageMini from '../../molecules/create-project/AddImageMini'
 import MiniBtnPrevius from '../../atoms/create-project/MiniBtnPrevius'
 import MiniBtnAfter from '../../atoms/create-project/MiniBtnAfter'
 import ContentTypeOfProject from '../../molecules/create-project/ContentTypeOfProject'
+import TypeOfProject from './TypeOfProject'
 
 function ColumnProjectOne() {
   return (
@@ -36,6 +37,7 @@ function ColumnProjectOne() {
 </div>
 
 <ContentTypeOfProject />
+<TypeOfProject />
 </article>
   )
 }

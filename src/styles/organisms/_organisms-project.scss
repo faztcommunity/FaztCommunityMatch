@@ -48,3 +48,117 @@
   flex-direction: column;
   align-items: center;
 }
+
+.content-type-proyect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+  height: 166px;
+  padding: 16px 16px;
+  width: 498px;
+  background: $whiteThree;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.select-type-project {
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 0 16px;
+  font-family: $fontButton;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  color: $backgroundDark;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  background-image: none;
+  cursor: pointer;
+  background: #bfedc6;
+}
+
+.select-type-project::-ms-expand {
+  display: none;
+}
+
+.select-style {
+  display: flex;
+  position: relative;
+  margin-bottom: 16px;
+  height: 40px;
+  width: 454px;
+  overflow: hidden;
+  background: #bfedc6;
+  border-radius: 5px;
+
+  &:after {
+    height: 40px;
+    content: '\f0d7';
+    font-family: 'Font Awesome 5 Free';
+    color: $backgroundLight;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 10px;
+    background: $contentBlack;
+    pointer-events: none;
+    transition: 0.25s all ease;
+  }
+
+  &:hover:after {
+    color: $accentSuccesLight;
+  }
+}
+
+.content-selected-type-project {
+  display: flex;
+  position: relative;
+  left: 0;
+  flex-direction: column;
+  width: max-content;
+  background: $accentSuccesDark;
+  padding: 16px 16px;
+  border-radius: 5px;
+}
+
+.container-types-project {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.txt-type-project {
+  font-family: $fontButton;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 4px;
+  font-size: $fontFourteen;
+  color: $backgroundLight;
+}
+
+.content-svg-type-project {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-delete-mini {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  fill: $backgroundLight;
+  stroke: 3px;
+  cursor: pointer;
+
+  &:hover {
+    fill: $primaryBase;
+  }
+}
