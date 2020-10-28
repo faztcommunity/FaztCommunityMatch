@@ -2,7 +2,7 @@ import React from 'react'
 import HelpButton from '../../atoms/create-project/HelpButton'
 
 
-function ContentProjectTest() {
+function ContentProjectRequirements() {
   return (
     <>
         <div className="content-black-info-three">
@@ -13,4 +13,4 @@ function ContentProjectTest() {
   )
 }
 
-export default ContentProjectTest
+export default ContentProjectRequirements
