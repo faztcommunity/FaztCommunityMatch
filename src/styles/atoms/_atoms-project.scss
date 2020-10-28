@@ -91,3 +91,28 @@
 .mini-previus {
   left: -25px;
 }
+
+.btn-create-test-project {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 32px;
+  height: 52px;
+  width: 100%;
+  background: transparent;
+  border-width: 0;
+  outline: 0;
+  cursor: pointer;
+  border: 4px solid $accentSuccesDark;
+  border-radius: 8px;
+  background: transparent;
+  font-family: $fontBody;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  color: $accentSuccesDark;
+
+  &:hover {
+    background: $accentSuccesDark;
+    color: $backgroundLight;
+  }
+}
