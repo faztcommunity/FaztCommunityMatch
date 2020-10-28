@@ -224,3 +224,22 @@
   color: #787878;
   cursor: default;
 }
+
+.content-info-test-project {
+  margin-top: 16px;
+  padding: 16px 16px;
+  width: 704px;
+  height: 161px;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  background: $whiteThree;
+}
+
+.info-test-project {
+  font-family: $fontBody;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontEighteen;
+  color: $backgroundDark;
+  line-height: 24px;
+}

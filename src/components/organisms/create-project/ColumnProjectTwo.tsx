@@ -1,5 +1,6 @@
 import React from 'react'
 import ContentDescriptionProject from '../../molecules/create-project/ContentDescriptionProject'
+import ContentInfoProjectTest from '../../molecules/create-project/ContentInfoProjectTest'
 import ContentProjectTest from '../../molecules/create-project/ContentProjectTest'
 import ContentTitleProject from '../../molecules/create-project/ContentTitleProject'
 import InputDescriptionProject from '../../molecules/create-project/InputDescriptionProject'
@@ -13,6 +14,7 @@ function ColumnProjectTwo() {
   <ContentDescriptionProject />
   <InputDescriptionProject />
   <ContentProjectTest />
+  <ContentInfoProjectTest />
 </article>
   )
 }
