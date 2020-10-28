@@ -174,3 +174,133 @@
 .article-column-project-three {
   margin-right: 64px;
 }
+
+.content-add-requirements {
+  margin-top: 16px;
+  height: 586px;
+  width: 369px;
+  background: #fefefe;
+  border-radius: 5px;
+  padding: 16px 16px;
+}
+
+.mini-content-add-requirements {
+  width: 353px;
+  height: 76px;
+  background: #e5e5e5;
+  border-radius: 4px;
+  padding: 8px 8px;
+}
+
+.content-percent-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 52px;
+  background: $backgroundDark;
+  border-radius: 16px;
+  margin-right: 8px;
+  padding: 2px 0;
+}
+
+.percent-project {
+  font-family: $fontButton;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontFourteen;
+  color: $backgroundLight;
+  cursor: default;
+}
+
+.container-select-project {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.choose-technology {
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 4px 4px;
+  font-family: $fontButton;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontFourteen;
+  color: $backgroundDark;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  background-image: none;
+  cursor: pointer;
+  background: #d6feeb;
+  border-radius: 12px;
+  max-width: max-content;
+}
+
+.mini-icon-delete {
+  display: flex;
+  position: relative;
+  align-content: flex-end;
+  fill: #ff295f;
+  stroke-width: 1.4;
+  cursor: pointer;
+
+  &:hover {
+    fill: #ec0b2b;
+    stroke-width: 1.8;
+  }
+}
+
+.container-select-project-two {
+  display: flex;
+  flex-direction: row;
+}
+
+.progress-bar-tech {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  border-radius: 50px;
+}
+
+.content-range-slider-tech {
+  display: flex;
+  position: absolute;
+  width: 290px;
+  top: 155px;
+  left: 1460px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content-range-slider-tech .slider-tech::-webkit-slider-thumb:active {
+  box-shadow: 0 0 0 5px rgba(55, 166, 246, 0.4);
+}
+
+.slider-tech {
+  position: relative;
+  width: 100%;
+  -webkit-appearance: none;
+  height: 5px;
+  border-radius: 50px;
+  outline: none;
+}
+.slider-tech::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: $backgroundDark;
+  border: 2px solid #0776c6;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
