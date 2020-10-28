@@ -1,4 +1,5 @@
 import React from 'react'
+import BtnSaveNext from '../../atoms/create-project/BtnSaveNext'
 import ContentDescriptionProject from '../../molecules/create-project/ContentDescriptionProject'
 import ContentInfoProjectTest from '../../molecules/create-project/ContentInfoProjectTest'
 import ContentProjectTest from '../../molecules/create-project/ContentProjectTest'
@@ -15,6 +16,7 @@ function ColumnProjectTwo() {
   <InputDescriptionProject />
   <ContentProjectTest />
   <ContentInfoProjectTest />
+  <BtnSaveNext />
 </article>
   )
 }
