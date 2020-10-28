@@ -99,8 +99,13 @@
   width: 704px;
 }
 
+.content-black-info-three {
+  width: 369px;
+}
+
 .content-black-info,
-.content-black-info-two {
+.content-black-info-two,
+.content-black-info-three {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
