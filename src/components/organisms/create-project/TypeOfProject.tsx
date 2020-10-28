@@ -6,7 +6,7 @@ function TypeOfProject() {
         <div className="content-type-proyect">
     <div className="select-style">
     <select className="select-type-project" name="" id="">
-        <option selected disabled>Seleccionar tipo de proyecto</option>
+        <option defaultValue="Seleccionar tipo de proyecto" selected disabled>Seleccionar tipo de proyecto</option>
         <option value="1">Proyecto para aprender</option>
         <option value="2">Proyecto con monetización futura</option>
         <option value="3">Proyecto monetizado</option>

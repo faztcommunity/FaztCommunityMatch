@@ -22,7 +22,7 @@ function AddRequirementsProject() {
         <div className="container-select-project-two">
 <div className="content-percent-project"><span className="percent-project">{parseInt(valueTech)}%</span></div>
 <select className="choose-technology" name="" id="">
-    <option selected disabled value="">Seleccionar</option>
+    <option selected disabled >Seleccionar</option>
     <option value="">TypeScript</option>
     <option value="">Javascript</option>
     <option value="">Java</option>
