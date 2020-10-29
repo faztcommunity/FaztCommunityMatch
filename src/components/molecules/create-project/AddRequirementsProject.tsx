@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import BtnAddRequirement from '../../atoms/create-project/BtnAddRequirement'
 
 
 function AddRequirementsProject() {
@@ -23,6 +24,7 @@ function AddRequirementsProject() {
 <div className="content-percent-project"><span className="percent-project">{parseInt(valueTech)}%</span></div>
 <select className="choose-technology" name="" id="">
     <option selected disabled >Seleccionar</option>
+    <option value="">Ningun Requisito</option>
     <option value="">TypeScript</option>
     <option value="">Javascript</option>
     <option value="">Java</option>
@@ -74,6 +76,7 @@ function AddRequirementsProject() {
         <div className="progress-bar-tech"></div>
       </div>
 </div>
+<BtnAddRequirement />
         </div>
     </>
   )
