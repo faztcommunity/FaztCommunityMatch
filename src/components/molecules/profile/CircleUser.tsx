@@ -1,4 +1,3 @@
-import React from 'react'
 import BtonEditImage from '../../atoms/profile/BtonEditImage'
 import CircleDropUser from '../../atoms/profile/CircleDropUser'
 import IconEditImage from '../../atoms/profile/IconEditImage'

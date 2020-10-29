@@ -14,7 +14,7 @@ function BtnProfile() {
         </div>
         <span className="line-hover"></span>
       </div>
-      </Link>
+    </Link>
   )
 }
 

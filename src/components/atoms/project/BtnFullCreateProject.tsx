@@ -1,13 +1,10 @@
-import React from 'react'
 import Link from 'next/link'
 
 function BtnFullCreateProject() {
   return (
     <>
       <Link href="/crear-proyecto">
-        <button className="btn-full-create-project">
-          Crear Proyecto
-        </button>
+        <button className="btn-full-create-project">Crear Proyecto</button>
       </Link>
     </>
   )

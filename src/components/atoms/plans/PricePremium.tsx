@@ -1,5 +1,3 @@
-import React from 'react'
-
 function PricePremium() {
   return (
     <div className="content-price-premium">

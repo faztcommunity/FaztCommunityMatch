@@ -1,4 +1,3 @@
-import React from 'react'
 import Link from 'next/link'
 /* import { useRef } from 'react'
 import ModalDone from '../molecules/Modal/ModalDone'

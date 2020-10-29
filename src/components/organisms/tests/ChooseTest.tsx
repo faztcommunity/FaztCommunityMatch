@@ -1,4 +1,3 @@
-import React from 'react'
 import TitleChooseTest from '../../atoms/tests/TitleChooseTest'
 import CardTestProject from '../../molecules/tests/CardTestProject'
 import CardTestUser from '../../molecules/tests/CardTestUser'

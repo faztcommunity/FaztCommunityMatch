@@ -1,4 +1,3 @@
-import React from 'react'
 import Link from 'next/link'
 import IconProject from '../../atoms/profile/IconProject'
 import IconTest from '../../atoms/profile/IconTest'

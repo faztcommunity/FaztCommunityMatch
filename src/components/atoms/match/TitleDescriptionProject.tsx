@@ -1,5 +1,3 @@
-import React from 'react'
-
 function TitleDescriptionProject() {
   return (
     <div className="content-title-description-project">

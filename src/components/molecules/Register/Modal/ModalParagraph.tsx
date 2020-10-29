@@ -1,4 +1,3 @@
-import React from 'react'
 import BtonAcceptTerms from '../../../atoms/Register/BtonAcceptTerms'
 import BtonCancel from '../../../atoms/Register/BtonCancel'
 import InfoModal from '../../../atoms/Register/InfoModal'

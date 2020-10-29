@@ -1,4 +1,3 @@
-import React from 'react'
 import IconChange from '../../atoms/profile/IconChange'
 import IconInfoChange from '../../atoms/profile/IconInfoChange'
 

@@ -1,13 +1,10 @@
-import React from 'react'
 import TitleRequirementsProject from '../../atoms/match/TitleRequirementsProject'
 
 function ContentRequirementProject() {
   return (
     <article className="content-card-requirement-project">
       <TitleRequirementsProject />
-      <div className="card-requirement-project">
-
-      </div>
+      <div className="card-requirement-project"></div>
     </article>
   )
 }

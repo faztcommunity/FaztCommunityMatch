@@ -1,5 +1,3 @@
-import React from 'react'
-
 function BackgroundProfileUser() {
   return (
     <div className="content-backgrounds-user">

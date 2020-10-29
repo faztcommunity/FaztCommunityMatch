@@ -1,4 +1,3 @@
-import React from 'react'
 import IconNavMatch from '../../atoms/profile/IconNavMatch'
 import Link from 'next/link'
 import IconMatchSmall from '../../atoms/profile/IconMatchSmall'

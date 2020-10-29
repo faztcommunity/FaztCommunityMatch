@@ -1,4 +1,3 @@
-import React from 'react'
 import BtnSaveNext from '../../atoms/create-project/BtnSaveNext'
 import ContentDescriptionProject from '../../molecules/create-project/ContentDescriptionProject'
 import ContentInfoProjectTest from '../../molecules/create-project/ContentInfoProjectTest'
@@ -9,15 +8,15 @@ import InputEditTitleProject from '../../molecules/create-project/InputEditTitle
 
 function ColumnProjectTwo() {
   return (
-<article className="article-column-project-two">
-  <ContentTitleProject />
-  <InputEditTitleProject />
-  <ContentDescriptionProject />
-  <InputDescriptionProject />
-  <ContentProjectTest />
-  <ContentInfoProjectTest />
-  <BtnSaveNext />
-</article>
+    <article className="article-column-project-two">
+      <ContentTitleProject />
+      <InputEditTitleProject />
+      <ContentDescriptionProject />
+      <InputDescriptionProject />
+      <ContentProjectTest />
+      <ContentInfoProjectTest />
+      <BtnSaveNext />
+    </article>
   )
 }
 

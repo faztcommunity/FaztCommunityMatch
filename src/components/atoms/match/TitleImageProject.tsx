@@ -1,5 +1,3 @@
-import React from 'react'
-
 function TitleImageProject() {
   return (
     <div className="content-title-image-project">

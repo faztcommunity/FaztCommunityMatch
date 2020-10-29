@@ -1,5 +1,3 @@
-import React from 'react'
-
 function TitleCardFree() {
   return (
     <div className="content-title-free">

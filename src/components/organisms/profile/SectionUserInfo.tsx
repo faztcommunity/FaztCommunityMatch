@@ -1,4 +1,3 @@
-import React from 'react'
 import TitleNameUser from '../../atoms/profile/TitleNameUser'
 import BackgroundProfileUser from '../../molecules/profile/BackgroundProfileUser'
 import CircleUser from '../../molecules/profile/CircleUser'

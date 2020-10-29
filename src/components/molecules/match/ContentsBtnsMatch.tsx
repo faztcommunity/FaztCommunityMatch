@@ -1,4 +1,3 @@
-import React from 'react'
 import IconBtnMatch from '../../atoms/match/IconBtnMatch'
 import IconDontLike from '../../atoms/match/IconDontLike'
 import IconGiveHeart from '../../atoms/match/IconGiveHeart'
@@ -9,11 +8,10 @@ import IconPrevius from '../../atoms/match/IconPrevius'
 function ContentsBtnsMatch() {
   return (
     <div className="content-card-match">
-        <div className="content-btns-match">
-
+      <div className="content-btns-match">
         <div className="content-btn-hover-previus">
-        <IconPrevius />
-        <span className="hover-btns-match"></span>
+          <IconPrevius />
+          <span className="hover-btns-match"></span>
         </div>
 
         <div className="content-btn-hover-dont-like">
@@ -40,9 +38,8 @@ function ContentsBtnsMatch() {
           <IconNext />
           <span className="hover-btns-match"></span>
         </div>
-
-        </div>
-        <div className="background-btns-match"></div>
+      </div>
+      <div className="background-btns-match"></div>
     </div>
   )
 }
