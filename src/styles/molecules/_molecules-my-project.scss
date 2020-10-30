@@ -37,6 +37,10 @@
   height: 180px;
 }
 
+.carrousel-btn-left {
+  left: 514px;
+}
+
 .carrousel-btn-left,
 .carrousel-btn-right {
   display: flex;
@@ -72,4 +76,35 @@
   right: 0;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+.content-project-reactions {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  width: 590px;
+  justify-content: space-between;
+}
+
+.tite-project-end {
+  font-size: $fontTwentyFour;
+}
+
+.tite-project-end,
+.number-reaction-star,
+.number-reaction-heart {
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  color: $backgroundDark;
+}
+
+.reaction-react {
+  margin-left: 32px;
+}
+
+.number-reaction-star,
+.number-reaction-heart {
+  font-size: $fontEighteen;
+  margin-left: 4px;
 }
