@@ -122,7 +122,8 @@
   }
 }
 
-.content-selected-type-project {
+.content-selected-type-project,
+.content-selected-type-project-two {
   display: flex;
   position: relative;
   left: 0;
@@ -131,6 +132,8 @@
   background: $accentSuccesDark;
   padding: 4px 4px;
   border-radius: 5px;
+  height: max-content;
+  cursor: default;
 }
 
 .container-types-project {
@@ -139,7 +142,8 @@
   width: 100%;
 }
 
-.txt-type-project {
+.txt-type-project,
+.txt-type-project-two {
   font-family: $fontButton;
   font-style: normal;
   font-weight: bold;

@@ -1,3 +1,5 @@
+import BoxTypeOfProject from "../create-project/BoxTypeOfProject"
+import BoxTypeOfProjectTwo from "../create-project/BoxTypeOfProjectTwo"
 
 
 function CardTypeOfProject() {
@@ -5,9 +7,10 @@ function CardTypeOfProject() {
 
     return (
 <>
-        <h2></h2>
+        <h2 className="type-project-edited">Tipo de proyecto</h2>
         <div className="content-card-type-project">
-
+        <BoxTypeOfProject />
+        <BoxTypeOfProjectTwo />
         </div>
         </>
     )
