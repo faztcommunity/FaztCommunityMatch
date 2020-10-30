@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 import AboutMeUser from './AboutMeUser'
 import SectionAbilitiesUser from './SectionAbilitiesUser'

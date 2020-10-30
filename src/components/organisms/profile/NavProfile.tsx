@@ -1,4 +1,3 @@
-import React from 'react'
 import LogoFaztMatch from '../../atoms/profile/LogoFaztMatch'
 import BackgroundNav from '../../molecules/profile/BackgroundNav'
 import BtnProfile from '../../molecules/profile/BtnProfile'

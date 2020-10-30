@@ -1,4 +1,3 @@
-import React from 'react'
 import TitleDescriptionMatch from '../../atoms/profile/TitleDescriptionMatch'
 
 function SectionMatchUser() {

@@ -1,5 +1,3 @@
-import React from 'react'
-
 function TitleTypeProject() {
   return (
     <div className="content-title-type-project">

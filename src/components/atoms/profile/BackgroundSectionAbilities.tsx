@@ -1,4 +1,3 @@
-import React from 'react'
 import BtonCreateTest from '../../atoms/profile/BtonCreateTest'
 import TitleCreateTest from '../../atoms/profile/TitleCreateTest'
 

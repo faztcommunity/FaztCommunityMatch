@@ -26,89 +26,123 @@ import TestCompleted from '../../components/organisms/test-user/TestCompleted'
 function TestUser() {
   const [page, setPage] = useState(0)
 
-if (page === 0){
+  if (page === 0) {
+    return (
+      <>
+        <Head>
+          <title>Test Usuario</title>
+        </Head>
 
-  return (
-    <>
-      <Head>
-        <title>Test Usuario</title>
-      </Head>
-
-      <div>
-      <section className="global-test-user">
-      <TitleDescriptionTestUser />
-        <QuestionUserOne />
-        <QuestionUserTwo />
-        <QuestionUserThree />
-        <QuestionUserFour />
-        <QuestionUserFive />
-        <button onClick={() => setPage(page + 1)} className="btn-next-question">Continuar</button>
-</section>
-      </div>
-    </>
-  )
-}
-
-if(page === 1){
-  return(
-<div>
-      <section className="global-test-user">
-        <QuestionUserSix />
-        <QuestionUserSeven />
-        <QuestionUserEight />
-        <QuestionUserNine />
-        <QuestionUserTen />
-        <div className="content-btns">
-        <button onClick={() => setPage(page - 1)} className="btn-previus-question">Anterior</button>
-        <button onClick={() => setPage(page + 1)} className="btn-next-question-two">Continuar</button>
+        <div>
+          <section className="global-test-user">
+            <TitleDescriptionTestUser />
+            <QuestionUserOne />
+            <QuestionUserTwo />
+            <QuestionUserThree />
+            <QuestionUserFour />
+            <QuestionUserFive />
+            <button
+              onClick={() => setPage(page + 1)}
+              className="btn-next-question"
+            >
+              Continuar
+            </button>
+          </section>
         </div>
-</section>
-      </div>
+      </>
+    )
+  }
 
-  )}
-
-  if(page === 2){
-    return(
+  if (page === 1) {
+    return (
       <div>
-      <section className="global-test-user">
-        <QuestionUserEleven />
-        <QuestionUserTwelve />
-        <QuestionUserThirteen />
-        <QuestionUserFourteen />
-        <QuestionUserFiveteen />
-        <div className="content-btns">
-        <button onClick={() => setPage(page - 1)} className="btn-previus-question">Anterior</button>
-        <button onClick={() => setPage(page + 1)} className="btn-next-question-two">Continuar</button>
-        </div>
-</section>
-      </div>
-    )}
-
-
-  if (page === 3){
-    return(
-      <div>
-      <section className="global-test-user">
-        <QuestionUserSixteen />
-        <QuestionUserSeventeen />
-        <QuestionUserEighteen />
-        <QuestionUserNineteen />
-        <QuestionUserTwenty />
-        <div className="content-btns">
-        <button onClick={() => setPage(page - 1)} className="btn-previus-question">Anterior</button>
-        <button onClick={() => setPage(page + 1)} className="btn-next-question-two">Finalizar</button>
-        </div>
+        <section className="global-test-user">
+          <QuestionUserSix />
+          <QuestionUserSeven />
+          <QuestionUserEight />
+          <QuestionUserNine />
+          <QuestionUserTen />
+          <div className="content-btns">
+            <button
+              onClick={() => setPage(page - 1)}
+              className="btn-previus-question"
+            >
+              Anterior
+            </button>
+            <button
+              onClick={() => setPage(page + 1)}
+              className="btn-next-question-two"
+            >
+              Continuar
+            </button>
+          </div>
         </section>
       </div>
     )
   }
 
-  if (page === 4){
-    return(
-    <section className="global-test-user-modal">
-   <TestCompleted />
-    </section>
-)
+  if (page === 2) {
+    return (
+      <div>
+        <section className="global-test-user">
+          <QuestionUserEleven />
+          <QuestionUserTwelve />
+          <QuestionUserThirteen />
+          <QuestionUserFourteen />
+          <QuestionUserFiveteen />
+          <div className="content-btns">
+            <button
+              onClick={() => setPage(page - 1)}
+              className="btn-previus-question"
+            >
+              Anterior
+            </button>
+            <button
+              onClick={() => setPage(page + 1)}
+              className="btn-next-question-two"
+            >
+              Continuar
+            </button>
+          </div>
+        </section>
+      </div>
+    )
+  }
+
+  if (page === 3) {
+    return (
+      <div>
+        <section className="global-test-user">
+          <QuestionUserSixteen />
+          <QuestionUserSeventeen />
+          <QuestionUserEighteen />
+          <QuestionUserNineteen />
+          <QuestionUserTwenty />
+          <div className="content-btns">
+            <button
+              onClick={() => setPage(page - 1)}
+              className="btn-previus-question"
+            >
+              Anterior
+            </button>
+            <button
+              onClick={() => setPage(page + 1)}
+              className="btn-next-question-two"
+            >
+              Finalizar
+            </button>
+          </div>
+        </section>
+      </div>
+    )
+  }
+
+  if (page === 4) {
+    return (
+      <section className="global-test-user-modal">
+        <TestCompleted />
+      </section>
+    )
   }
 }
 export default TestUser

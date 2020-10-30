@@ -1,5 +1,3 @@
-import React from 'react'
-
 function PriceFree() {
   return (
     <div className="content-price-free">

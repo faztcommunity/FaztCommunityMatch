@@ -1,5 +1,3 @@
-import React from 'react'
-
 function TitleCardPremium() {
   return (
     <div className="content-title-premium">

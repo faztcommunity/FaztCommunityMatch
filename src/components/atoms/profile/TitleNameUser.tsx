@@ -1,5 +1,3 @@
-import React from 'react'
-
 function TitleNameUser() {
   return (
     <div className="content-title-user">

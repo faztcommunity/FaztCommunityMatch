@@ -1,4 +1,3 @@
-import React from 'react'
 import BackgroundCardPremium from '../../atoms/plans/BackgroundCardPremium'
 
 function CardPremium() {

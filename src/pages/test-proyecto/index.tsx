@@ -26,89 +26,123 @@ import TestCompleted from '../../components/organisms/test-project/TestCompleted
 function TestProject() {
   const [page, setPage] = useState(0)
 
-if (page === 0){
+  if (page === 0) {
+    return (
+      <>
+        <Head>
+          <title>Test Proyecto</title>
+        </Head>
 
-  return (
-    <>
-      <Head>
-        <title>Test Proyecto</title>
-      </Head>
-
-      <div>
-      <section className="global-test-project">
-      <TitleDescriptionTestProject />
-        <QuestionProjectOne />
-        <QuestionProjectTwo />
-        <QuestionProjectThree />
-        <QuestionProjectFour />
-        <QuestionProjectFive />
-        <button onClick={() => setPage(page + 1)} className="btn-next-question">Continuar</button>
-</section>
-      </div>
-    </>
-  )
-}
-
-if(page === 1){
-  return(
-<div>
-      <section className="global-test-project">
-        <QuestionProjectSix />
-        <QuestionProjectSeven />
-        <QuestionProjectEight />
-        <QuestionProjectNine />
-        <QuestionProjectTen />
-        <div className="content-btns">
-        <button onClick={() => setPage(page - 1)} className="btn-previus-question">Anterior</button>
-        <button onClick={() => setPage(page + 1)} className="btn-next-question-two">Continuar</button>
+        <div>
+          <section className="global-test-project">
+            <TitleDescriptionTestProject />
+            <QuestionProjectOne />
+            <QuestionProjectTwo />
+            <QuestionProjectThree />
+            <QuestionProjectFour />
+            <QuestionProjectFive />
+            <button
+              onClick={() => setPage(page + 1)}
+              className="btn-next-question"
+            >
+              Continuar
+            </button>
+          </section>
         </div>
-</section>
-      </div>
+      </>
+    )
+  }
 
-  )}
-
-  if(page === 2){
-    return(
+  if (page === 1) {
+    return (
       <div>
-      <section className="global-test-project">
-        <QuestionProjectEleven />
-        <QuestionProjectTwelve />
-        <QuestionProjectThirteen />
-        <QuestionProjectFourteen />
-        <QuestionProjectFiveteen />
-        <div className="content-btns">
-        <button onClick={() => setPage(page - 1)} className="btn-previus-question">Anterior</button>
-        <button onClick={() => setPage(page + 1)} className="btn-next-question-two">Continuar</button>
-        </div>
-</section>
-      </div>
-    )}
-
-
-  if (page === 3){
-    return(
-      <div>
-      <section className="global-test-project">
-        <QuestionProjectSixteen />
-        <QuestionProjectSeventeen />
-        <QuestionProjectEighteen />
-        <QuestionProjectNineteen />
-        <QuestionProjectTwenty />
-        <div className="content-btns">
-        <button onClick={() => setPage(page - 1)} className="btn-previus-question">Anterior</button>
-        <button onClick={() => setPage(page + 1)} className="btn-next-question-two">Finalizar</button>
-        </div>
+        <section className="global-test-project">
+          <QuestionProjectSix />
+          <QuestionProjectSeven />
+          <QuestionProjectEight />
+          <QuestionProjectNine />
+          <QuestionProjectTen />
+          <div className="content-btns">
+            <button
+              onClick={() => setPage(page - 1)}
+              className="btn-previus-question"
+            >
+              Anterior
+            </button>
+            <button
+              onClick={() => setPage(page + 1)}
+              className="btn-next-question-two"
+            >
+              Continuar
+            </button>
+          </div>
         </section>
       </div>
     )
   }
 
-  if (page === 4){
-    return(
-    <section className="global-test-project-modal">
-   <TestCompleted />
-    </section>
-)
+  if (page === 2) {
+    return (
+      <div>
+        <section className="global-test-project">
+          <QuestionProjectEleven />
+          <QuestionProjectTwelve />
+          <QuestionProjectThirteen />
+          <QuestionProjectFourteen />
+          <QuestionProjectFiveteen />
+          <div className="content-btns">
+            <button
+              onClick={() => setPage(page - 1)}
+              className="btn-previus-question"
+            >
+              Anterior
+            </button>
+            <button
+              onClick={() => setPage(page + 1)}
+              className="btn-next-question-two"
+            >
+              Continuar
+            </button>
+          </div>
+        </section>
+      </div>
+    )
+  }
+
+  if (page === 3) {
+    return (
+      <div>
+        <section className="global-test-project">
+          <QuestionProjectSixteen />
+          <QuestionProjectSeventeen />
+          <QuestionProjectEighteen />
+          <QuestionProjectNineteen />
+          <QuestionProjectTwenty />
+          <div className="content-btns">
+            <button
+              onClick={() => setPage(page - 1)}
+              className="btn-previus-question"
+            >
+              Anterior
+            </button>
+            <button
+              onClick={() => setPage(page + 1)}
+              className="btn-next-question-two"
+            >
+              Finalizar
+            </button>
+          </div>
+        </section>
+      </div>
+    )
+  }
+
+  if (page === 4) {
+    return (
+      <section className="global-test-project-modal">
+        <TestCompleted />
+      </section>
+    )
   }
 }
 export default TestProject

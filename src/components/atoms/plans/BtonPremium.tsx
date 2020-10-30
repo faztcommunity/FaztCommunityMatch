@@ -1,5 +1,3 @@
-import React from 'react'
-
 function BtonPremium() {
   return (
     <div className="content-btn-premium">

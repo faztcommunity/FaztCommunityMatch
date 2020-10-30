@@ -1,5 +1,3 @@
-import React from 'react'
-
 function TitleHome() {
   return (
     <div className="content-title-home">

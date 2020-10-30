@@ -1,10 +1,7 @@
-import React from 'react'
 import Head from 'next/head'
 import NavProfile from '../../components/organisms/profile/NavProfile'
 import CardMatchProject from '../../components/organisms/match/CardMatchProject'
 import ContentsBtnsMatch from '../../components/molecules/match/ContentsBtnsMatch'
-
-
 
 function Plans() {
   return (
@@ -18,9 +15,9 @@ function Plans() {
       </header>
       <main className="content-global-match-project">
         <section className="section-card-project">
-      <ContentsBtnsMatch />
-      <CardMatchProject />
-      </section>
+          <ContentsBtnsMatch />
+          <CardMatchProject />
+        </section>
       </main>
     </>
   )

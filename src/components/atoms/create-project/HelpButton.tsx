@@ -1,9 +1,7 @@
-import React from 'react'
-
 function HelpButton() {
   return (
     <div className="help-btn">
-        <span className="help-word">?</span>
+      <span className="help-word">?</span>
     </div>
   )
 }

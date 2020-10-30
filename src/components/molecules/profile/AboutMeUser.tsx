@@ -1,4 +1,3 @@
-import React from 'react'
 import IconAddRedSocial from '../../atoms/profile/IconAddRedSocial'
 import IconCircleSocial from '../../atoms/profile/IconCircleSocial'
 

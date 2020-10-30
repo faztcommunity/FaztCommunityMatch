@@ -1,4 +1,3 @@
-import React from 'react'
 import BtnDone from '../../../atoms/Register/BtnDone'
 import CheckModal from '../../../atoms/Register/CheckModal'
 

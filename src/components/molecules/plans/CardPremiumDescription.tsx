@@ -1,4 +1,3 @@
-import React from 'react'
 import BtonPremium from '../../atoms/plans/BtonPremium'
 import PricePremium from '../../atoms/plans/PricePremium'
 

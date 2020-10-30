@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import PageFormTwo from './PageFormTwo'
 import TitleRpass from '../../../atoms/Register/titleRpass'
 import ProgressBar from '../../../molecules/Register/various/progress-bar'

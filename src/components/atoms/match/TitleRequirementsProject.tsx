@@ -1,5 +1,3 @@
-import React from 'react'
-
 function TitleRequirementsProject() {
   return (
     <div className="content-title-requirement-project">
