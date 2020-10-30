@@ -86,19 +86,25 @@
 }
 
 .tite-project-end,
-.type-project-edited {
+.type-project-edited,
+.history-project-card {
   font-size: $fontTwentyFour;
 }
 
 .type-project-edited {
   margin-top: 24px;
+}
+
+.type-project-edited,
+.history-project-card {
   margin-bottom: 8px;
 }
 
 .tite-project-end,
 .number-reaction-star,
 .number-reaction-heart,
-.type-project-edited {
+.type-project-edited,
+.history-project-card {
   font-family: $fontTitle;
   font-style: normal;
   font-weight: bold;
@@ -122,10 +128,17 @@
 .content-card-type-project {
   display: flex;
   height: 122px;
+  margin-bottom: 24px;
+}
+
+.content-card-history-project {
+  height: 232px;
+  margin-bottom: 64px;
 }
 
 .content-card-description-project,
-.content-card-type-project {
+.content-card-type-project,
+.content-card-history-project {
   background: $whiteTwo;
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
   border-radius: 10px;

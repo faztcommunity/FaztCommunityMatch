@@ -1,4 +1,5 @@
 import CardDesciptionProject from "../../molecules/my-project/CardDesciptionProject"
+import CardHistoryProject from "../../molecules/my-project/CardHistoryProject"
 import CardTypeOfProject from "../../molecules/my-project/CardTypeOfProject"
 import TitleProjectReactions from "../../molecules/my-project/TitleProjectReactions"
 
@@ -10,6 +11,7 @@ function MyProjectColumnTwo() {
 <TitleProjectReactions />
 <CardDesciptionProject />
 <CardTypeOfProject />
+<CardHistoryProject />
 </article>
   )
 }
