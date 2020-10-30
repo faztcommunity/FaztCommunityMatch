@@ -1,14 +1,9 @@
-import React, { useEffect } from 'react'
-import { useReducer } from 'react';
 import { useState } from 'react';
-import { useSwipeable } from 'react-swipeable/types';
-import { Transform } from 'stream';
-import LittleImage from '../../../assets/png/little-image.png'
 import ImgCarrouselFive from '../../atoms/my-project/ImgCarrouselFive';
 import ImgCarrouselFour from '../../atoms/my-project/ImgCarrouselFour';
 import ImgCarrouselOne from '../../atoms/my-project/ImgCarrouselOne';
 import ImgCarrouselThree from '../../atoms/my-project/ImgCarrouselThree';
-import ImgCarrouselTwo from '../../atoms/my-project/ImgCarrouseltwo';
+import ImgCarrouselTwo from '../../atoms/my-project/ImgCarrouselTwo';
 
 function CarrouselImagesProject() {
 const [x, setX] = useState(0)
