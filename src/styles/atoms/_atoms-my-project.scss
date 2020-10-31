@@ -1,0 +1,50 @@
+.icon-add-social-project {
+  stroke: #fafafa;
+  stroke-width: 3.5;
+  cursor: pointer;
+  margin-right: 32px;
+
+  &:hover .icon-cross {
+    fill: $accentSuccesLight;
+    stroke: $accentSuccesLight;
+    stroke-width: 3;
+  }
+}
+
+.icon-add-social-project:hover {
+  stroke: #bfedc6;
+  stroke-width: 5;
+}
+
+.icon-cross {
+  fill: #fafafa;
+  stroke: #fafafa;
+  stroke-width: 0.3;
+}
+
+.profile-image-project {
+  position: absolute;
+  z-index: 2;
+}
+
+.image-project-blur {
+  width: 158px;
+  height: 158px;
+  background: rgba(40, 144, 56, 0.5);
+  filter: blur(8px);
+  border-radius: 50%;
+}
+
+.content-profile-image-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 44px;
+  left: -170px;
+
+  &:hover .image-project-blur {
+    filter: blur(0px);
+    transition: 0.25s;
+  }
+}
