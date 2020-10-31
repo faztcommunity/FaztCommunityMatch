@@ -170,3 +170,61 @@
   height: 225px;
   width: 100%;
 }
+
+.global-content-contacts {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 193px;
+  width: 359px;
+}
+
+.title-contact {
+  font-family: $fontTitle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontFourteen;
+  color: $backgroundLight;
+}
+
+.info-contact-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  background: $secondaryColorLight;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    background: $secondaryDark;
+  }
+
+  &:hover .character-question {
+    font-size: $fontSixteen;
+  }
+}
+
+.character-question {
+  font-family: $fontButton;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontFourteen;
+  color: $backgroundLight;
+}
+
+.contact-icon-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.line-contact {
+  background: $backgroundLight;
+  border: 1px solid $backgroundLight;
+  width: 305px;
+  margin-bottom: 8px;
+}

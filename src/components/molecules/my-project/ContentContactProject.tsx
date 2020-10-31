@@ -1,5 +1,5 @@
 import React from "react"
-import IconContactProject from "../../atoms/my-project/IconContactProject"
+import ProjectSocialsContact from "./ProjectSocialsContact"
 
 
 
@@ -8,7 +8,7 @@ function ContentContactProject() {
 
     return (
         <div className="content-contact-project">
-<IconContactProject />
+<ProjectSocialsContact />
         </div>
     )
 }
