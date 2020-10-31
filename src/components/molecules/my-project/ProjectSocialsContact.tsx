@@ -1,5 +1,6 @@
 import React from "react"
 import IconContactProject from "../../atoms/my-project/IconContactProject"
+import ProfileImageProject from "../../atoms/my-project/ProfileImageProject"
 
 function ProjectSocialsContact() {
     return (
@@ -17,6 +18,7 @@ function ProjectSocialsContact() {
     <IconContactProject />
     <IconContactProject />
     </div>
+    <ProfileImageProject />
     </div>
       </>
     )
