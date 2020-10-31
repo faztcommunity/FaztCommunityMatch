@@ -1,0 +1,22 @@
+.icon-add-social-project {
+  stroke: #fafafa;
+  stroke-width: 3.5;
+  cursor: pointer;
+
+  &:hover .icon-cross {
+    fill: $accentSuccesLight;
+    stroke: $accentSuccesLight;
+    stroke-width: 3;
+  }
+}
+
+.icon-add-social-project:hover {
+  stroke: #bfedc6;
+  stroke-width: 5;
+}
+
+.icon-cross {
+  fill: #fafafa;
+  stroke: #fafafa;
+  stroke-width: 0.3;
+}
