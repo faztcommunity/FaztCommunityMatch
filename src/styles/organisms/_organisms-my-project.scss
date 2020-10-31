@@ -17,7 +17,16 @@
 }
 
 .content-project-column-three {
+  display: flex;
   flex-direction: column;
   width: 560px;
   margin-right: 64px;
+}
+
+.info-sextion-project {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: #d7d6d6;
 }

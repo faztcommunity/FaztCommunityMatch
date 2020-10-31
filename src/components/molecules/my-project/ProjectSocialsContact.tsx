@@ -19,6 +19,7 @@ function ProjectSocialsContact() {
     <IconContactProject />
     </div>
     <ProfileImageProject />
+    <article className="global-info-project"></article>
     </div>
       </>
     )
