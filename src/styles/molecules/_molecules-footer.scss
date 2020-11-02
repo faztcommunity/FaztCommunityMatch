@@ -3,6 +3,8 @@
   flex-direction: column;
   position: relative;
   margin-top: 128px;
+  width: 100%;
+  height: calc (100vh -104px - 259);
 }
 
 .content-footer-one {
