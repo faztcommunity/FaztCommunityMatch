@@ -7,7 +7,7 @@ function SupportSection() {
 <h2 className="txt-support-section">Apoyanos</h2>
 <span className="line-support-section"></span>
 <a className="icon-Kickstarter" href="https://discord.gg/rg3fKr6" target="_blank"><IconKickstarter /></a>
-<a href="https://github.com/faztcommunity/FaztCommunityMatch" target="_blank"><IconPatreon /></a>
+<a className="icon-patreon" href="https://github.com/faztcommunity/FaztCommunityMatch" target="_blank"><IconPatreon /></a>
     </div>
   )
 }

@@ -8,6 +8,7 @@
 .content-footer-one {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 175px;
   background: #262626;
@@ -25,8 +26,13 @@
 
 .content-join-section,
 .content-contact-section,
-.content-support-section {
+.content-support-section,
+.content-principal-section-footer {
   display: flex;
+}
+
+.content-principal-section-footer {
+  align-items: center;
 }
 
 .line-join-section,
@@ -41,11 +47,23 @@
 .txt-join-section,
 .txt-contant-section,
 .txt-support-section {
+  margin-right: 12px;
+  font-weight: 600;
+}
+
+.txt-principal-section {
+  font-weight: bold;
+  line-height: 32px;
+  width: 255px;
+}
+
+.txt-join-section,
+.txt-contant-section,
+.txt-support-section,
+.txt-principal-section {
   font-family: $fontTitle;
   font-style: normal;
-  font-weight: 600;
   font-size: $fontSixteen;
-  margin-right: 12px;
   color: $backgroundLight;
 }
 
@@ -53,6 +71,15 @@
 .icon-facebook,
 .icon-Kickstarter {
   margin-right: 16px;
+}
+
+.icon-patreon {
+  margin-right: 64px;
+}
+
+.icon-principal-footer {
+  margin-right: 24px;
+  margin-left: 64px;
 }
 
 .email-contact {
