@@ -8,7 +8,7 @@ function CardTypeOfProject() {
     return (
 <>
         <h2 className="type-project-edited">Tipo de proyecto</h2>
-        <div className="content-card-type-project">
+        <div className="content-edit-type-project">
         <BoxTypeOfProject />
         <BoxTypeOfProjectTwo />
         </div>

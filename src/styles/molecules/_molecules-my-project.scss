@@ -121,11 +121,11 @@
   margin-left: 4px;
 }
 
-.content-card-description-project {
+.content-edit-description-project {
   height: 238px;
 }
 
-.content-card-type-project {
+.content-edit-type-project {
   display: flex;
   height: 122px;
   margin-bottom: 24px;
@@ -135,8 +135,8 @@
   height: 232px;
 }
 
-.content-card-description-project,
-.content-card-type-project,
+.content-edit-description-project,
+.content-edit-type-project,
 .content-card-history-project {
   background: $whiteTwo;
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
