@@ -3,11 +3,11 @@ import IconDiscord from '../../../assets/svg/Discord.svg'
 
 function JoinSection() {
   return (
-    <div>
-<h2></h2>
-<span></span>
-<img src={IconDiscord} alt=""/>
-<img src={IconGithub} alt=""/>
+    <div className="content-join-section">
+<h2 className="txt-join-section">Unete a nuestro equipo</h2>
+<span className="line-join-section"></span>
+<a className="icon-discord" href="https://discord.gg/rg3fKr6" target="_blank"><IconDiscord /></a>
+<a href="https://github.com/faztcommunity/FaztCommunityMatch" target="_blank"><IconGithub /></a>
     </div>
   )
 }
