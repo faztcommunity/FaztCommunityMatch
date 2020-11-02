@@ -4,11 +4,11 @@
 
 .content-choose-test {
   display: flex;
-  position: absolute;
+  position: relative;
   flex-direction: column;
   align-items: center;
-  top: 266px;
-  width: 100vw;
+  margin-top: 232px;
+  width: 100%;
 }
 
 .section-test-user,
