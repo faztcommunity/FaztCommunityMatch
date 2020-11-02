@@ -23,18 +23,21 @@
   height: 100vh;
 }
 
-.content-join-section {
+.content-join-section,
+.content-contact-section {
   display: flex;
 }
 
-.line-join-section {
+.line-join-section,
+.line-contact-section {
   height: 80px;
   border: 2px solid $backgroundLight;
   border-radius: 5px;
   margin-right: 24px;
 }
 
-.txt-join-section {
+.txt-join-section,
+.txt-contant-section {
   font-family: $fontTitle;
   font-style: normal;
   font-weight: 600;
@@ -43,6 +46,21 @@
   color: $backgroundLight;
 }
 
-.icon-discord {
+.icon-discord,
+.icon-facebook {
   margin-right: 16px;
+}
+
+.email-contact {
+  font-family: $fontBody;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $fontFourteen;
+  color: $backgroundLight;
+}
+
+.content-social-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
