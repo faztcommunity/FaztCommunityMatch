@@ -24,12 +24,14 @@
 }
 
 .content-join-section,
-.content-contact-section {
+.content-contact-section,
+.content-support-section {
   display: flex;
 }
 
 .line-join-section,
-.line-contact-section {
+.line-contact-section,
+.line-support-section {
   height: 80px;
   border: 2px solid $backgroundLight;
   border-radius: 5px;
@@ -37,7 +39,8 @@
 }
 
 .txt-join-section,
-.txt-contant-section {
+.txt-contant-section,
+.txt-support-section {
   font-family: $fontTitle;
   font-style: normal;
   font-weight: 600;
@@ -47,7 +50,8 @@
 }
 
 .icon-discord,
-.icon-facebook {
+.icon-facebook,
+.icon-Kickstarter {
   margin-right: 16px;
 }
 
