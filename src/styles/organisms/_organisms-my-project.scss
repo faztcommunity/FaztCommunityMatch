@@ -1,10 +1,10 @@
 .section-my-project {
   display: flex;
   flex-direction: row;
-  position: absolute;
+  position: relative;
   justify-content: space-between;
   width: 100%;
-  top: 237px;
+  margin-top: 237px;
 }
 
 .content-project-column-one {
