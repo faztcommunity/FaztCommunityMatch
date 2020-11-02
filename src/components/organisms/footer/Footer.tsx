@@ -1,6 +1,7 @@
 import React from "react"
 import ContactSection from "../../molecules/footer/ContactSection"
 import JoinSection from "../../molecules/footer/JoinSection"
+import LastSection from "../../molecules/footer/LastSection"
 import PrincipalSection from "../../molecules/footer/PrincipalSection"
 import SupportSection from "../../molecules/footer/SupportSection"
 
@@ -14,7 +15,9 @@ function Footer() {
         <ContactSection />
         <SupportSection />
         </section>
-        <div className="content-footer-two"></div>
+        <div className="content-footer-two">
+        <LastSection />
+        </div>
     </footer>
   )
 }
