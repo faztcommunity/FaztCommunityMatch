@@ -160,13 +160,12 @@
 
 .content-section-user {
   display: flex;
-  position: absolute;
+  position: relative;
   flex-direction: column;
   width: 600px;
   height: 1026px;
-  top: 224px;
+  margin-top: 224px;
   left: 64px;
-  margin-bottom: 110px;
 }
 
 .background-profile-one,
