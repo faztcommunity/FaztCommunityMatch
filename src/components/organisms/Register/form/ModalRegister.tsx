@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom'
 
 const ModalRegister = forwardRef<HTMLButtonElement, ButtonProps>(
   (props, ref) => {
-    const [display, setDisplay] = useState(true)
+    const [display, setDisplay] = useState(false)
 
     useImperativeHandle(ref, (): any => {
       return {
