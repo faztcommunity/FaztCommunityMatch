@@ -1,5 +1,4 @@
 import React from 'react'
-import favicon from '../../public/favicon.png'
 
 import Document, {
   DocumentInitialProps,
@@ -46,7 +45,7 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <script src="https://kit.fontawesome.com/db9458e8cb.js"></script>
-          <link rel="shortcut icon" type="image/png" href={favicon} />
+          <link rel="shortcut icon" type="image/png" href="/favicon.png" />
         </Head>
         <body>
           <Main />
