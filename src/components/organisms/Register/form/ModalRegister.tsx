@@ -1,7 +1,9 @@
 import { ButtonProps } from '@material-ui/core'
 import React, { forwardRef, useImperativeHandle } from 'react'
-import { useState } from 'react'
+import { useState, createContext } from 'react'
 import ReactDOM from 'react-dom'
+
+export const DisplayContext = createContext()
 
 const ModalRegister = forwardRef<HTMLButtonElement, ButtonProps>(
   (props, ref) => {
@@ -26,7 +28,9 @@ const ModalRegister = forwardRef<HTMLButtonElement, ButtonProps>(
       return ReactDOM.createPortal(
         <div className={'modal-content'}>
           <div onClick={close} className={'modal-backdrop'}></div>
-          <div className={'modal-box'}>{props.children}</div>
+          <DisplayContext.Provider value={setDisplay}>
+            <div className={'modal-box'}>{props.children}</div>
+          </DisplayContext.Provider>
         </div>,
         document.getElementById('modal-root')
       )
