@@ -1,3 +1,4 @@
 {
-  "plugins": ["react-html-attrs"]
+  "presets": ['next/babel', ['@babel/preset-react', { throwIfNamespace: false }]],
+  "plugins": ["react-html-attrs", ['styled-components', { ssr: true }], 'inline-react-svg']
 }
