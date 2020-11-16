@@ -15,14 +15,23 @@ function LastnameInput() {
     })
   }
 
+  const confirmLastname = () => {
+    let input = document.querySelector('#LastNameInput')
+    if (input == null) {
+      alert('Debe ingresar el apellido')
+    }
+  }
+
   return (
     <div aria-label="input last name" className="content-lastname">
       <input
         type="text"
         name="lastname"
-        onChange={handleInputChange}
+        onChange={confirmLastname}
         placeholder="* Ingresa tu Apellido"
         className="input-lastname"
+        required={true}
+        id="LastNameInput"
       />
       <i aria-hidden="true" className="fas fa-user" id="user"></i>
     </div>
