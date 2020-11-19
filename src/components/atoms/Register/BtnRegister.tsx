@@ -2,18 +2,22 @@ import ModalRegister from '../../organisms/Register/form/ModalRegister'
 import ModalParagraph from '../../molecules/Register/Modal/ModalParagraph'
 import { useRef } from 'react'
 
-function BtnRegister() {
+const BtnRegister = () => {
+
+
   const modalRef = useRef<any>(null)
 
   const openModal = () => {
     modalRef.current.openModal()
   }
 
+
+
   return (
     <>
-      <a onClick={openModal} className="btn-medium-blue">
+      <button  type="submit" onClick={openModal} className="btn-medium-blue">
         Registrarse
-      </a>
+      </button>
       <ModalRegister ref={modalRef}>
         <ModalParagraph />
       </ModalRegister>

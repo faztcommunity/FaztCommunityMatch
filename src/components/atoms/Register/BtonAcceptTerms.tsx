@@ -3,18 +3,25 @@ import Link from 'next/link'
 import ModalDone from '../molecules/Modal/ModalDone'
 import ModalRegisterDone from '../organisms/form/ModalRegisterDone' */
 
+
+
+
 function BtonAcceptTerms() {
   /* const modalDoneRef = useRef<any>(null)
 
   const openModalDone = () => {
     console.log(modalDoneRef.current.openModalDone())
   } */
+
+
+
+
   return (
     <>
       <Link href="/planes">
-        <a /* onClick={openModalDone} */ className="accept-terms">
+        <button  /* onClick={openModalDone} */ className="accept-terms">
           Si, Continuar
-        </a>
+        </button>
       </Link>
       {/* <ModalRegisterDone ref={modalDoneRef}>
         <ModalDone />

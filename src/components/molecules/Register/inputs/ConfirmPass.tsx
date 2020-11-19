@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
+import useForm from '../../../organisms/Register/form/useForm'
 
 function ConfirmPass() {
   ////////CHANGE STATE////////
+  const {handleChange, values } = useForm();
 
-  const [confirmPass, setconfirmPass] = useState({
+
+  /* const [confirmPass, setconfirmPass] = useState({
     confirmPassword: ''
   })
 
@@ -13,7 +16,7 @@ function ConfirmPass() {
       ...confirmPass,
       [event.target.name]: event.target.value
     })
-  }
+  } */
 
   ////////////////HIDE/SHOW-PASS////////////////
   const [passwordShown, setPasswordShown] = useState(false)
@@ -43,10 +46,11 @@ function ConfirmPass() {
         type={passwordShown ? 'text' : 'password'}
         autoComplete="off"
         name="confirmPassword"
-        onChange={handleInputChange}
         placeholder="* Confirmar tu Contraseña"
         className="input-compare-pass"
         id="confirm-password"
+        onChange={handleChange}
+        value={values.confirmPassword}
       />
       <i
         onClick={function (event) {

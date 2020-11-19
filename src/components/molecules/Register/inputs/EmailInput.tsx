@@ -1,9 +1,12 @@
 import { useState } from 'react'
+import useForm from '../../../organisms/Register/form/useForm'
 
 function EmailInput() {
   ////////CHANGE STATE////////
+  const {handleChange, values } = useForm();
 
-  const [email, setconfirmPass] = useState({
+
+  /* const [email, setconfirmPass] = useState({
     email: ''
   })
 
@@ -13,17 +16,18 @@ function EmailInput() {
       ...email,
       [event.target.name]: event.target.value
     })
-  }
+  } */
 
   return (
     <div aria-label="input email" className="content-email">
       <input
         type="email"
         name="email"
-        onChange={handleInputChange}
         placeholder="* Ingresa tu Correo"
         className="input-email"
         id="password"
+        onChange={handleChange}
+        value={values.email}
       />
       <i aria-hidden="true" className="fas fa-envelope" id="password"></i>
     </div>

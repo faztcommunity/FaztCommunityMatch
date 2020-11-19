@@ -1,9 +1,14 @@
 import { useState } from 'react'
+import useForm from '../../../organisms/Register/form/useForm'
 
 function LastnameInput() {
   ////////CHANGE STATE////////
 
-  const [lastname, setconfirmPass] = useState({
+  const {handleChange, values } = useForm();
+
+
+
+  /* const [lastname, setconfirmPass] = useState({
     lastname: ''
   })
 
@@ -20,18 +25,19 @@ function LastnameInput() {
     if (input == null) {
       alert('Debe ingresar el apellido')
     }
-  }
+  } */
 
   return (
     <div aria-label="input last name" className="content-lastname">
       <input
         type="text"
-        name="lastname"
-        onChange={confirmLastname}
+        name="lastName"
         placeholder="* Ingresa tu Apellido"
         className="input-lastname"
         required={true}
         id="LastNameInput"
+        onChange={handleChange}
+        value={values.lastName}
       />
       <i aria-hidden="true" className="fas fa-user" id="user"></i>
     </div>
