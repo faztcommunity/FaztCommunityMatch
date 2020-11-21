@@ -9,21 +9,25 @@ import NameInput from '../../../molecules/Register/inputs/NameInput'
 interface FormStateValues {
   firstName: string
   lastName: string
+  email: string
 }
 
 const formInitialValues: FormStateValues = {
   firstName: '',
-  lastName: ''
+  lastName: '',
+  email: ''
 }
 
 interface FormErrors {
   firstName: boolean
   lastName: boolean
+  email: boolean
 }
 
 const formInitialErrors: FormErrors = {
   firstName: false,
-  lastName: false
+  lastName: false,
+  email: false
 }
 
 function PageFormOne() {
@@ -63,7 +67,14 @@ function PageFormOne() {
       />
 
       {/*  <LastnameInput aria-label="write your last name" /> */}
-      <EmailInput aria-label="write your email" />
+      <EmailInput
+        required
+        placeHolder="*Ingresa tu Correo"
+        handleOnChange={handleOnChange}
+        error={formErrors.email}
+        name="email"
+        value={formState.email}
+      />
 
       <DescriptionLogin />
 

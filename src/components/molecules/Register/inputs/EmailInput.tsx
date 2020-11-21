@@ -1,9 +1,25 @@
-import { useState } from 'react'
+import { ChangeEvent, useState } from 'react'
 
-function EmailInput() {
+interface EmailInputProps {
+  required: boolean
+  placeHolder: string
+  handleOnChange: (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => void
+  error: boolean
+  name: string
+  value: string
+}
+
+const EmailInput = ({
+  required,
+  placeHolder,
+  handleOnChange,
+  error,
+  name,
+  value
+}: EmailInputProps) => {
   ////////CHANGE STATE////////
-
-
 
   /* const [email, setconfirmPass] = useState({
     email: ''
@@ -18,15 +34,25 @@ function EmailInput() {
   } */
 
   return (
-    <div aria-label="input email" className="content-email">
-      <input
-        type="email"
-        name="email"
-        placeholder="* Ingresa tu Correo"
-        className="input-email"
-        id="password"
-      />
-      <i aria-hidden="true" className="fas fa-envelope" id="password"></i>
+    <div className="global-content-name">
+      {error && (
+        <div class="error-input">
+          <span className="span-error">Completa el campo para continuar</span>
+        </div>
+      )}
+      <div aria-label="input email" className="content-email">
+        <input
+          type={name}
+          name="email"
+          placeholder={placeHolder}
+          className={` ${error ? 'error' : 'input-email'}`}
+          id="password"
+          value={value}
+          onChange={handleOnChange}
+          required={required}
+        />
+        <i aria-hidden="true" className="fas fa-envelope" id="password"></i>
+      </div>
     </div>
   )
 }

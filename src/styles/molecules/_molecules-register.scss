@@ -39,14 +39,16 @@ i.fas {
 
 /* ////////////////////////INPUT EMAIL -AND- INPUT LAST NAME//////////////////////// */
 
-.content-email,
+/* .content-email,
 .content-lastname {
   margin-top: 24px;
-}
+} */
 
 /* ////////////////////////INPUT NAME//////////////////////// */
 
-.content-name {
+.content-name,
+.content-email,
+.content-lastname {
   margin-top: 8px;
 }
 
