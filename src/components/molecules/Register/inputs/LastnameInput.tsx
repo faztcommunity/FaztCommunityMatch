@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import useForm from '../../../organisms/Register/form/useForm'
+import Register from '../../../../pages/registro'
 
 function LastnameInput() {
   ////////CHANGE STATE////////
 
-  const {handleChange, values } = useForm();
 
 
 
@@ -36,8 +35,6 @@ function LastnameInput() {
         className="input-lastname"
         required={true}
         id="LastNameInput"
-        onChange={handleChange}
-        value={values.lastName}
       />
       <i aria-hidden="true" className="fas fa-user" id="user"></i>
     </div>

@@ -1,12 +1,27 @@
-import { useState } from 'react'
-import useForm from '../../../organisms/Register/form/useForm'
+import { ChangeEvent, useState } from 'react'
 
-function NameInput() {
+interface NameInputProps {
+  required: boolean
+  placeHolder: string
+  handleOnChange: (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => void
+  error: boolean
+  name: string
+  value: string
+}
+
+const NameInput = ({
+  required,
+  placeHolder,
+  handleOnChange,
+  error,
+  name,
+  value
+}: NameInputProps) => {
   ////////CHANGE STATE////////
 
-  const {handleChange, values } = useForm();
-
- /*  const [values, setValues] = useState({
+  /*  const [values, setValues] = useState({
     firstName: ''
   })
 
@@ -23,13 +38,15 @@ const {name, value} = event.target
 
   return (
     <div aria-label="name" className="content-name">
+      {error && <span>Error</span>}
       <input
         type="text"
-        name="firstName"
-        placeholder="* Ingresa tu Nombre"
-        className="input-name"
-        onChange={handleChange}
-        value={values.firstName}
+        name={name}
+        placeholder={placeHolder}
+        className={`input-name ${error ? 'error' : ''}`}
+        required={required}
+        value={value}
+        onChange={handleOnChange}
       />
       <i aria-hidden="true" className="fas fa-user" id="name"></i>
     </div>

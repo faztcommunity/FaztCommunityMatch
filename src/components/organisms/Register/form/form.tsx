@@ -7,7 +7,6 @@ import IconMatch from '../../../atoms/Register/IconMatch'
 import BallsSvg from '../../../atoms/Register/balls-svg'
 import BackgroundEffect from '../../../atoms/Register/background-effect'
 import TitleHome from '../../../atoms/Register/TitleHome'
-import useForm from '../../../organisms/Register/form/useForm'
 
 function Form() {
   const [index, setIndex] = useState('true')
@@ -31,7 +30,7 @@ function Form() {
     }
   });
 
-  const {handleSubmit} = useForm();
+
 
   /* const handleSubmit = event => {
     event.preventDefaultIt();
@@ -57,7 +56,7 @@ function Form() {
           </header>
           <ProgressBar />
 
-          <form onSubmit={handleSubmit} className="principal-form" action="">
+          <form  className="principal-form" action="">
             <div aria-label="registration form" className="content-form movpag">
               {index == 'true' ? <PageFormOne /> : <PageFormTwo />}
             </div>

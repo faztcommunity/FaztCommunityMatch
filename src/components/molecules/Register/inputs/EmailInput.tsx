@@ -1,9 +1,8 @@
 import { useState } from 'react'
-import useForm from '../../../organisms/Register/form/useForm'
 
 function EmailInput() {
   ////////CHANGE STATE////////
-  const {handleChange, values } = useForm();
+
 
 
   /* const [email, setconfirmPass] = useState({
@@ -26,8 +25,6 @@ function EmailInput() {
         placeholder="* Ingresa tu Correo"
         className="input-email"
         id="password"
-        onChange={handleChange}
-        value={values.email}
       />
       <i aria-hidden="true" className="fas fa-envelope" id="password"></i>
     </div>

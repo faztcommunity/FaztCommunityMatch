@@ -126,3 +126,7 @@
   @extend %btnWord;
   margin-top: 32px;
 }
+
+input.error {
+  border: 2px solid red;
+}

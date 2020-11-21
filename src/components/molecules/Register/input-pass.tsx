@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
-import useForm from '../../organisms/Register/form/useForm'
 
 function InputPass() {
   ////////CHANGE STATE////////
-  const {handleChange, values } = useForm();
 
 
   /* const [password, setconfirmPass] = useState({
@@ -49,8 +47,6 @@ function InputPass() {
         placeholder="* Ingresa tu Contraseña"
         className="input-password"
         id="password"
-        onChange={handleChange}
-        value={values.password}
       />
       <i
         onClick={function (event) {
