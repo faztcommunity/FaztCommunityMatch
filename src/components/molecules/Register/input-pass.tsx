@@ -1,8 +1,25 @@
-import React, { useState } from 'react'
+import React, { ChangeEvent, useState } from 'react'
 
-function InputPass() {
+interface PasswordInputProps {
+  required: boolean
+  placeHolder: string
+  handleOnChange: (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => void
+  error: boolean
+  name: string
+  value: string
+}
+
+const InputPass = ({
+  required,
+  placeHolder,
+  handleOnChange,
+  error,
+  name,
+  value
+}: PasswordInputProps) => {
   ////////CHANGE STATE////////
-
 
   /* const [password, setconfirmPass] = useState({
     password: ''
@@ -39,24 +56,34 @@ function InputPass() {
   }
 
   return (
-    <div className="content-password" id="show_hide_password">
-      <input
-        type={passwordShown ? 'text' : 'password'}
-        autoComplete="off"
-        name="password"
-        placeholder="* Ingresa tu Contraseña"
-        className="input-password"
-        id="password"
-      />
-      <i
-        onClick={function (event) {
-          togglePasswordVisiblity()
-          toggleChangeIcon()
-        }}
-        className={changeIcon ? 'fas fa-eye-slash' : ' fas fa-eye'}
-        id="password"
-        title={changeIcon ? 'Ocultar Contraseña' : 'Mostrar Contraseña'}
-      ></i>
+    <div className="global-content-name">
+      {error && (
+        <div class="error-input">
+          <span className="span-error">Completa el campo para continuar</span>
+        </div>
+      )}
+      <div className="content-password" id="show_hide_password">
+        <input
+          type={passwordShown ? 'text' : 'password'}
+          autoComplete="off"
+          name={name}
+          placeholder="* Ingresa tu Contraseña"
+          className={` ${error ? 'error' : 'input-password'}`}
+          id="password"
+          required={required}
+          value={value}
+          onChange={handleOnChange}
+        />
+        <i
+          onClick={function (event) {
+            togglePasswordVisiblity()
+            toggleChangeIcon()
+          }}
+          className={changeIcon ? 'fas fa-eye-slash' : ' fas fa-eye'}
+          id="password"
+          title={changeIcon ? 'Ocultar Contraseña' : 'Mostrar Contraseña'}
+        ></i>
+      </div>
     </div>
   )
 }

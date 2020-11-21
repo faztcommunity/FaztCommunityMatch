@@ -10,9 +10,9 @@ function BtnmReturn() {
   }
 
   return (
-    <a className="btn-medium-return" href="" onClick={handleOnClick}>
+    <button className="btn-medium-return" onClick={handleOnClick}>
       Regresar
-    </a>
+    </button>
   )
 }
 
