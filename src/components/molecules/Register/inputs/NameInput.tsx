@@ -37,19 +37,28 @@ const {name, value} = event.target
   }; */
 
   return (
-    <div aria-label="name" className="content-name">
-      {error && <span>Error</span>}
-      <input
-        type="text"
-        name={name}
-        placeholder={placeHolder}
-        className={`input-name ${error ? 'error' : ''}`}
-        required={required}
-        value={value}
-        onChange={handleOnChange}
-      />
-      <i aria-hidden="true" className="fas fa-user" id="name"></i>
-    </div>
+    <>
+      <div className="global-content-name">
+        {error && (
+          <div class="error-input">
+            <span className="span-error">Completa el campo para continuar</span>
+          </div>
+        )}
+
+        <div aria-label="name" className="content-name">
+          <input
+            type="text"
+            name={name}
+            placeholder={placeHolder}
+            className={` ${error ? 'error' : 'input-name'}`}
+            required={required}
+            value={value}
+            onChange={handleOnChange}
+          />
+          <i aria-hidden="true" className="fas fa-user" id="name"></i>
+        </div>
+      </div>
+    </>
   )
 }
 
