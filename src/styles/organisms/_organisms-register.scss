@@ -17,14 +17,19 @@
 
 .second-container {
   text-align: center;
-  @extend %layoutForm;
-  @extend %formBackground;
+  width: 600px;
+  height: auto;
+  position: absolute;
+  margin-top: 178px;
+  margin-bottom: 170px;
+  margin-left: 360px;
+  border-radius: $radiusFive;
+  background: $backgroundDark;
 }
 
 .content-form {
   position: relative;
   align-items: center;
-
   margin-left: 112px;
 }
 

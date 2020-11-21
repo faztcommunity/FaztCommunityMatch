@@ -136,3 +136,7 @@
 .btn-medium-next {
   @extend %btnMblue;
 }
+
+.btn-medium-next {
+  position: relative;
+}

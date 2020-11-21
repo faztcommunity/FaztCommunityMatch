@@ -17,6 +17,7 @@
 .content-btn-next {
   margin-top: 56px;
   margin-left: 280px;
+  margin-bottom: 40px;
 }
 
 /* //////////////////////ATOM TITLE REGISTER////////////////////// */
@@ -47,7 +48,8 @@
   display: flex;
   background-image: url("data:image/svg+xml,%3Csvg width='1920' height='951' viewBox='0 0 1920 951' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1426.98 200.282C1468.38 84.3429 1458.03 40.3573 1447.68 0.675537H1920V950.999H0.463867V914.923C82.6266 894.875 332.423 844.47 520.824 825.837C756.325 802.546 1171.09 822.883 1218.51 803.774C1327.85 759.715 1330.74 622.664 1330.74 526.386C1330.74 428.831 1375.22 345.205 1426.98 200.282Z' fill='%23FAFAFA'/%3E%3C/svg%3E%0A");
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  top: 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
