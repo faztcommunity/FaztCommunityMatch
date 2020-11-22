@@ -96,17 +96,27 @@
   font-family: $fontTitle;
   font-style: normal;
   font-weight: bold;
-  color: $primaryLight;
+  color: $whiteThree;
   font-size: $fontFourty;
+  width: 686px;
+  position: relative;
+  left: 320px;
+  top: 32px;
 }
 
 .content-title-home {
   text-align: center;
   display: flex;
   position: absolute;
-  height: 160px;
-  width: 686px;
-  left: 320px;
+  height: 200px;
+  width: 1200px;
+  left: 0;
+  top: 0;
+  background: linear-gradient(
+    305deg,
+    rgba(255, 255, 255, 0) 0%,
+    $backgroundDark 100%
+  );
 }
 
 .icon-info {
