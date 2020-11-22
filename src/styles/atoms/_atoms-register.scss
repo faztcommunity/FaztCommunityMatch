@@ -74,7 +74,8 @@
   border-radius: 50%;
   left: 1644px;
   top: 633px;
-  animation: size_circle 0.7s linear infinite;
+  animation: size_circle 0.9s ease-in-out infinite alternate;
+  will-change: transform;
   box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6),
     -5px -5px 10px rgba(255, 255, 255, 0.5);
 }
