@@ -120,10 +120,18 @@
   margin-right: 16px;
 }
 
+.title-main {
+  font-family: $fontTitle;
+  font-size: 26px;
+  color: $backgroundDark;
+}
+
 .content-logo-fazt-match {
   display: flex;
   position: absolute;
   margin-left: 64px;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo-fazt-match {

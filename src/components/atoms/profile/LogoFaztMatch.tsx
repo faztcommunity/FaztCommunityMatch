@@ -117,6 +117,7 @@ function LogoFaztMatch() {
             </filter>
           </defs>
         </svg>
+        <h1 className="title-main">Community Match</h1>
       </div>
     </>
   )
