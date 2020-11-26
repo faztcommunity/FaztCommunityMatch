@@ -1,7 +1,3 @@
-import BtonFree from '../../atoms/plans/BtonFree'
-import BtonPremium from '../../atoms/plans/BtonPremium'
-import PriceFree from '../../atoms/plans/PriceFree'
-import PricePremium from '../../atoms/plans/PricePremium'
 import TitleCardFree from '../../atoms/plans/TitleCardFree'
 import TitleCardPremium from '../../atoms/plans/TitleCardPremium'
 import CardFree from '../../molecules/plans/CardFree'

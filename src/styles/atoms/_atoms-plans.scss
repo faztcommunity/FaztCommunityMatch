@@ -17,13 +17,15 @@
   }
 }
 
+
+
 .btn-premium {
   @extend %btonGhostGeneral;
   background: $darkOrange;
-  border: 4px solid $whiteColor;
+  border: 4px solid $whiteColor ;
   color: $whiteColor;
   width: 149px;
-  justify-content: center;
+  justify-content: center ;
 
   &:hover {
     background: $lighOrange;
@@ -31,6 +33,7 @@
     border: 4px solid $blackColor;
   }
 }
+
 
 .content-btn-free,
 .content-btn-premium {
