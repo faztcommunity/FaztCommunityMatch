@@ -143,22 +143,22 @@ text-decoration: underline;
 
 .backgron-modal-login {
   display: flex;
-  position: absolute;
-  justify-content: flex-start;
+  position: relative;
   height: 500px;
   width: 810px;
   background: #FDFDFD;
   border-radius: 10px;
-  z-index: 3;
 }
 
 .section-modal-login {
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-  display: flex;
+  height: 100vmin;
+  width: 1920px;
   justify-content: center;
   align-items: center;
+  position: absolute;
+display: flex;
+background-color: #06070686;
+  z-index: 3;
 }
 
 .title-modal-login{

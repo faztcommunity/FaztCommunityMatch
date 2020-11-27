@@ -1,4 +1,5 @@
-import React, { ChangeEvent, useState } from 'react'
+import React, { ChangeEvent, useState, useEffect, useCallback, useRef } from 'react'
+import {useSpring, animated} from 'react-spring'
 import styled from 'styled-components'
 import {MdClose} from 'react-icons/md'
 import LoginImage from '../../../assets/svg/login-image.svg'
@@ -53,14 +54,33 @@ const ModalLogin = ({showModal, setShowModal}) => {
       setFormErrors({ ...formErrors, [e.target.name]: hasError })
     }
 
+const modalRef = useRef()
 
+const animation = useSpring({
+    config:{
+        duration: 250
+    },
+    opacity: showModal ? 1 : 0,
+    transform: showModal ? `translateY(0%)` : `translateY(-100%)`
+});
+
+const closeModal = e => {
+    if(modalRef.current === e.target) {
+        setShowModal(false)
+    }
+}
 
     return (
         <>
 
         {showModal
         ? (
-        <section className="section-modal-login">
+            <section
+            className="section-modal-login"
+            ref={modalRef}
+            onClick={closeModal}
+            >
+                <animated.div style={animation}>
           <div className="backgron-modal-login">
           <LoginImage />
               <h1 className="title-modal-login">Iniciar Sesión</h1>
@@ -99,6 +119,7 @@ const ModalLogin = ({showModal, setShowModal}) => {
 
 
           </div>
+          </animated.div>
         </section>
         )
 
