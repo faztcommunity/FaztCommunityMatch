@@ -1,8 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
+import ModalLogin from './ModalLogin'
 
  function LogIn() {
+const [showModal, setShowModal] = useState(false);
+
+
+const openModal = () => {
+    setShowModal(prev => !prev);
+};
+console.log(openModal)
+
     return (
-        <button className="btn-big-login">
+        <>
+        <button
+        onClick={openModal}
+        className="btn-big-login">
             <svg className="profile-user-svg" width="64" height="64" viewBox="0 0 64 64" fill="none"
 	xmlns="http://www.w3.org/2000/svg">
 	<path
@@ -12,8 +24,12 @@ import React from 'react'
 
             <p className="have-account">¿Ya tienes una cuenta?<br/>
             <span className="log-in">Iniciar sesión</span></p>
-
+            <ModalLogin
+            showModal={showModal}
+            setShowModal={setShowModal}
+            />
         </button>
+        </>
     )
 }
 
