@@ -126,7 +126,7 @@ useEffect(() => {
 
               <div className="content-btn-next-mondal-login">
       <a className="btn-medium-next-modal-login" href="">
-        Continuar
+        Conectarme
       </a>
     </div>
 
