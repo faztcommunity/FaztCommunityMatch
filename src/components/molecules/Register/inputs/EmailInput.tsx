@@ -9,6 +9,7 @@ interface EmailInputProps {
   error: boolean
   name: string
   value: string
+  className: string
 }
 
 const EmailInput = ({
@@ -17,7 +18,8 @@ const EmailInput = ({
   handleOnChange,
   error,
   name,
-  value
+  value,
+  className
 }: EmailInputProps) => {
   ////////CHANGE STATE////////
 

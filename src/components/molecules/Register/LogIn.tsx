@@ -24,11 +24,12 @@ console.log(openModal)
 
             <p className="have-account">¿Ya tienes una cuenta?<br/>
             <span className="log-in">Iniciar sesión</span></p>
-            <ModalLogin
+
+        </button>
+        <ModalLogin
             showModal={showModal}
             setShowModal={setShowModal}
             />
-        </button>
         </>
     )
 }

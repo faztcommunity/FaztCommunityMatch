@@ -133,10 +133,17 @@
 
 .btn-medium-blue,
 .btn-medium-return,
-.btn-medium-next {
+.btn-medium-next,
+.btn-medium-next-modal-login {
   @extend %btnMblue;
 }
 
 .btn-medium-next {
   position: relative;
+}
+
+.btn-medium-next-modal-login {
+  top: 435px;
+  right: 8px;
+position: absolute;
 }

@@ -140,3 +140,52 @@ flex-direction: row;
 .btn-big-login:hover .log-in {
 text-decoration: underline;
 }
+
+.backgron-modal-login {
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  height: 500px;
+  width: 810px;
+  background: #FDFDFD;
+  border-radius: 10px;
+  z-index: 3;
+}
+
+.section-modal-login {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-modal-login{
+  font-family: $fontTitle;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+right: 135.5px;
+position: absolute;
+margin-top: 80px;
+color: $backgroundDark;
+}
+
+.inputs-modal-login {
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 150px;
+position: absolute;
+right: 7px;
+}
+
+.label-modal-login {
+  margin-top: 12px;
+  font-weight: bold;
+font-size: 14px;
+font-family: $fontTitle;
+color: $backgroundDark;
+}
+
