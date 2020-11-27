@@ -14,7 +14,7 @@ function ModalParagraph() {
         <BtonCancel />
         <BtonAcceptTerms />
       </div>
-      <a className="title-conditions" href="#" target="_blank">
+      <a className="title-conditions" href="https://tech-code1.github.io/Terminos_y_Condiciones/" target="_blank">
         Ver términos y condiciones.
       </a>
     </div>
