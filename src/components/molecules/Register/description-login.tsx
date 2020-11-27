@@ -2,9 +2,9 @@ function DescriptionLogin() {
   return (
     <>
       <p className="forgot-account">
-        ¿Ya tienes una cuenta?
+        ¿Has olvidado tu contraseña?
         <a href="#">
-          <span className="log-in"> Inicia sesión</span>
+          <span className="log-in"> Solucionar</span>
         </a>
       </p>
     </>
