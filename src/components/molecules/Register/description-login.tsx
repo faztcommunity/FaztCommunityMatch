@@ -1,7 +1,7 @@
 function DescriptionLogin() {
   return (
     <>
-      <p className="have-account">
+      <p className="forgot-account">
         ¿Ya tienes una cuenta?
         <a href="#">
           <span className="log-in"> Inicia sesión</span>

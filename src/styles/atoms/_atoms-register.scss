@@ -36,6 +36,21 @@
 /* ////////////////DESCRIPTION LOG IN //////////////// */
 .have-account {
   @extend %titleEighteen;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.log-in {
+  color: $accentInfo;
+  text-decoration: none;
+  margin-top: 24px;
+}
+
+.forgot-account {
+  @extend %titleEighteen;
   margin-top: 24px;
   margin-bottom: 0;
 

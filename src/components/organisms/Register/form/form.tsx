@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import PageFormTwo from './PageFormTwo'
 import TitleRpass from '../../../atoms/Register/titleRpass'
 import ProgressBar from '../../../molecules/Register/various/progress-bar'
@@ -7,6 +7,7 @@ import IconMatch from '../../../atoms/Register/IconMatch'
 import BallsSvg from '../../../atoms/Register/balls-svg'
 import BackgroundEffect from '../../../atoms/Register/background-effect'
 import TitleHome from '../../../atoms/Register/TitleHome'
+import LogIn from '../../../molecules/Register/LogIn'
 
 function Form() {
   const [index, setIndex] = useState('true')
@@ -49,6 +50,7 @@ function Form() {
       <IconMatch />
       <BackgroundEffect />
       <BallsSvg />
+      <LogIn />
       <div className="background-two">
         <div className="second-container">
           <header>

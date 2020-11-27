@@ -101,3 +101,42 @@ i.fas {
   justify-content: flex-end;
   align-items: center;
 }
+
+.btn-big-login {
+  display: flex;
+  width: 320px;
+  justify-content: center;
+  align-items: center;
+height: 104.99px;
+background: $backgroundDark;
+position: absolute;
+right: 0;
+top: 40px;
+outline: none;
+border: none;
+cursor: pointer;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+flex-direction: row;
+}
+
+.profile-user-svg {
+  stroke:none;
+  stroke-width: 0;
+  margin-right: 16px;
+}
+
+.btn-big-login:hover .profile-user-svg {
+  stroke: #289038;
+  stroke-width: 2px
+}
+
+.btn-big-login:hover {
+  border-bottom: 2px solid #289038;
+  border-top: 2px solid #289038;
+  border-left: 2px solid #289038;
+}
+
+.btn-big-login:hover .log-in {
+text-decoration: underline;
+}
