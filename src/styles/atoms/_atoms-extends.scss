@@ -147,3 +147,28 @@
   right: 8px;
 position: absolute;
 }
+
+.content-btn-send-mondal-solution {
+  margin-top: 64px;
+}
+
+.btn-medium-send-modal-solution {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 170px;
+    border-radius: $radiusFive;
+    background: $accentInfo;
+    font-weight: bold;
+    font-size: $fontEighteen;
+    border: none;
+    font-family: $fontButton;
+    font-style: normal;
+    color: $whiteColor;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px $shadownBtnBlue;
+    cursor: pointer;
+
+    &:hover {
+      background: $hooverBlue;
+    }
+  }

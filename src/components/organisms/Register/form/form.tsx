@@ -12,6 +12,7 @@ import LogIn from '../../../molecules/Register/LogIn'
 function Form() {
   const [index, setIndex] = useState('true')
 
+
   useEffect(() => {
     console.log('Hola')
     console.log(index, localStorage.getItem('index'))
@@ -32,16 +33,15 @@ function Form() {
   });
 
 
-
-  /* const handleSubmit = event => {
-    event.preventDefaultIt();
+  const handleSubmit = (event) => {
+    event.preventDefault();
     submit();
-      };
+  };
 
-      function submit() {
-        console.log("Submitted Succesfully");
+  function submit() {
+    console.log("Submitted Succesfully");
 
-      } */
+  }
 
 
   return (
@@ -58,7 +58,7 @@ function Form() {
           </header>
           <ProgressBar />
 
-          <form  className="principal-form" action="">
+          <form onSubmit={handleSubmit} className="principal-form" action="">
             <div aria-label="registration form" className="content-form movpag">
               {index == 'true' ? <PageFormOne /> : <PageFormTwo />}
             </div>
