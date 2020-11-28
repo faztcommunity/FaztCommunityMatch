@@ -17,7 +17,8 @@ function QuestionUserFiveteen() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">15. Quinceava Pregunta</h2>
+        <h2 className="question">15. ¿Sueles llegar puntual a las reuniones?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

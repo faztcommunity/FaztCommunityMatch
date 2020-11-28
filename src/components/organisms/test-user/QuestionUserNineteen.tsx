@@ -17,7 +17,8 @@ function QuestionUserNineteen() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">19. Noveana Pregunta</h2>
+        <h2 className="question">19. ¿Sueles detallar el código para saber si realmente está bien?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

@@ -17,7 +17,8 @@ function QuestionUserFour() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">4. Cuarta Pregunta</h2>
+        <h2 className="question">4. ¿Sueles ayudar a un colega cuando está en problemas?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

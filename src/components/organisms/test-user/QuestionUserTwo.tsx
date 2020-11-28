@@ -17,7 +17,8 @@ function QuestionUserTwo() {
       `}</style>
       <section className="global-test-user">
         <div className="content-input-value">
-          <h2 className="question">2. Segunda Pregunta</h2>
+          <h2 className="question">2. ¿Eres de los que termina los compromisos a tiempo?
+</h2>
           <div className="content-dark">
             <div className="content-range-slider">
               <input

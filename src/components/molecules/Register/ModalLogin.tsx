@@ -101,7 +101,7 @@ useEffect(() => {
               aria-label='Close modal'
               onClick={() => setShowModal (prev => !prev)} />
               <div className="inputs-modal-login">
-                  <label htmlFor="" className="label-modal-login"> Correo
+                  <label htmlFor="" className="label-modal-login"> Correo:
               <EmailInput
         className="margin-input-email"
         required
@@ -112,7 +112,7 @@ useEffect(() => {
         value={formState.email}
       />
       </label>
-      <label htmlFor="" className="label-modal-login"> Contraseña
+      <label htmlFor="" className="label-modal-login"> Contraseña:
               <InputPass
           required
           placeHolder="*Ingresa tu contraseña"

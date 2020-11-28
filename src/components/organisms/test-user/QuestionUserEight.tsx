@@ -17,7 +17,8 @@ function QuestionUserEight() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">8. Octava Pregunta</h2>
+        <h2 className="question">8. ¿Te inclinas más por el backend que por el frontend?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

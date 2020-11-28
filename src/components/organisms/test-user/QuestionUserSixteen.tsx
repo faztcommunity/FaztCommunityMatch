@@ -17,7 +17,7 @@ function QuestionUserSixteen() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">16. Dieciseisava Pregunta</h2>
+        <h2 className="question">16. ¿Eres de los que piensas que el proyecto elije las tecnologías?</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

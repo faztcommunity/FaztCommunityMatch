@@ -17,7 +17,8 @@ function QuestionUserEighteen() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">18. Dieciochoava Pregunta</h2>
+        <h2 className="question">18. ¿Te inclinas más por el frontend que por la backend?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

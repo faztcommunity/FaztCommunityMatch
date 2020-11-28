@@ -17,7 +17,8 @@ function QuestionUserEleven() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">11. Onceava Pregunta</h2>
+        <h2 className="question">11. ¿Te gusta tanto la parte del backend como el frontend?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

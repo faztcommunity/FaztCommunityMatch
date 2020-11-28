@@ -17,7 +17,8 @@ function QuestionUserNine() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">9. Novena Pregunta</h2>
+        <h2 className="question">9. ¿Normalmente eres muy analítico?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input
