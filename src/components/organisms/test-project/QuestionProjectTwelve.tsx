@@ -17,7 +17,8 @@ function QuestionProjectTwelve() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">12. Doceava Pregunta</h2>
+        <h2 className="question">12. ¿Tu proyecto necesitara personas que sepan tanto de backend como de frontend?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

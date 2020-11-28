@@ -17,7 +17,8 @@ function QuestionProjectFour() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">4. Cuarta Pregunta</h2>
+        <h2 className="question">4. ¿Es importante que la persona que este en tu equipo tenga una alta adaptabilidad?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

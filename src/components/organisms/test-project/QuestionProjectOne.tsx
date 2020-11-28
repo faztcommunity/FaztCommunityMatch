@@ -17,7 +17,8 @@ function QuestionProjectOne() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">1. Primera Pregunta</h2>
+        <h2 className="question">1. ¿Es necesario que la persona tenga conocimientos en Scrum?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

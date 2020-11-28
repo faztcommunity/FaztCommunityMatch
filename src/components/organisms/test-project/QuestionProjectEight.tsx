@@ -17,7 +17,8 @@ function QuestionProjectEight() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">8. Octava Pregunta</h2>
+        <h2 className="question">8. ¿El integrante que buscas debe respetar los tiempos de entrega que requiere el proyecto?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

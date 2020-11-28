@@ -17,7 +17,8 @@ function QuestionProjectFiveteen() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">15. Quinceava Pregunta</h2>
+        <h2 className="question">15. ¿Buscas a alguien que ya haya tenido experiencia trabajando en grupo?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

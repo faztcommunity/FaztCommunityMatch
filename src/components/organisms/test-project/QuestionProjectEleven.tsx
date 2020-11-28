@@ -17,7 +17,8 @@ function QuestionProjectEleven() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">11. Onceava Pregunta</h2>
+        <h2 className="question">11. ¿Es importante que los integrantes del equipo sean honestos?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

@@ -17,7 +17,8 @@ function QuestionProjectSeven() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">7. Septima Pregunta</h2>
+        <h2 className="question">7. ¿Es necesario que la persona tenga muy buenas bases en cuanto a buenas prácticas de programación?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

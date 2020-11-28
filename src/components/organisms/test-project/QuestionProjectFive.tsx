@@ -17,7 +17,8 @@ function QuestionProjectFive() {
       `}</style>
 
       <div className="content-input-value">
-        <h2 className="question">5. Quinta Pregunta</h2>
+        <h2 className="question">5. ¿Es importante que los integrantes del equipo se acoplen a las directrices del proyecto?
+</h2>
         <div className="content-dark">
           <div className="content-range-slider">
             <input

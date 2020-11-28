@@ -17,7 +17,8 @@ function QuestionProjectTwo() {
       `}</style>
       <section className="global-test-user">
         <div className="content-input-value">
-          <h2 className="question">2. Segunda Pregunta</h2>
+          <h2 className="question">2. ¿Tu proyecto necesitara más personas que sepan sobre backend?
+</h2>
           <div className="content-dark">
             <div className="content-range-slider">
               <input
