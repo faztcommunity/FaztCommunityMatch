@@ -37,7 +37,7 @@ function BtonPremium() {
     <div className="content-btn-premium">
 
       <StripeCheckout
-    stripeKey={"pk_test_51HrGYuJYLSe9I9Ja83jEGlKFPcAu9QjEvg9Rol9bLH0Vjlfb67xmPox4GqJd43lTiCkyd9s0AWMhzBRjba4TGWyo00ejMXQAWt"}
+    stripeKey={"pk_test_51HrGYuJYLSe9I9Ja5FmPqHsQGjAnskGouoVXQEWPlwo8HWHu8ecx0BQHSk7lUzxefWIcqtpolUPCZvvBPW2fBdop00nyd4otiG"}
     token={makePayment}
     name="Continúa con tu compra"
     amount={product.price * 100}
